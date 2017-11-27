@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_lableSkin" xmlns:e="http://ns.egret.com/eui" width="560">		
+		<e:Label fontFamily="微软雅黑" width="565" size="20" x="0" y="0" text="{data.txt}" lineSpacing="5" textColor="0xFFFFFF"/>
+</e:Skin>

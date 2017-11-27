@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Com_ResultSkin" width="66" height="66" xmlns:e="http://ns.egret.com/eui" states="0,1" >
+	<e:Image includeIn="0" x="0" y="0" source="icon_ebg_defeat_png"/>
+	<e:Image includeIn="1" x="0" y="0" source="icon_ebg_success_png"/>
+</e:Skin>

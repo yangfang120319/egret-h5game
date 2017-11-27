@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsSkin" width="400" height="60" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect ellipseWidth="30" y="0" width="400" height="60" alpha="0.7" x="0"/>
+	<e:Label id="txt_tips" y="3" verticalAlign="middle" fontFamily="微软雅黑" textAlign="center" width="382" size="20" height="54" lineSpacing="8" x="9"/>
+</e:Skin>

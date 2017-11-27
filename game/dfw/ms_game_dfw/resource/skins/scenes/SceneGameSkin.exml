@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneGameSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15f49a63cab"/>
+	<e:Image id="img_back" source="back_game_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<ns1:Run id="run" skinName="RunSkin" horizontalCenter="0" scaleX="0.96" scaleY="0.9" top="235" height="1080"/>
+	<ns1:User id="user" x="0" skinName="UserSkin"/>
+	<e:Group id="g_btn" horizontalCenter="0" width="750" bottom="0">
+		<e:Button id="btn_tsz" label="100" horizontalCenter="-2" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="240" height="118">
+				<e:Group horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9">
+				<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" source="btn_g_dice_png"/>
+				</e:Group>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_blz" label="100" horizontalCenter="248" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="240" height="118">
+				<e:Group horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9">
+				<e:Image horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" source="btn_g_bilei_png"/>
+				</e:Group>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="当前玩家：" x="31" y="45" fontFamily="Microsoft YaHei" size="22"/>
+		<e:Label id="txt_nowplay" text="5/6" x="143" y="46" fontFamily="Microsoft YaHei" size="22" textColor="0xffdf01"/>
+	</e:Group>
+	<ns1:CountDown id="countdown" left="0" right="0" top="0" bottom="0" skinName="CountDownSkin" locked="true" visible="false"/>
+	<ns1:GameHeads x="0" skinName="GameHeadsSkin" y="146"/>
+</e:Skin>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_EBG_ZhuangListSkin" width="377" height="616" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_back" x="0" y="0">
+		<e:Image x="0" y="0" scale9Grid="26,27,5,4" width="377" height="616" source="back_ebg_zhuangjialiebiao_png"/>
+		<e:Image y="8" x="108" source="txt_ebg_zjlb_png"/>
+		<e:Image scale9Grid="15,15,19,21" width="350" height="450" y="58" alpha="0.5" x="13.5" source="back_ebg_25huduheidi_png"/>
+		<e:Label text="需要金币5亿" y="589" fontFamily="微软雅黑" size="20" textColor="0x704A6A" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Button id="btn_down" y="527" icon="txt_ebg_sqsz_png" label="按钮" x="78">
+		<e:skinName>
+			<e:Skin states="up,down" width="221" height="55" xmlns:ns1="*">
+				<e:Image scale9Grid="7,11,2,17" width="221" height="55" horizontalCenter="0" verticalCenter="0" scale9Grid.down="7,11,2,17" scaleX.down="0.9" scaleY.down="0.9" source="btn_ebg_lvse_png"/>
+				<e:Image id="iconDisplay0" verticalCenter="-1.5" horizontalCenter="0.5" scaleX.down="0.9" scaleY.down="0.9" source="txt_ebg_sqxz_png"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_up" label="按钮" y="527" x="78">
+		<e:skinName>
+			<e:Skin states="up,down" width="221" height="55">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" scale9Grid="7,30,4,2" width="221" height="55" source="btn_ebg_huangse_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_ebg_sqsz_png"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller right="14" left="14" skinName="ListSkin" top="56" bottom="110" x="10" y="10">
+		<e:List id="list" horizontalCenter="0" itemRendererSkinName="Item_EBG_ZhuangListSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="justify" gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

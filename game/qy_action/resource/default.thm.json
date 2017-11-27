@@ -1,0 +1,12 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/Action_LoseSkin.exml",
+    "resource/skins/Action_WinSkin.exml",
+    "resource/skins/BtnSkin.exml",
+    "resource/skins/ScenePKSkin.exml",
+    "resource/skins/StartActionSkin.exml",
+    "resource/skins/ScenesStartSkin.exml"
+  ],
+  "skins": {}
+}

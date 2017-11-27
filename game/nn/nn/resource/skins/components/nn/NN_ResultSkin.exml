@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NN_ResultSkin" width="181" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="type1,type2,type3,type4" >
+	<e:Rect id="rect_back4" fillColor="0xFDC100" includeIn="type4" width="181" height="50" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="img_action4" horizontalCenter="-2" verticalCenter="-14" includeIn="type4"/>
+	<e:Image id="img_ndg" source="icon_nn_ndg_png" x="78" y="-81" includeIn="type4"/>
+	<e:Image id="img_niu4" includeIn="type4" horizontalCenter="0" verticalCenter="0" source="txt_nn_12_png"/>
+	<e:Rect id="rect_back3" fillColor="0xD66426" width="181" height="50" includeIn="type3" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group width="0" verticalCenter="0" height="0" horizontalCenter="0" includeIn="type3" x="10" y="10">
+		<e:Group id="g_niu3" includeIn="type3" y="-29" x="-62" width="65" height="68">
+			<e:Image id="img_niu3" includeIn="type3" verticalCenter="0" horizontalCenter="0" source="txt_nn_niu_huangse_png"/>
+		</e:Group>
+		<e:Group id="g_num3" includeIn="type3" x="-2" y="-39" width="65" height="68">
+			<e:Image id="img_num3" includeIn="type3" verticalCenter="0" horizontalCenter="0" source="txt_nn_7_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="img_action3" includeIn="type3"  horizontalCenter="-7" verticalCenter="-8.5"/>
+	<e:Rect id="rect_back2" fillColor="0xA9D34C" includeIn="type2" width="181" height="50" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group includeIn="type2" width="0" height="0" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="g_niu2" includeIn="type2" y="-29" x="-62" width="65" height="68">
+			<e:Image id="img_niu2" includeIn="type2" verticalCenter="0" horizontalCenter="0" source="txt_nn_niu_lvse_png"/>
+		</e:Group>
+		<e:Group id="g_num2" includeIn="type2" x="-2" y="-39" width="65" height="68">
+			<e:Image id="img_num2" includeIn="type2" verticalCenter="0" horizontalCenter="0" source="txt_nn_1_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="img_action2" includeIn="type2"  horizontalCenter="-7" verticalCenter="-8.5"/>
+	<e:Rect id="rect_back1" fillColor="0xAFAFAF" includeIn="type1" height="50" width="181" verticalCenter="0" horizontalCenter="0"/>
+	
+	<e:Group id="g_niu1" includeIn="type1" width="0" height="0" horizontalCenter="0" verticalCenter="0">
+		<e:Group includeIn="type1" width="65" height="68" x="-62" y="-29">
+			<e:Image id="img_num1" includeIn="type1" verticalCenter="0" horizontalCenter="0" source="txt_nn_mei_png"/>
+		</e:Group>
+		<e:Group id="g_niutxt" includeIn="type1" width="0" height="0" x="17" y="-16">
+			<e:Image id="img_niu1" includeIn="type1" verticalCenter="14" horizontalCenter="12.5" source="txt_nn_niu_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

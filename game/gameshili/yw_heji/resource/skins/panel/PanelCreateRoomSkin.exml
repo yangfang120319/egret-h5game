@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PanelCreateRoomSkin" width="640" height="330" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group x="0" y="0">
+			<e:Rect width="640" x="0" height="340" fillAlpha="0.7" y="0"/>
+			<e:Image source="txt_s_fjh_png" x="77" y="62"/>
+			<e:Rect height="60" width="230" x="73" y="103" fillColor="0xFFFFFF" strokeColor="0x5B1311" strokeWeight="2" ellipseWidth="10"/>
+			<e:Label id="txt_roomid" text="123456" x="84" y="113" textColor="0x5C5C5C" width="204" fontFamily="微软雅黑" bold="true" size="40"/>
+		</e:Group>
+		<e:Group x="369" y="27" width="223" height="289">
+			<e:Button id="btn_num1" label="按钮" x="8" y="0" name="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="1" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num1_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num2" y="7" label="按钮" x="101" name="2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num2_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num3" y="3" label="按钮" x="187" name="3">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num3_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num4" y="86" label="按钮" x="10" name="4">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num4_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num5" y="91" label="按钮" x="91" name="5">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num5_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num6" y="89" label="按钮" x="186" name="6">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num6_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num7" y="151" label="按钮" x="5" name="7">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num7_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num8" y="157" label="按钮" x="87" name="8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num8_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num9" y="153" label="按钮" x="180" name="9">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_s_num9_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_again" y="230" label="按钮" x="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9" source="btn_s_again_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num0" y="236" label="按钮" x="82" name="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image source="btn_s_num_png" horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9"/>
+						<e:Image source="txt_s_num0_png" verticalCenter="1" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_delete" y="232" label="按钮" x="175">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="61" height="61">
+						<e:Image horizontalCenter="0" verticalCenter="0" scaleY.down="0.9" scaleX.down="0.9" source="btn_s_delete_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:TileLayout horizontalGap="20" verticalGap="15"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btn_create" label="按钮" x="72" y="204">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="230" height="60">
+					<e:Rect height="60" width="230" fillColor="0x4CCD44" strokeColor="0x1F4F0D" strokeWeight="2" ellipseWidth="10" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					<e:Image source="txt_s_cj_png" verticalCenter="2.5" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

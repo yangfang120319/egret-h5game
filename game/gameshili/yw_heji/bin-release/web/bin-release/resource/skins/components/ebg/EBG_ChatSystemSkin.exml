@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_ChatSystemSkin" width="640" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_system" width="640" y="0" x="0">
+		<e:Rect fillAlpha="0.7" width="640" y="0" height="40" x="0"/>
+		<e:Rect id="rect_system_mask" y="0" width="640" height="40" x="0" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneLoadingSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_loading_jpg" verticalCenter="0" height="100%" horizontalCenter="0" id="img_back" locked="true"/>
+	<e:Group verticalCenter="0" horizontalCenter="0" id="g_loading" x="10" y="10" locked="true" visible="false">
+		<e:ProgressBar id="pb_loading" x="0" y="-5.684341886080804e-14" skinName="ProgressBar_LoadingSkin"/>
+		<e:Label id="txt_loading" y="47" text="79%" fontFamily="微软雅黑" textAlign="center" bold="true" width="57" size="20" x="200.5"/>
+	</e:Group>
+	<e:Group id="g_login" horizontalCenter="0" verticalCenter="90" locked="true" visible="false">
+		<e:Rect height="360" width="640" x="0" y="0" fillAlpha="0.7"/>
+		<e:Image source="txt_l_zhdl_png" x="197" y="19"/>
+		<e:Group x="130" y="88">
+			<e:Rect fillColor="0xFFFFFF" y="0" width="380" ellipseWidth="10" height="55" x="0"/>
+			<e:Image source="icon_l_zhanghao_png" y="12" x="15"/>
+			<e:Label id="txt_account_tips" text="账号" x="60" y="15" fontFamily="微软雅黑" textColor="0xD4D4D4" size="25"/>
+			<e:EditableText id="txt_account" width="330" height="55" y="0" textColor="0x1C1919" fontFamily="微软雅黑" x="49" verticalAlign="middle" size="26"/>
+		</e:Group>
+		<e:Group x="130" y="165">
+			<e:Rect height="55" width="380" x="0" y="0" fillColor="0xFFFFFF" ellipseWidth="10"/>
+			<e:Image x="15" y="12" source="icon_l_mima_png"/>
+			<e:Label id="txt_password_tips" y="15" textColor="0xD4D4D4" text="密码" fontFamily="微软雅黑" size="25" x="60"/>
+			<e:EditableText id="txt_password" y="0" textColor="0x1C1919" height="55" fontFamily="微软雅黑" width="330" size="26" verticalAlign="middle" x="49"/>
+		</e:Group>
+		<e:Button id="btn_login" label="按钮" x="130" y="280">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="380" height="55">
+					<e:Rect width="380" ellipseWidth="10" height="55" fillColor="0x4ECE43" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					<e:Image source="txt_l_dl_png" horizontalCenter="0" verticalCenter="3" scaleX.down="0.9" scaleY.down="0.9"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="txt_tips" x="139" y="239" size="25" height="25" fontFamily="微软雅黑" textAlign="right" width="367"/>
+	</e:Group>
+	<e:Button id="btn_start" label="按钮" skinName="BtnSkin" icon="btn_l_start_png" width="404" height="155" horizontalCenter="0" verticalCenter="300"/>
+</e:Skin>

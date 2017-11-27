@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_ShowSkin" width="395" height="473" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="371" x="55">
+		<e:Image source="back_mlxyyh_gold_png" y="0" x="0"/>
+		<e:Image source="txt_mlxyyh_jb1_ch_png" y="28" x="35"/>
+		<e:BitmapLabel id="txt_gold" x="99" y="30" text="127361901" letterSpacing="-2" width="222" scaleY="0.7" scaleX="0.7" font="num_game_gold_fnt"/>
+	</e:Group>
+	<e:Group y="303" horizontalCenter="0.5">
+		<e:Image source="back_mlxyyh_mask_png" y="0" scale9Grid="10,10,37,36" width="220" height="52" alpha="0.5" x="0"/>
+		<e:Image source="txt_mlxyyh_tyc_png" x="22" y="3"/>
+	</e:Group>
+	<e:Image source="back_mlxyyh_mask_png" y="54" scale9Grid="11,10,36,36" width="220" height="212" alpha="0.5" x="88"/>
+	<e:Image id="img_icon" source="icon_mlxyyh_6_2_png" x="93.14999999999999" y="58.3" scaleX="0.9" scaleY="0.9"/>
+</e:Skin>

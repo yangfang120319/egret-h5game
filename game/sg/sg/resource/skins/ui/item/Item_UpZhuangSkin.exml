@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_UpZhuangSkin" width="360" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="back_g_huise_png" scale9Grid="10,12,9,5" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="txt_name" text="名字只有五字" x="150.5" y="9" fontFamily="微软雅黑" size="24" width="194" textAlign="center" bold="true"/>
+	<e:Label id="txt_gold" y="42" text="2123121" fontFamily="微软雅黑" textAlign="center" bold="true" width="194" size="22" x="150.5" textColor="0xFBD860"/>
+	<ns1:Game_Head id="head" x="79" skinName="Game_HeadSkin" scaleX="0.6" scaleY="0.6" y="8"/>
+	<e:Image id="img_ranking" x="14" y="13" source="icon_g_upzhuang1_png"/>
+</e:Skin>

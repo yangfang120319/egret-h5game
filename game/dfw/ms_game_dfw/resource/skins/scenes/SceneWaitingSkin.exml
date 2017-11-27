@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneWaitingSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" source="back_start_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Label text="网络异常，重新连接中..." anchorOffsetX="0" width="500.67" fontFamily="Microsoft YaHei" textAlign="center" size="30" horizontalCenter="0.5" verticalCenter="43"/>
+	<e:Label text="如果长时间没有恢复游戏，请点击“恢复游戏”按钮" anchorOffsetX="0" width="598.67" fontFamily="Microsoft YaHei" textAlign="center" size="25" horizontalCenter="0" bottom="70"/>
+	<e:Image source="txt_s_nydx_png" y="126.73" horizontalCenter="0.5"/>
+	<e:Button id="btn_yes" label="Button" horizontalCenter="0" bottom="150">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="323" height="108">
+				<e:Image source="btn_s_hfyx_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Component id="com_waiting" horizontalCenter="14.5" verticalCenter="-88">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="0" height="0">
+				<e:Image source="icon_s_waiting_png" x="-64" y="-64"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+</e:Skin>

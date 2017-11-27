@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Btn_JSYS_RedSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" width="86" height="116">
+	<e:Image source="back_jsys_box_light_png" includeIn="down" x="0" y="0"/>
+	<e:Image source="back_jsys_box_red_png" includeIn="up" x="0" y="0"/>
+	<e:Image source="icon_jsys_box0_png" x="2" y="3"/>
+	<e:Image source="back_jsys_mask_big_png" x="0" y="0" alpha="0.1" includeIn="up"/>
+</e:Skin>

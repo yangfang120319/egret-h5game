@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelExitSkin" width="647" height="492" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_s_box_png" x="0" y="0" locked="true"/>
+	<e:Button id="btn_yes" label="Button" y="353.8" scaleX="0.8" scaleY="0.8" horizontalCenter="149.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="323" height="108">
+				<e:Image source="btn_s_yes_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_no" label="Button" y="353.8" scaleX="0.8" scaleY="0.8" horizontalCenter="-150.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="323" height="108">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_s_no_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="确定退出游戏？" y="145" size="50" fontFamily="Microsoft YaHei" x="159"/>
+	<e:Label id="txt_tips" text="退出游戏将解散游戏局" y="246" size="25" fontFamily="Microsoft YaHei" textColor="0xededed" x="199"/>
+</e:Skin>

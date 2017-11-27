@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_BtnSkin" xmlns:e="http://ns.egret.com/eui" width="131" height="160">
+	<e:Group id="g_genzhu" x="0" y="-1" locked="true" visible="false">
+		<e:Button id="btn_genzhu0" x="0" label="按钮" y="0" name="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_genzhu_disabled5_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_genzhu_down5_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_genzhu_up5_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_genzhu1" x="0" label="按钮" y="56" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_genzhu_disabled10_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_genzhu_down10_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_genzhu_up10_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_genzhu2" x="0" label="按钮" y="111" name="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_genzhu_disabled50_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_genzhu_down50_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_genzhu_up50_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Rect id="rect_mask" height="190" width="131" x="0" y="-190" locked="true" visible="false"/>
+	<e:Button id="btn_up" y="110" label="按钮" x="0">
+		<e:skinName>
+			<e:Skin states="up,down" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Image source="btn_jsys_upzhuang_down_png" includeIn="down" x="0" y="0"/>
+				<e:Image source="btn_jsys_upzhuang_up_png" includeIn="up" x="0" y="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_down" y="110" label="按钮" x="0">
+		<e:skinName>
+			<e:Skin states="up,down" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Image source="btn_jsys_downzhuang_down_png" includeIn="down" x="0" y="0"/>
+				<e:Image source="btn_jsys_downzhuang_up_png" includeIn="up" x="0" y="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_start" y="0" label="按钮" x="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Image source="btn_jsys_genzhu_disabled_png" includeIn="disabled" x="0" y="0"/>
+				<e:Image source="btn_jsys_genzhu_down_png" includeIn="down" x="0" y="0"/>
+				<e:Image source="btn_jsys_genzhu_up_png" includeIn="up" x="0" y="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_again" y="55" label="按钮" x="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Image source="btn_jsys_again_disabled_png" includeIn="disabled" x="0" y="0"/>
+				<e:Image source="btn_jsys_again_down_png" includeIn="down" x="0" y="0"/>
+				<e:Image source="btn_jsys_again_up_png" includeIn="up" x="0" y="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

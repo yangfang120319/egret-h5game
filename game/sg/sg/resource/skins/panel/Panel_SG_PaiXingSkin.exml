@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_SG_PaiXingSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_back" fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="img_back" width="352" height="517" left="0" source="back_g_paixing_png" scale9Grid="7,31,31,29" y="87"/>
+	<e:Scroller skinName="ListSkin" width="345" height="493" y="96" x="0">
+		<e:List id="list" itemRendererSkinName="Item_SG_PaiXingSkin" x="0" width="240" verticalCenter="0" height="430">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object beishu="3" itemname="txt_sg_dian11_png" itemicon="icon_g_paixing11_png"/>
+					<e:Object beishu="2" itemname="txt_sg_dian10_png" itemicon="icon_g_paixing10_png"/>
+					<e:Object beishu="2" itemname="txt_sg_dian7_png" itemicon="icon_g_paixing7_png"/>
+					<e:Object beishu="1" itemname="txt_sg_dian6_png" itemicon="icon_g_paixing6_png"/>
+					<e:Object beishu="1" itemname="txt_sg_dian2_png" itemicon="icon_g_paixing2_png"/>
+					<e:Object beishu="1" itemname="txt_sg_dian1_png" itemicon="icon_g_paixing1_png"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="justify" gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

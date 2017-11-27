@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameTopSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="86">
+    <e:Image id="img_back" source="back_g_top_png" x="0" y="0" height="86" locked="true"/>
+	<e:Label id="txt_exit_title" y="10" size="20" text="返回" fontFamily="微软雅黑" width="40" x="566"/>
+	<e:Group id="g_time" x="15" y="10">
+		<e:Label id="txt_time_title" y="0" text="时间" fontFamily="微软雅黑" size="20" x="19"/>
+		<e:Label id="txt_time" y="28" size="38" text="22" fontFamily="微软雅黑" x="0" anchorOffsetX="0" width="75" textAlign="center"/>
+	</e:Group>
+	<e:Label id="txt_title" y="9" size="20" text="你的词汇" fontFamily="微软雅黑" horizontalCenter="0"/>
+	<e:Label id="txt_name" text="美容" y="38" fontFamily="微软雅黑" size="38" rotation="1.5" horizontalCenter="0" textColor="0xe75718"/>
+	<e:Button id="btn_exit" label="按钮" y="0" x="520">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="120" height="86" xmlns:w="http://ns.egret.com/wing">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+			<e:Image source="icon_shar_tips_png" scaleX="0.3" scaleY="0.3" horizontalCenter="0" verticalCenter="14" scaleX.down="0.24" scaleY.down="0.24"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

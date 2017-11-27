@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OverGiftSkin" width="230" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_icon" width="100" height="100" x="11" y="25" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+	<e:Group x="121" y="95">
+		<e:Label id="txt_name" text="乐豆" x="-39.5" y="57" textColor="0xe0be62" anchorOffsetX="0" textAlign="center" size="25" scaleX="1" scaleY="1"/>
+		<e:Label id="txt_num" text="x12" x="20.5" y="62" anchorOffsetX="0" textAlign="left" textColor="0xffffff" size="25" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

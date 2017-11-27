@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Com_PerosnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="0,1,2,3,4"  width="750" height="1334">
+	<e:Image source="icon_person4_png" includeIn="4" x="166" y="74"/>
+	<e:Image source="icon_person3_png" includeIn="3" x="0" y="0"/>
+	<e:Image source="icon_person2_png" includeIn="2" x="0" y="0"/>
+	<e:Image source="icon_person1_png" includeIn="1" x="0" y="0"/>
+	<e:Image source="icon_person0_png" includeIn="0"/>
+</e:Skin>

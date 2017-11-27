@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_ChooseChipSkin" xmlns:e="http://ns.egret.com/eui" width="883" height="490">
+	<e:Group id="g_detail" x="0" y="0">
+		<e:Image id="img_back" x="0" y="0" source="back_g_choosechip1_png"/>
+		<e:Image id="img_choose3" source="back_g_chiplight_png" y="1" x="32" visible="false"/>
+		<e:Image source="back_g_chiplight_png" y="31" id="img_choose2" x="62" visible="false"/>
+		<e:Image source="back_g_chiplight_png" y="21" x="52" id="img_choose1" visible="false"/>
+		<e:Image source="back_g_chiplight_png" y="2" id="img_choose0" x="33" visible="false"/>
+		<e:Image source="back_g_chiplight_png" y="12" id="img_choose7" x="43" blendMode="add" visible="false"/>
+		<e:Image source="back_g_chiplight_png" y="31" x="62" id="img_choose6" blendMode="add" visible="false"/>
+		<e:Image source="back_g_chiplight_png" y="41" id="img_choose5" x="72" blendMode="add" visible="false"/>
+		<e:Image source="back_g_chiplight_png" y="11" id="img_choose4" x="42" blendMode="add" visible="false"/>
+		<e:Image source="txt_g_cmxz_title_ch_png" y="-43" x="327"/>
+		<e:Group x="594" y="27">
+			<e:Image source="back_g_5hudu_png" x="0" y="0" scale9Grid="6,6,8,8" width="260" height="435" alpha="0.3"/>
+			<e:Image source="txt_g_choosechip_tips_png" x="40" y="27.499999999999996"/>
+			<e:Button id="btn_yes" label="按钮" x="34.0151515151515" y="255.45454545454544">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="192" height="81">
+						<e:Image source="btn_g_choosechip_yes_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_no" y="337.5" label="按钮" x="34.0151515151515">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="192" height="81">
+						<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_g_choosechip_no_png"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="txt_tips" x="23" y="201" width="214" textAlign="center" fontFamily="微软雅黑" size="25"/>
+		</e:Group>
+		<e:Button id="btn_choose8" y="328" icon="back_g_chip100000_png" label="100k" name="8" x="407">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" source="back_g_chip1_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose7" y="328" icon="back_g_chip50000_png" label="50k" name="7" x="229">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" source="back_g_chip1_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose6" y="328" icon="back_g_chip25000_png" x="50" label="25k" name="6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" source="back_g_chip1_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose5" y="174" icon="back_g_chip10000_png" x="407" label="10k" name="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" source="back_g_chip0_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose4" y="174" icon="back_g_chip5000_png" x="229" label="5k" name="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source="back_g_chip100_png"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="174" icon="back_g_chip2500_png" id="btn_choose3" label="2500" name="3" x="50">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" source="back_g_chip1_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="20" icon="back_g_chip1000_png" x="407" label="1000" name="2" id="btn_choose2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" source="back_g_chip1_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="20" icon="back_g_chip500_png" x="229" label="500" name="1" id="btn_choose1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" source="back_g_chip0_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="20" icon="back_g_chip100_png" x="50" label="100" name="0" id="btn_choose0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="150" width="150" x="0" y="0" fillAlpha="0"/>
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source="back_g_chip100_png"/>
+					<e:BitmapLabel id="labelDisplay" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0" letterSpacing="-1"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonologSkin" width="660" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_back" width="660" fillAlpha="0" anchorOffsetY="0" top="0" bottom="0" horizontalCenter="0" locked="true"/>
+	<e:Image id="img_back" source="back_tc_png" scale9Grid="61,53,369,19" top="0" bottom="0" horizontalCenter="0" locked="true"/>
+	<e:Group id="g_text" horizontalCenter="0" y="60" width="610">
+	</e:Group>
+	<e:Rect id="rect_mask" width="610" height="400" y="60" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="1" x="25" locked="true" visible="false"/>
+</e:Skin>

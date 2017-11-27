@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Item_GameChatSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="36">
+	<e:Label id="txt_detail" textColor="0x5b5a5a" size="24" lineSpacing="10" fontFamily="Arial" text="手机升级时加思索时间" y="6" width="588" x="26"/>
+</e:Skin>

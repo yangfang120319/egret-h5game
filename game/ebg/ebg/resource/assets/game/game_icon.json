@@ -1,0 +1,13 @@
+{"file":"game_icon.png","frames":{
+"icon_g_bai_ch_png":{"x":136,"y":0,"w":66,"h":66,"offX":0,"offY":0,"sourceW":66,"sourceH":66},
+"icon_g_countdown_png":{"x":0,"y":68,"w":59,"h":59,"offX":0,"offY":0,"sourceW":59,"sourceH":59},
+"icon_g_dayu_png":{"x":217,"y":117,"w":12,"h":13,"offX":0,"offY":0,"sourceW":12,"sourceH":13},
+"icon_g_overstar1_png":{"x":61,"y":120,"w":47,"h":47,"offX":0,"offY":0,"sourceW":47,"sourceH":47},
+"icon_g_overstar2_png":{"x":204,"y":0,"w":46,"h":80,"offX":0,"offY":0,"sourceW":46,"sourceH":80},
+"icon_g_ping_ch_png":{"x":68,"y":0,"w":66,"h":66,"offX":0,"offY":0,"sourceW":66,"sourceH":66},
+"icon_g_sheng_ch_png":{"x":0,"y":0,"w":66,"h":66,"offX":0,"offY":0,"sourceW":66,"sourceH":66},
+"icon_g_upzhuang1_png":{"x":61,"y":68,"w":50,"h":50,"offX":0,"offY":0,"sourceW":50,"sourceH":50},
+"icon_g_upzhuang2_png":{"x":165,"y":82,"w":50,"h":50,"offX":0,"offY":0,"sourceW":50,"sourceH":50},
+"icon_g_upzhuang3_png":{"x":113,"y":68,"w":50,"h":50,"offX":0,"offY":0,"sourceW":50,"sourceH":50},
+"icon_g_upzhuang4_png":{"x":110,"y":134,"w":64,"h":21,"offX":0,"offY":0,"sourceW":64,"sourceH":21},
+"icon_g_zhuang_ch_png":{"x":217,"y":82,"w":33,"h":33,"offX":0,"offY":0,"sourceW":33,"sourceH":33}}}

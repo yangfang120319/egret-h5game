@@ -1,0 +1,7 @@
+{"file":"loading.png","frames":{
+"back_loading_fangzi_png":{"x":0,"y":0,"w":203,"h":345,"offX":0,"offY":0,"sourceW":203,"sourceH":345},
+"icon_loading_light1_png":{"x":0,"y":390,"w":200,"h":40,"offX":0,"offY":0,"sourceW":200,"sourceH":40},
+"icon_loading_light2_png":{"x":0,"y":347,"w":203,"h":41,"offX":0,"offY":0,"sourceW":203,"sourceH":41},
+"icon_loading_light3_png":{"x":0,"y":432,"w":168,"h":39,"offX":0,"offY":0,"sourceW":168,"sourceH":39},
+"icon_loading_ma_png":{"x":170,"y":432,"w":84,"h":69,"offX":0,"offY":0,"sourceW":84,"sourceH":69},
+"icon_loading_star_png":{"x":205,"y":0,"w":34,"h":32,"offX":0,"offY":0,"sourceW":34,"sourceH":32}}}

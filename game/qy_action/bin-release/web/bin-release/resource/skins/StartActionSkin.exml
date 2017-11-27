@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartActionSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="16.96969696969697" y="20.90909090909091" height="600" width="606">
+		<e:Group id="g_btn0" scaleX="0.85" scaleY="0.85" name="0" horizontalCenter="0" verticalCenter="-213.72500000000002">
+			<e:Image source="back_start0_png" x="0" y="-5"/>
+			<e:Image id="img_title0_0" source="txt_title_kou_png" x="42" y="25.5"/>
+			<e:Image id="img_title0_1" source="txt_title_suan_png" x="114" y="21"/>
+			<e:Image id="img_title0_2" source="txt_title_chuang_png" x="187" y="22"/>
+			<e:Image id="img_title0_3" source="txt_title_guan_png" x="259" y="22.5"/>
+			<e:Image id="img_tips0_0" source="txt_chuang_png" horizontalCenter="-292.5" verticalCenter="12"/>
+			<e:Image id="img_tips0_1" source="txt_guan_png" horizontalCenter="-256" verticalCenter="12"/>
+			<e:Image id="img_tips0_2" source="txt_chong_png" horizontalCenter="-219.5" verticalCenter="12"/>
+			<e:Image id="img_tips0_3" source="txt_chong_png" horizontalCenter="-184.5" verticalCenter="12"/>
+			<e:Image id="img_tips0_4" source="txt_chong_png" horizontalCenter="-147.5" verticalCenter="12"/>
+		</e:Group>
+		<e:Group id="g_btn1" scaleX="0.85" scaleY="0.85" name="1" verticalCenter="-22.5090909090909" horizontalCenter="0">
+			<e:Image source="back_start1_png" x="0" y="0"/>
+			<e:Image id="img_title1_0" source="txt_title_kou_png" x="42" y="25.5"/>
+			<e:Image id="img_title1_1" source="txt_title_suan_png" x="114" y="21"/>
+			<e:Image id="img_title1_3" source="txt_title_K_png" x="241" y="29.5"/>
+			<e:Image id="img_title1_2" source="txt_title_P_png" x="187" y="29.5"/>
+			<e:Image id="img_tips1_0" source="txt_bi_png" horizontalCenter="-292.5" verticalCenter="9.5"/>
+			<e:Image id="img_tips1_1" source="txt_bi_png" horizontalCenter="-259.5" verticalCenter="9.5"/>
+			<e:Image id="img_tips1_2" source="txt_shui_png" horizontalCenter="-226" verticalCenter="9.5"/>
+			<e:Image id="img_tips1_3" source="txt_shi_png" horizontalCenter="-194" verticalCenter="9.5"/>
+			<e:Image id="img_tips1_4" source="txt_P_png" horizontalCenter="-164.5" verticalCenter="8"/>
+			<e:Image id="img_tips1_5" source="txt_K_png" horizontalCenter="-139.5" verticalCenter="8"/>
+			<e:Image id="img_tips1_6" source="txt_xiao_png" horizontalCenter="-111" verticalCenter="9.5"/>
+			<e:Image id="img_tips1_7" source="txt_neng_png" horizontalCenter="-74" verticalCenter="9.5"/>
+			<e:Image id="img_tips1_8" source="txt_shou1_png" horizontalCenter="-40.5" verticalCenter="9.5"/>
+		</e:Group>
+		<e:Group id="g_btn2" scaleX="0.85" scaleY="0.85" name="2" verticalCenter="168.39999999999998" horizontalCenter="0">
+			<e:Image source="back_start2_png" x="0" y="0"/>
+			<e:Image id="img_title2_0" source="txt_title_kou_png" x="42" y="25.5"/>
+			<e:Image id="img_title2_1" source="txt_title_suan_png" x="114" y="21"/>
+			<e:Image id="img_title2_2" source="txt_title_xun_png" x="187" y="25"/>
+			<e:Image id="img_title2_3" source="txt_title_lian_png" x="259" y="22"/>
+			<e:Image id="img_title2_4" source="txt_title_ka_png" x="331" y="22"/>
+			<e:Image id="img_tips2_0" source="txt_zhe_png" horizontalCenter="-296" verticalCenter="3"/>
+			<e:Image id="img_tips2_1" source="txt_jiang_png" horizontalCenter="-268" verticalCenter="3"/>
+			<e:Image id="img_tips2_2" source="txt_jiao_png" horizontalCenter="-240.5" verticalCenter="3"/>
+			<e:Image id="img_tips2_3" source="txt_yu_png" horizontalCenter="-211" verticalCenter="3"/>
+			<e:Image id="img_tips2_4" source="txt_chu_png" horizontalCenter="-183" verticalCenter="3"/>
+			<e:Image id="img_tips2_5" source="txt_ban_png" horizontalCenter="-155" verticalCenter="3"/>
+			<e:Image id="img_tips2_6" source="txt_she_png" horizontalCenter="-127.5" verticalCenter="3"/>
+			<e:Image id="img_tips2_14" source="txt_shou_png" horizontalCenter="-136" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_8" source="txt_su_png" horizontalCenter="-281" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_9" source="txt_suan_png" horizontalCenter="-255" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_10" source="txt_xun_png" horizontalCenter="-230.5" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_11" source="txt_lian_png" horizontalCenter="-206.5" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_12" source="txt_ka_png" horizontalCenter="-182" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_7" source="txt_shuming1_png" horizontalCenter="-302.5" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_13" source="txt_shuming2_png" horizontalCenter="-161.5" verticalCenter="36.5"/>
+			<e:Image id="img_tips2_15" source="txt_quan_png" horizontalCenter="-111" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_16" source="txt_lian_png" horizontalCenter="-87.5" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_17" source="txt_xi_png" horizontalCenter="-63.5" verticalCenter="36"/>
+			<e:Image id="img_tips2_18" source="txt_zi_png" horizontalCenter="-36.5" verticalCenter="35.5"/>
+			<e:Image id="img_tips2_19" source="txt_yuan_png" horizontalCenter="-10.5" verticalCenter="36"/>
+		</e:Group>
+	</e:Group>
+	<e:Component id="com_airplay" x="-217" y="660">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="0" height="0">
+				<e:Image source="icon_airplay_png" x="-77" y="-80"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+</e:Skin>

@@ -1,0 +1,15 @@
+{
+	"name": "egret",
+	"version": "2.5.7",
+	"modules": [
+		{
+			"name": "async",
+			"description": "async",
+			"files": [
+				"async.js",
+				"async.d.ts"
+			],
+			"root": "src"
+		}
+	]
+}

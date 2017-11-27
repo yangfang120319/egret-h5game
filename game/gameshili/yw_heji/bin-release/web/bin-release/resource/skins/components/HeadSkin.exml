@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="132" height="132">
+	<e:Image id="img_back" source="back_s_head_png" scale9Grid="27,28,81,74" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image id="img_head" left="4" right="4" top="4" bottom="4" locked="true"/>
+	<e:Rect id="rect_mask" ellipseWidth="43" left="4" top="4" right="4" bottom="4" visible="false"/>
+</e:Skin>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneRankingSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_back" x="5" y="350">
+		<e:Image source="back_s_ranking_png" y="-5.684341886080802e-14" x="0"/>
+		<e:Image source="txt_s_wj_png" x="238.93939393939394" y="13.030303030302946"/>
+		<e:Image source="txt_s_jbsl_png" x="460.9090909090909" y="13.030303030302946"/>
+		<e:Image source="txt_s_mc_png" x="49.99999999999999" y="13.030303030302946"/>
+	</e:Group>
+	<e:ViewStack selectedIndex="1" id="viewStack" height="568" y="403" width="600" x="22">
+		<e:Scroller skinName="ListSkin" width="600" height="568">
+			<e:List id="list0" itemRendererSkinName="Item_RankingSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="12" horizontalAlign="justify" paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller skinName="ListSkin" width="600" height="568">
+			<e:List id="list1" itemRendererSkinName="Item_RankingSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="12" horizontalAlign="justify" paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:ViewStack>
+	<e:TabBar id="tabbar_type" x="24" y="248" itemRendererSkinName="TabBar_RankingSkin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object upicon="btn_s_ranking_up0_png" downicon="btn_s_ranking_down0_png"/>
+				<e:Object upicon="btn_s_ranking_up1_png" downicon="btn_s_ranking_down1_png"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:TabBar>
+</e:Skin>

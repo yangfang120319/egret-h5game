@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_OverSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect bottom="0" right="0" left="0" fillAlpha="0.8" top="0" x="10" y="10" locked="true"/>
+	<e:Group id="g_detail" horizontalCenter="0" verticalCenter="0" width="860" height="400">
+		<e:Group x="0" y="0">
+			<e:Image x="0" y="0" source="back_ysc_over_png"/>
+			<e:Image source="txt_g_js_ch_png" y="-35" x="344" visible="false"/>
+			<e:Image source="back_g_heise_png" x="43" y="262" scale9Grid="5,5,22,21" width="775" height="95"/>
+			<e:Image source="back_g_heise_png" y="178" scale9Grid="5,5,22,21" width="150" height="33" x="70"/>
+			<e:Image source="back_g_heise_png" y="178" scale9Grid="5,5,22,21" width="150" height="33" x="260"/>
+			<e:Image source="back_g_heise_png" y="178" scale9Grid="5,5,22,21" width="150" height="33" x="450"/>
+			<e:Image source="back_g_heise_png" y="178" scale9Grid="5,5,22,21" width="150" height="33" x="640"/>
+			<e:Image source="icon_ysc_choose_b_0_png" x="84" y="48" scaleX="0.8" scaleY="0.8"/>
+			<e:Image source="icon_ysc_choose_b_1_png" x="274" y="48" scaleX="0.8" scaleY="0.8"/>
+			<e:Image source="icon_ysc_choose_b_2_png" x="654" y="48" scaleX="0.8" scaleY="0.8"/>
+			<e:Image source="icon_ysc_choose_b_3_png" x="464" y="48" scaleX="0.8" scaleY="0.8"/>
+			<e:Image source="back_g_heise_png" y="219" scale9Grid="5,5,22,21" width="150" height="33" x="640"/>
+			<e:Image source="back_g_heise_png" y="219" scale9Grid="5,5,22,21" width="150" height="33" x="450"/>
+			<e:Image source="back_g_heise_png" y="219" scale9Grid="5,5,22,21" width="150" height="33" x="260"/>
+			<e:Image source="back_g_heise_png" y="219" scale9Grid="5,5,22,21" width="150" height="33" x="70"/>
+			<e:Image source="back_ysc_overline_png" x="238" y="53"/>
+			<e:Image source="txt_ysc_qover_ch_png" y="225" x="265"/>
+			<e:Image source="txt_ysc_yover_ch_png" y="184" x="265"/>
+			<e:Image source="back_ysc_overline_png" y="53" x="427"/>
+			<e:Image source="back_ysc_overline_png" y="53" x="616"/>
+			<e:Label text="本轮总盈利：" x="178" y="290" bold="true" fontFamily="微软雅黑" textColor="0xFDCA2E" size="40"/>
+			<e:Image source="txt_ysc_yover_ch_png" x="74" y="184"/>
+			<e:Image source="txt_ysc_qover_ch_png" x="74" y="225"/>
+			<e:Image source="txt_ysc_qover_ch_png" y="225" x="455"/>
+			<e:Image source="txt_ysc_yover_ch_png" y="184" x="455"/>
+			<e:Image source="txt_ysc_qover_ch_png" y="225" x="644"/>
+			<e:Image source="txt_ysc_yover_ch_png" y="184" x="644"/>
+		</e:Group>
+		<e:Label id="txt_yazhu2" y="185" textColor="0xFDCA2E" text="228283" fontFamily="微软雅黑" textAlign="left" bold="true" width="100" size="20" x="494"/>
+		<e:Label id="txt_total" y="289" textColor="0xFDCA2E" text="+228283883" fontFamily="微软雅黑" bold="true" size="40" x="438" width="342"/>
+		<e:Label id="txt_yazhu0" y="185" textColor="0xFDCA2E" text="2282838" fontFamily="微软雅黑" bold="true" width="100" size="20" x="114" textAlign="left"/>
+		<e:Label id="txt_yazhu1" y="185" textColor="0xFDCA2E" text="2282838" fontFamily="微软雅黑" textAlign="left" bold="true" width="100" size="20" x="304" height="20"/>
+		<e:Label id="txt_yazhu3" y="185" textColor="0xFDCA2E" text="228283" fontFamily="微软雅黑" textAlign="left" bold="true" width="100" size="20" x="683"/>
+		<e:Label id="txt_qiang3" y="225" textColor="0xFDCA2E" text="228283" fontFamily="微软雅黑" textAlign="left" bold="true" width="100" size="20" x="683"/>
+		<e:Label id="txt_qiang1" y="225" textColor="0xFDCA2E" size="20" text="2282838" fontFamily="微软雅黑" textAlign="left" bold="true" width="100" height="20" x="304"/>
+		<e:Label id="txt_qiang0" y="225" textColor="0xFDCA2E" text="2282838" fontFamily="微软雅黑" textAlign="left" bold="true" width="100" size="20" x="114"/>
+		<e:Label id="txt_qiang2" y="225" textColor="0xFDCA2E" text="228283" fontFamily="微软雅黑" textAlign="left" bold="true" width="100" size="20" x="494"/>
+		<e:Component id="com_hook" x="205" y="152">
+			<e:skinName>
+				<e:Skin>
+					<e:Image source="icon_ysc_hook_png" x="-19" y="-19"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Component>
+		
+	</e:Group>
+</e:Skin>

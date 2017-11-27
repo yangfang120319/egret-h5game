@@ -1,0 +1,28 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/components/GameChatSkin.exml",
+    "resource/skins/components/HeadSkin.exml",
+    "resource/skins/components/GameOrderSkin.exml",
+    "resource/skins/components/GameReadySkin.exml",
+    "resource/skins/components/GameTopSkin.exml",
+    "resource/skins/components/GameVoteSkin.exml",
+    "resource/skins/components/StartMsgSkin.exml",
+    "resource/skins/components/TipsSkin.exml",
+    "resource/skins/panel/Panel_GameDescriptionSkin.exml",
+    "resource/skins/panel/Panel_GameInviteSkin.exml",
+    "resource/skins/panel/Panel_GameOverSkin.exml",
+    "resource/skins/panel/Panel_GameWordSkin.exml",
+    "resource/skins/panel/Panel_SearchRoomSkin.exml",
+    "resource/skins/scenes/SceneGameSkin.exml",
+    "resource/skins/ui/LoadingProgressBarSkin.exml",
+    "resource/skins/scenes/SceneLoadingSkin.exml",
+    "resource/skins/scenes/SceneRankingSkin.exml",
+    "resource/skins/scenes/SceneStartSkin.exml",
+    "resource/skins/ui/LiZiSkin.exml",
+    "resource/skins/ui/TabBar_RankingSkin.exml",
+    "resource/skins/ui/item/Item_GameChatSkin.exml",
+    "resource/skins/ui/item/Item_RankinglistSkin.exml"
+  ],
+  "skins": {}
+}

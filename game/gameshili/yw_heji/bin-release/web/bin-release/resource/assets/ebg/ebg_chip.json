@@ -1,0 +1,13 @@
+{"file":"ebg_chip.png","frames":{
+"back_aperture_png":{"x":0,"y":0,"w":100,"h":100,"offX":0,"offY":0,"sourceW":100,"sourceH":100},
+"back_interval_png":{"x":218,"y":154,"w":2,"h":67,"offX":0,"offY":0,"sourceW":2,"sourceH":67},
+"icon_bigchip1_png":{"x":179,"y":77,"w":75,"h":75,"offX":0,"offY":0,"sourceW":75,"sourceH":75},
+"icon_bigchip2_png":{"x":102,"y":77,"w":75,"h":75,"offX":0,"offY":0,"sourceW":75,"sourceH":75},
+"icon_bigchip3_png":{"x":179,"y":0,"w":75,"h":75,"offX":0,"offY":0,"sourceW":75,"sourceH":75},
+"icon_bigchip4_png":{"x":102,"y":0,"w":75,"h":75,"offX":0,"offY":0,"sourceW":75,"sourceH":75},
+"icon_bigchip5_png":{"x":0,"y":102,"w":75,"h":75,"offX":0,"offY":0,"sourceW":75,"sourceH":75},
+"icon_smallchip0_png":{"x":171,"y":154,"w":45,"h":45,"offX":0,"offY":0,"sourceW":45,"sourceH":45},
+"icon_smallchip1_png":{"x":124,"y":154,"w":45,"h":45,"offX":0,"offY":0,"sourceW":45,"sourceH":45},
+"icon_smallchip2_png":{"x":77,"y":154,"w":45,"h":45,"offX":0,"offY":0,"sourceW":45,"sourceH":45},
+"icon_smallchip3_png":{"x":0,"y":179,"w":44,"h":45,"offX":0,"offY":0,"sourceW":44,"sourceH":45},
+"icon_smallchip4_png":{"x":46,"y":201,"w":44,"h":45,"offX":0,"offY":0,"sourceW":44,"sourceH":45}}}

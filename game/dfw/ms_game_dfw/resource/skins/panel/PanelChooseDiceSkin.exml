@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelChooseDiceSkin"  width="647" height="520" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_s_box_png" x="0" y="0" height="520"/>
+	<e:Image y="-87" source="txt_g_yksz_png" x="202"/>
+	<e:Button id="btn_yes" label="Button" y="388" x="162">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="323" height="108">
+	<e:Image source="btn_s_yes_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_dice1" label="Button" x="50" y="71" name="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="128" height="128">
+	<e:Image source="btn_g_dice1_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="btn_g_dicelight_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_dice2" label="Button" y="71" x="260" name="2">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="128" height="128">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_g_dice2_png"/>
+			<e:Image source="btn_g_dicelight_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_dice3" label="Button" y="71" x="469" name="3">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="128" height="128">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_g_dice3_png"/>
+			<e:Image source="btn_g_dicelight_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_dice4" label="Button" x="50" y="230" name="4">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="128" height="128">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_g_dice4_png"/>
+			<e:Image source="btn_g_dicelight_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_dice5" label="Button" x="260" y="230" name="5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="128" height="128">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_g_dice5_png"/>
+			<e:Image source="btn_g_dicelight_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_dice6" label="Button" x="469" y="230" name="6">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="128" height="128">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_g_dice6_png"/>
+			<e:Image source="btn_g_dicelight_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="请选择你想掷到的点数" y="17" fontFamily="Microsoft YaHei" horizontalCenter="0.5"/>
+</e:Skin>

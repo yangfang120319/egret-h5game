@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_JSYS_ZhuangListSkin" width="460" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="txt_num" text="21." x="18" size="26" fontFamily="微软雅黑" width="42" textAlign="right" textColor="0xFFFFFF" height="26" y="8"/>
+	<e:Label id="txt_name" size="24" text="小明世纪大酒店" x="66" fontFamily="微软雅黑" width="159" height="24" textColor="0xFFFFFF" y="8"/>
+	<e:Label id="txt_gold" size="24" text="2883883.7万" x="264" width="174" textAlign="right" fontFamily="微软雅黑" textColor="0xFFFFFF" y="8"/>
+</e:Skin>

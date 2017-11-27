@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartMsgSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="116" width="340">
+	<ns1:Head id="head" x="0" skinName="HeadSkin" scaleX="0.9" scaleY="0.9" y="-0.2"/>
+	<e:Group id="g_detailmsg" height="115" width="210" x="130" y="0" anchorOffsetX="0">
+		<e:Label id="txt_nickname" text="名字有几个" y="22" size="26" fontFamily="微软雅黑" textColor="0xA32424" anchorOffsetX="0" x="0"/>
+		<e:Label id="txt_level" y="68" text="初级卧底" fontFamily="微软雅黑" size="22" textColor="0x5B1A1A" x="0"/>
+		<e:Image id="img_vip" source="icon_vip0_png" x="149" y="18" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="img_star" source="icon_star0_png" x="182" y="27" scaleX="0.8" scaleY="0.8" locked="true"/>
+		<e:Image source="icon_gold_png" x="98" y="68" scaleX="0.8" scaleY="0.8"/>
+		<e:Label id="txt_goldnum" y="70" text="0" fontFamily="微软雅黑" size="21" x="131" textColor="0x968C82" anchorOffsetX="0" width="82"/>
+	</e:Group>
+</e:Skin>

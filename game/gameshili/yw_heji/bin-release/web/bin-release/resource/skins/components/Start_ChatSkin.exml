@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Start_ChatSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="634" height="73">
+	<e:Rect id="rect_back" height="1136" width="640" x="-3" y="-170" fillAlpha="0" visible="false"/>
+	<e:Group id="g_show" x="14" y="14" scaleY="0">
+		<e:Image source="back_s_chat0_png" x="0" y="0" scale9Grid="19,20,7,6" width="605" height="485"/>
+		<e:Label text="VIP15可以发言，每次发言扣除10万金币" y="61" fontFamily="微软雅黑" size="20" x="123" textColor="0xECE067"/>
+		<e:Scroller id="scroller" skinName="ListSkin" x="0" width="605" height="390" y="95">
+			<e:Group id="g_detail" width="640">
+				<e:layout>
+					<e:VerticalLayout gap="5" paddingBottom="10" paddingTop="0" paddingLeft="10" paddingRight="10"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="g_send" x="0" y="0">
+		<e:Image source="back_s_chat_png" x="0" y="0" blendMode="add"/>
+		<e:Image source="icon_chat_png" x="17" y="9" blendMode="add"/>
+		<e:Group id="g_system" width="470" y="16" x="67">
+			<e:Rect id="rect_system_mask" y="0" width="470" height="40" x="0" visible="false"/>
+		</e:Group>
+		<e:EditableText id="txt_chat" width="461" height="43" x="70" y="16" verticalAlign="middle" size="20" fontFamily="微软雅黑" textColor="0xFFFFFF"/>
+		<e:Button id="btn_send" label="按钮" x="537" y="17" skinName="BtnSkin" icon="btn_s_send_png" width="80" height="40"/>
+	</e:Group>
+</e:Skin>

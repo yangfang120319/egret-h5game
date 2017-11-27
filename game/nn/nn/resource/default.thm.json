@@ -1,0 +1,32 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/ui/VScrollBar_ListSkin.exml",
+    "resource/skins/components/ListSkin.exml",
+    "resource/skins/components/LoadingSkin.exml",
+    "resource/skins/components/game/Game_CardSkin.exml",
+    "resource/skins/components/game/Game_ChipSkin.exml",
+    "resource/skins/components/game/Game_ChooseSkin.exml",
+    "resource/skins/components/game/Game_ClockSkin.exml",
+    "resource/skins/components/game/Game_HeadSkin.exml",
+    "resource/skins/components/game/Game_SpecialResultSkin.exml",
+    "resource/skins/components/nn/NN_OverSkin.exml",
+    "resource/skins/components/nn/NN_ResultSkin.exml",
+    "resource/skins/components/nn/NN_SendCardSkin.exml",
+    "resource/skins/components/nn/NN_TableSkin.exml",
+    "resource/skins/components/nn/NN_ZhuangSkin.exml",
+    "resource/skins/panel/Panel_ChooseChipSkin.exml",
+    "resource/skins/panel/Panel_ChooseHeadSkin.exml",
+    "resource/skins/ui/btn/Btn_CloseSkin.exml",
+    "resource/skins/panel/Panel_EnterRoomSkin.exml",
+    "resource/skins/ui/com/Com_ShengFuSkin.exml",
+    "resource/skins/panel/Panel_NN_LuZiSkin.exml",
+    "resource/skins/panel/Panel_NN_PaiXingSkin.exml",
+    "resource/skins/panel/Panel_UpZhuangSkin.exml",
+    "resource/skins/scenes/SceneGame_NNSkin.exml",
+    "resource/skins/scenes/SceneLoadingSkin.exml",
+    "resource/skins/ui/item/Item_NN_PaiXingSkin.exml",
+    "resource/skins/ui/item/Item_UpZhuangSkin.exml"
+  ]
+}

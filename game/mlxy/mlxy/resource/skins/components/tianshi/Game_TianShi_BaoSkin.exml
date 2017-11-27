@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Game_TianShi_BaoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="228" height="215">
+	<e:Image id="img_bao" source="icon_ch_bao1_png" x="0" y="0"/>
+</e:Skin>

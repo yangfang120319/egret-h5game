@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_ChooseHeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="750" height="490">
+	<e:Image id="img_back" x="0" y="0" width="750" source="back_g_choosechip1_png" locked="true"/>
+	<e:Image y="-43" source="txt_txxz_ch_png" x="261" locked="true"/>
+	<e:Scroller right="35" left="35" skinName="ListSkin" top="30" bottom="20">
+		<e:Group id="g_head" x="65" y="43" width="620">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Image source="back_headlight_png" y="6" id="img_choose0" x="3"/>
+			<e:Image id="img_choose1" y="6" x="3" source="back_headlight_png" blendMode="add"/>
+			<ns1:Game_Head id="head0" x="30" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" y="30"/>
+			<ns1:Game_Head id="head1" x="195" scaleY="1.25" skinName="Game_HeadSkin" scaleX="1.25" y="30"/>
+			<ns1:Game_Head id="head2" scaleX="1.25" scaleY="1.25" skinName="Game_HeadSkin" x="360" y="30"/>
+			<ns1:Game_Head id="head3" scaleY="1.25" skinName="Game_HeadSkin" scaleX="1.25" x="525" y="30"/>
+			<ns1:Game_Head id="head4" scaleX="1.25" y="201" scaleY="1.25" skinName="Game_HeadSkin" x="30"/>
+			<ns1:Game_Head id="head5" x="195" scaleY="1.25" y="200" skinName="Game_HeadSkin" scaleX="1.25"/>
+			<ns1:Game_Head id="head6" scaleX="1.25" y="200" scaleY="1.25" skinName="Game_HeadSkin" x="360"/>
+			<ns1:Game_Head id="head7" scaleY="1.25" y="200" skinName="Game_HeadSkin" scaleX="1.25" x="525"/>
+			<ns1:Game_Head id="head8" scaleX="1.25" y="371" scaleY="1.25" skinName="Game_HeadSkin" x="30"/>
+			<ns1:Game_Head x="195" y="371" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head9"/>
+			<ns1:Game_Head x="360" y="371" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head10"/>
+			<ns1:Game_Head y="371" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head11" x="525"/>
+			<ns1:Game_Head x="30" y="542" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head12"/>
+			<ns1:Game_Head x="195" y="541" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head13"/>
+			<ns1:Game_Head x="360" y="541" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head14"/>
+			<ns1:Game_Head y="541" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head15" x="525"/>
+			<ns1:Game_Head x="30" y="712" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head16"/>
+			<ns1:Game_Head x="195" y="712" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head17"/>
+			<ns1:Game_Head x="360" y="712" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head18"/>
+			<ns1:Game_Head y="712" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head19" x="525"/>
+			<ns1:Game_Head x="30" y="883" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head20"/>
+			<ns1:Game_Head x="195" y="882" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head21"/>
+			<ns1:Game_Head x="360" y="882" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head22"/>
+			<ns1:Game_Head y="882" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head23" x="525"/>
+			<ns1:Game_Head x="30" y="1053" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head24"/>
+			<ns1:Game_Head x="195" y="1053" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head25"/>
+			<ns1:Game_Head x="360" y="1053" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head26"/>
+			<ns1:Game_Head y="1053" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head27" x="525"/>
+			<ns1:Game_Head x="30" y="1223" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head28"/>
+			<ns1:Game_Head y="1223" skinName="Game_HeadSkin" scaleX="1.25" scaleY="1.25" id="head29" x="195"/>
+			<e:Button id="btn_choose0" y="30" width="124" label="按钮" height="125" name="0" x="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_choose1" y="30" x="195" width="124" label="按钮" height="125" name="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_choose2" y="30" x="360" width="124" label="按钮" height="125" name="2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_choose3" y="30" width="124" label="按钮" height="125" name="3" x="525">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="200" id="btn_choose4" width="124" label="按钮" height="125" name="4" x="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="200" id="btn_choose5" width="124" label="按钮" height="125" name="5" x="195">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="200" id="btn_choose6" width="124" label="按钮" height="125" name="6" x="360">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="200" id="btn_choose7" width="124" label="按钮" height="125" name="7" x="525">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="370" x="29" width="124" label="按钮" height="125" name="8" id="btn_choose8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="370" x="195" width="124" label="按钮" height="125" name="9" id="btn_choose9">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="370" x="360" width="124" label="按钮" height="125" name="10" id="btn_choose10">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="370" x="526" width="124" label="按钮" height="125" name="11" id="btn_choose11">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="540" id="btn_choose12" width="124" label="按钮" height="125" name="12" x="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="540" id="btn_choose13" width="124" label="按钮" height="125" name="13" x="195">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="540" id="btn_choose14" width="124" label="按钮" height="125" name="14" x="360">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="540" id="btn_choose15" width="124" label="按钮" height="125" name="15" x="525">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="710" x="30" width="124" label="按钮" height="125" name="16" id="btn_choose16">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="710" x="195" width="124" label="按钮" height="125" name="17" id="btn_choose17">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="710" x="360" width="124" label="按钮" height="125" name="8" id="btn_choose18">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="710" x="525" width="124" label="按钮" height="125" name="19" id="btn_choose19">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="881" id="btn_choose20" width="124" label="按钮" height="125" name="20" x="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="881" id="btn_choose21" width="124" label="按钮" height="125" name="21" x="195">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="881" id="btn_choose22" width="124" label="按钮" height="125" name="22" x="360">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="881" id="btn_choose23" width="124" label="按钮" height="125" name="23" x="525">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="1051" x="30" width="124" label="按钮" height="125" name="24" id="btn_choose24">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="1051" x="195" width="124" label="按钮" height="125" name="25" id="btn_choose25">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="1051" x="360" width="124" label="按钮" height="125" name="26" id="btn_choose26">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="1051" x="525" width="124" label="按钮" height="125" name="27" id="btn_choose27">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="1221" id="btn_choose28" width="124" label="按钮" height="125" name="28" x="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button y="1221" id="btn_choose29" width="124" label="按钮" height="125" name="29" x="195">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="20" height="20">
+						<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

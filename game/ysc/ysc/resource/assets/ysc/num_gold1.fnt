@@ -1,0 +1,12 @@
+{"file":"num_gold1.png","frames":{
+".":{"x":17,"y":105,"w":5,"h":5,"offX":2,"offY":18,"sourceW":8,"sourceH":23},
+"0":{"x":0,"y":27,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"1":{"x":33,"y":79,"w":14,"h":24,"offX":1,"offY":0,"sourceW":16,"sourceH":25},
+"2":{"x":34,"y":0,"w":14,"h":24,"offX":1,"offY":0,"sourceW":16,"sourceH":25},
+"3":{"x":18,"y":0,"w":14,"h":25,"offX":1,"offY":0,"sourceW":16,"sourceH":25},
+"4":{"x":17,"y":54,"w":16,"h":23,"offX":0,"offY":1,"sourceW":16,"sourceH":25},
+"5":{"x":17,"y":79,"w":14,"h":24,"offX":1,"offY":0,"sourceW":16,"sourceH":25},
+"6":{"x":0,"y":54,"w":15,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"7":{"x":18,"y":27,"w":15,"h":23,"offX":0,"offY":1,"sourceW":16,"sourceH":25},
+"8":{"x":0,"y":0,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"9":{"x":0,"y":81,"w":15,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25}}}

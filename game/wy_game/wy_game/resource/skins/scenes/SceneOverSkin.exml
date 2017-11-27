@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneOverSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" horizontalCenter="0" verticalCenter="0" source="back_over_jpg" locked="true"/>
+	<e:Image source="icon_head_png" x="98.07" scaleX="0.55" scaleY="0.55" verticalCenter="-262.5" locked="true"/>
+	<e:Image id="img_over" source="txt_yr_png" x="113.07" scaleX="0.53" scaleY="0.53" verticalCenter="401" locked="true"/>
+	<e:Label id="txt_name" text="121" x="375" size="30" anchorOffsetX="0" lineSpacing="6" fontFamily="Microsoft YaHei" height="30" verticalCenter="-347" textColor="0x464140" locked="true"/>
+	<e:Button id="btn_over" label="Button" left="0" right="0" top="0" bottom="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="20" height="20">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="g_over" left="0" right="0" top="0" bottom="0">
+		<e:Rect scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillAlpha="0.7" locked="true"/>
+		<e:Button id="btn_share" label="Button" horizontalCenter="0" verticalCenter="80">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="382" height="102">
+			<e:Image source="btn_share_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btn_again" label="Button" horizontalCenter="0" verticalCenter="-80">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="382" height="102">
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_again_png"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image source="img_mask_png" left="0" right="0" top="0" bottom="0" scale9Grid="3,3,24,24" id="img_mask" x="10" y="10" locked="true"/>
+	<e:Label id="txt_tips" text="...奥尔菲斯先生，催眠诊断结束了，醒醒，可以起来拿结果了" fontFamily="微软雅黑" size="35" anchorOffsetX="0" width="564" textAlign="center" verticalCenter="0" horizontalCenter="0" lineSpacing="10" locked="true"/>
+	<e:Button bottom="0" label="按钮" horizontalCenter="0" id="btn_next" x="10" y="10" skinName="Btn_NextSkin"/>
+</e:Skin>

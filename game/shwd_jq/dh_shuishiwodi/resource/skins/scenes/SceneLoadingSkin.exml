@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneLoadingSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1136">
+	<e:Image id="img_back" source="back_l_loading_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Group id="g_top" y="0" width="640" horizontalCenter="0" locked="true">
+		<e:Image source="back_l_top_png" x="68" y="0"/>
+		<e:Image source="txt_l_shwd_png" y="125" x="94"/>
+		<e:Image source="icon_l_person_png" y="320" x="209"/>
+		<e:Image source="icon_l_xingxing0_png" x="93" y="500"/>
+		<e:Image source="icon_l_xingxing1_png" y="401" x="515"/>
+		<e:Image source="icon_l_question_png" y="327" x="427"/>
+	</e:Group>
+	<e:Group id="g_loading" horizontalCenter="0" bottom="100">
+		<e:ProgressBar id="pb_loading" skinName="LoadingProgressBarSkin" value="80" x="0" y="31"/>
+		<e:Image source="loading_l_wmjz_png" x="127" y="0"/>
+	</e:Group>
+	<e:Image source="icon_logo_png" scaleX="0.6" scaleY="0.6" horizontalCenter="0" verticalCenter="180"/>
+</e:Skin>

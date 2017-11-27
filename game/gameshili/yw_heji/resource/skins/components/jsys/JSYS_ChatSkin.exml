@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_ChatSkin" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="470">
+	<e:Scroller bottom="50" id="scroller" left="0" top="0" x="20" right="0" y="30" skinName="ListSkin" locked="true">
+		<e:Group id="g_detail" width="470">
+			<e:layout>
+				<e:VerticalLayout gap="10" paddingBottom="10" paddingTop="10" paddingLeft="20" paddingRight="20"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="g_send" x="9" y="211" locked="true">
+		<e:Image source="back_jsys_chat_png" x="0" y="0"/>
+		<e:Label id="txt_tips" text="点击输入文字聊天" x="43" y="12" textColor="0x4B485C" fontFamily="微软雅黑" size="20"/>
+		<e:Button id="btn_send" label="按钮" x="357" y="1" skinName="BtnSkin" icon="btn_jsys_send_png" width="95" height="41"/>
+		<e:Button id="btn_biaoqing" label="按钮" x="5" y="6" skinName="BtnSkin" width="64" height="64" icon="icon_bq_1_png" scaleX="0.55" scaleY="0.55"/>
+		<e:Group id="g_show_bq" width="310" y="5" height="34" x="42"/>
+		<e:EditableText id="txt_chat" width="310" height="34" x="42" y="5" size="16" fontFamily="微软雅黑" verticalAlign="middle"/>
+	</e:Group>
+	<e:Group id="g_system" x="0" y="0" width="470">
+		<e:Rect x="0" width="470" y="0" height="40" fillAlpha="0.7"/>
+		<e:Rect id="rect_system_mask" height="40" width="470" x="0" y="0" visible="false"/>
+	</e:Group>
+</e:Skin>

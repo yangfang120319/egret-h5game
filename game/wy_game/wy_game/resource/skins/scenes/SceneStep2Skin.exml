@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneStep2Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image verticalCenter="0" horizontalCenter="0" id="img_back" x="10" y="10" source="back_step2_jpg" locked="true"/>
+	<e:Button id="btn_open" label="按钮" height="321" width="459" verticalCenter="3.5" x="233" skinName="Btn_OpenSkin" anchorOffsetY="0" anchorOffsetX="0">
+	</e:Button>
+	<e:Label id="txt_tips" text="昨天下午我收到了一封没有署名的委托信" fontFamily="微软雅黑" width="489" size="40" lineSpacing="15" textAlign="center" horizontalCenter="0.5" bottom="40" locked="true"/>
+	<e:Image source="img_mask_png" left="0" bottom="0" top="0" id="img_mask" scale9Grid="3,3,24,24" right="0" y="20" x="20" locked="true" visible="false"/>
+	<e:Group id="g_xf" left="0" right="0" top="0" bottom="0" visible="false" locked="true">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="back_xj_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Button y="20" horizontalCenter="0" id="btn_next" bottom="0" label="按钮" x="20" skinName="Btn_NextSkin" locked="true">
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_OverSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="860" height="399">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="g_total" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="g_back" x="0" y="0" locked="true">
+			<e:Image source="back_mlxyyh_over_png" x="0" y="0"/>
+			<e:Image source="txt_g_js_ch_png" x="344" y="-34"/>
+			<e:Image source="txt_mlxyyh_bjndxz_ch_png" x="359" y="165"/>
+			<e:Image source="txt_mlxyyh_bjzjjg_ch_png" x="366" y="52"/>
+		</e:Group>
+		<e:Group id="g_zhong" x="60" y="77.87878787878788">
+			<e:Image source="back_g_heise_png" x="0" y="0" scale9Grid="6,5,20,21" width="740" height="84"/>
+			<e:Image source="icon_mlxyyh_6_0_png" y="4.125" x="331" scaleX="0.75" scaleY="0.75" id="img_zhong0"/>
+			<e:Image source="icon_mlxyyh_6_0_png" y="4" scaleX="0.75" scaleY="0.75" id="img_zhong1" x="412"/>
+			<e:Image id="img_zhong2" y="4" scaleX="0.75" scaleY="0.75" source="icon_mlxyyh_6_0_png" x="250"/>
+		</e:Group>
+		<e:Group id="g_yazhu" x="60" y="190" locked="true">
+			<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="740" height="120" x="0"/>
+			<e:Image source="icon_mlxyyh_6_0_png" y="21" scaleY="0.75" scaleX="0.75" x="651"/>
+			<e:Image y="21" scaleY="0.75" scaleX="0.75" x="544" source="icon_mlxyyh_5_0_png"/>
+			<e:Image y="21" scaleY="0.75" x="438" scaleX="0.75" source="icon_mlxyyh_4_0_png"/>
+			<e:Image y="21" scaleY="0.75" scaleX="0.75" x="331" source="icon_mlxyyh_3_0_png"/>
+			<e:Image y="21" scaleY="0.75" x="225" scaleX="0.75" source="icon_mlxyyh_2_0_png"/>
+			<e:Image y="21" scaleY="0.75" scaleX="0.75" x="118" source="icon_mlxyyh_1_0_png"/>
+			<e:Image y="21" scaleY="0.75" x="12" scaleX="0.75" source="icon_mlxyyh_0_0_png"/>
+			<e:Group x="7" y="91">
+				<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="87" height="22" x="0"/>
+				<e:Label id="txt_yazhu0" text="222222" x="3" y="2" textColor="0xFBC92F" fontFamily="微软雅黑" bold="true" size="18" width="81" textAlign="center"/>
+			</e:Group>
+			<e:Group y="91" x="114">
+				<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="87" height="22" x="0"/>
+				<e:Label id="txt_yazhu1" y="2" textColor="0xFBC92F" text="222222" fontFamily="微软雅黑" textAlign="center" bold="true" width="81" size="18" x="3"/>
+			</e:Group>
+			<e:Group y="91" x="220">
+				<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="87" height="22" x="0"/>
+				<e:Label id="txt_yazhu2" y="2" textColor="0xFBC92F" text="222222" fontFamily="微软雅黑" textAlign="center" bold="true" width="81" size="18" x="3"/>
+			</e:Group>
+			<e:Group y="91" x="327">
+				<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="87" height="22" x="0"/>
+				<e:Label id="txt_yazhu3" y="2" textColor="0xFBC92F" text="222222" fontFamily="微软雅黑" textAlign="center" bold="true" width="81" size="18" x="3"/>
+			</e:Group>
+			<e:Group y="91" x="433">
+				<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="87" height="22" x="0"/>
+				<e:Label id="txt_yazhu4" y="2" textColor="0xFBC92F" text="222222" fontFamily="微软雅黑" textAlign="center" bold="true" width="81" size="18" x="3"/>
+			</e:Group>
+			<e:Group y="91" x="540">
+				<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="87" height="22" x="0"/>
+				<e:Label id="txt_yazhu5" y="2" textColor="0xFBC92F" text="222222" fontFamily="微软雅黑" textAlign="center" bold="true" width="81" size="18" x="3"/>
+			</e:Group>
+			<e:Group y="91" x="646">
+				<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="87" height="22" x="0"/>
+				<e:Label id="txt_yazhu6" y="2" textColor="0xFBC92F" text="222222" fontFamily="微软雅黑" textAlign="center" bold="true" width="81" size="18" x="3"/>
+			</e:Group>
+			<e:Group x="32" y="6">
+				<e:BitmapLabel y="0" text="x4" font="num_mlxyyh_peilv_fnt" x="536" scaleX="0.5" scaleY="0.5"/>
+				<e:BitmapLabel y="0" text="x48" font="num_mlxyyh_peilv_fnt" x="0" scaleX="0.5" scaleY="0.5"/>
+				<e:BitmapLabel y="0" text="x48" font="num_mlxyyh_peilv_fnt" x="106" scaleX="0.5" scaleY="0.5"/>
+				<e:BitmapLabel y="0" text="x24" font="num_mlxyyh_peilv_fnt" x="212" scaleX="0.5" scaleY="0.5"/>
+				<e:BitmapLabel y="0" text="x12" font="num_mlxyyh_peilv_fnt" x="321" scaleX="0.5" scaleY="0.5"/>
+				<e:BitmapLabel y="0" text="x6" font="num_mlxyyh_peilv_fnt" x="431" scaleX="0.5" scaleY="0.5"/>
+				<e:BitmapLabel y="0" text="x2" font="num_mlxyyh_peilv_fnt" x="643" scaleX="0.5" scaleY="0.5"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="g_over" x="60" y="317.8787878787879" locked="true">
+			<e:Image source="back_g_heise_png" y="0" scale9Grid="6,5,20,21" width="740" height="36" x="0"/>
+			<e:Label text="本轮您的盈利：" x="206" y="5" fontFamily="微软雅黑" bold="true" size="25" textColor="0xBD9821"/>
+			<e:Label id="txt_win_gold" y="5" text="+9292992" fontFamily="微软雅黑" bold="true" size="25" x="383" textColor="0xFCC92F" width="214"/>
+		</e:Group>
+		<e:Label id="txt_type" x="634" y="89" fontFamily="微软雅黑" textColor="0xBD9821" bold="true" size="22" width="110" textAlign="center" height="22"/>
+		<e:Label id="txt_add_gold" y="125" textColor="0xFCC92F" fontFamily="微软雅黑" bold="true" width="196" size="25" x="591" textAlign="center" height="25"/>
+	</e:Group>
+</e:Skin>

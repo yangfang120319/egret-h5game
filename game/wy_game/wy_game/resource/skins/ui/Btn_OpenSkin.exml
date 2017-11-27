@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn_OpenSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="btn_click_down_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="btn_click_up_png" horizontalCenter="0" verticalCenter="0" includeIn="up"/>
+</e:Skin>

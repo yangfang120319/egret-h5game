@@ -1,0 +1,5 @@
+{"file":"game_back.png","frames":{
+"back_g_gold_png":{"x":0,"y":263,"w":747,"h":131,"offX":0,"offY":0,"sourceW":747,"sourceH":131},
+"back_g_jl_png":{"x":460,"y":0,"w":268,"h":243,"offX":0,"offY":0,"sourceW":268,"sourceH":243},
+"back_g_message_png":{"x":730,"y":0,"w":243,"h":122,"offX":0,"offY":0,"sourceW":243,"sourceH":122},
+"back_g_tipsbox_png":{"x":0,"y":0,"w":458,"h":261,"offX":0,"offY":0,"sourceW":458,"sourceH":261}}}

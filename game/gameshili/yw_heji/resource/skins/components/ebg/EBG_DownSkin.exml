@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_DownSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image source="back_ebg_down_jpg" y="0" x="0" locked="true"/>
+	<e:Group id="g_gold" y="93" x="347">
+		<e:Group y="-2.2737367544323206e-13" x="-0.06060606060606233">
+			<e:Image y="0" scale9Grid="22,21,4,2" width="260" alpha="0.8" x="0" source="back_s_gold_png" scaleX="0.75" scaleY="0.75"/>
+			<e:Image y="0" x="1" source="icon_s_gold_png"/>
+		</e:Group>
+		<e:BitmapLabel id="txt_gold" y="8" text="122333.6w" width="155" x="48" font="font_ebg_gold_fnt" height="26"/>
+	</e:Group>
+	<e:Group id="g_name" y="93" x="140" locked="true">
+		<e:Image y="0" width="250" x="0" scale9Grid="26,22,17,5" scaleX="0.75" scaleY="0.75" alpha="0.8" source="back_s_gold_png"/>
+		<e:Label id="txt_name" y="7" height="22" text="用户名字" fontFamily="微软雅黑" textAlign="center" width="173" size="22" x="7"/>
+	</e:Group>
+	<e:Button id="btn_patterns" label="按钮" y="5" x="553" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down" width="82" height="62" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Image source="btn_ebg_patterns_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_trend" label="按钮" y="71" x="553" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down" width="82" height="62" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Image source="btn_ebg_trend_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:EBG_Chip id="chip" x="137" y="9" skinName="EBG_ChipSkin"/>
+	<ns1:Head id="head" x="4" y="9" skinName="EBG_HeadSkin" width="120" height="120"/>
+</e:Skin>

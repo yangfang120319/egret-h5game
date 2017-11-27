@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameHeadsSkin" width="750" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_heads" left="0" right="0" top="0" bottom="0">
+		<ns1:HeadGame x="2" skinName="HeadGameSkin" verticalCenter="0.5" y="8" scaleX="1" scaleY="1"/>
+		<ns1:HeadGame x="63" skinName="HeadGameSkin" verticalCenter="0.5" y="8" scaleX="1" scaleY="1"/>
+		<ns1:HeadGame x="127" skinName="HeadGameSkin" verticalCenter="0.5" y="8" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

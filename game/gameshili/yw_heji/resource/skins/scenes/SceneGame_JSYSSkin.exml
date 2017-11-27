@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneGame_JSYSSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="g_back" x="0" y="0" locked="true">
+		<e:Image source="back_jsys_jpg" x="0" y="0"/>
+		<e:Image source="back_jsys_lightline_png" y="86" x="12" skewY="180"/>
+		<e:Image source="back_jsys_lightline_png" y="86" x="628"/>
+		<e:Image source="icon_s_gold_png" x="371" y="724"/>
+		<e:Image source="txt_sjys_yd_png" x="17" y="713"/>
+		<e:Image source="txt_jsys_dz_png" x="41" y="828"/>
+		<e:Label id="txt_beilv" text="x1000" x="17" y="870" textColor="0xF9E9CB" size="25" textAlign="center" fontFamily="微软雅黑" width="105" height="25"/>
+		<e:BitmapLabel id="txt_wingold" x="88" y="728" text="12334" font="font_jsys_gold_fnt" width="167" textAlign="right" height="27"/>
+		<e:BitmapLabel id="txt_gold" y="729" text="12334" font="font_jsys_gold_fnt" textAlign="right" width="222" x="383" height="27"/>
+	</e:Group>
+	<e:Group id="g_box" x="12" y="87">
+		<ns1:JSYS_Chat id="jsys_chat" y="193" skinName="JSYS_ChatSkin" x="73"/>
+		<ns1:JSYS_History id="jsys_history" y="454" skinName="JSYS_HistorySkin" x="70"/>
+		<ns1:JSYS_Zhuang id="jsys_zhuang" y="84" skinName="JSYS_ZhuangSkin" x="58"/>
+		<ns1:JSYS_Box id="jsys_box" x="0" y="0" skinName="JSYS_BoxSkin"/>
+	</e:Group>
+	<ns1:JSYS_Time id="jsys_time" x="284" y="722" skinName="JSYS_TimeSkin"/>
+	<ns1:JSYS_Up id="jsys_up" x="0" y="0" skinName="JSYS_UpSkin" locked="true"/>
+	<e:Group id="g_choose" x="0" y="807">
+		<ns1:JSYS_Choose id="jsys_choose" x="0" y="0" skinName="JSYS_ChooseSkin"/>
+		<e:Button id="btn_change" label="按钮" x="5" y="100">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="btn_jsys_change_disabled_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_change_down_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_change_up_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:JSYS_Btn id="jsys_btn" x="503" y="3" skinName="JSYS_BtnSkin"/>
+	</e:Group>
+	<e:Group id="g_genzhu" x="0" y="808" locked="true">
+		<e:Rect height="328" width="640" fillAlpha="0.7" x="0" y="0"/>
+		<e:Label id="txt_tips" text="自动跟注中，剩余6轮" y="88" fontFamily="微软雅黑" x="176"/>
+		<e:Button id="btn_no" label="按钮" x="504" y="110" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down">
+					<e:Image source="btn_jsys_down_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_up_png" includeIn="up" x="0" y="0"/>
+					<e:Label text="取消" y="6" fontFamily="微软雅黑" bold="true" size="25" textColor="0xF9E9CB" horizontalCenter="0" horizontalCenter.down="0" y.down="8"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<ns1:JSYS_BiaoQing id="jsys_biaoqing" x="0" skinName="JSYS_BiaoQingSkin" y="780" locked="true" visible="false"/>
+	<ns1:JSYS_BaoZhuang y="315" skinName="JSYS_BaoZhuangSkin" x="20" locked="true" visible="false"/>
+</e:Skin>

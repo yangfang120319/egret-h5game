@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeadSkin" width="140" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="hide,show" >
+	<e:Image source="back_s_head_mask_png" includeIn="hide" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Image source="back_s_head_png" horizontalCenter="0" verticalCenter="0" includeIn="show" locked="true"/>
+	<e:Image id="img_head" width="120" height="120" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Image id="img_mask" source="back_s_head_mask_png" horizontalCenter="0" verticalCenter="0" locked="true" visible="false"/>
+	<e:Component id="com_sex" x="118" y="-19" rotation="30" scaleX="1.2" scaleY="1.2" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="0,1" width="34" height="49">
+				<e:Image source="icon_s_sex1_png" includeIn="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="icon_s_sex0_png" includeIn="0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Rect id="rect_mask" width="125" height="125" x="7" y="7" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="25" fillAlpha="0.6" visible="false" locked="true"/>
+	<e:Label id="txt_name" text="Label" x="12.63" y="140.5" size="20" anchorOffsetX="0" width="114.75" textAlign="center" locked="true" visible="false"/>
+</e:Skin>

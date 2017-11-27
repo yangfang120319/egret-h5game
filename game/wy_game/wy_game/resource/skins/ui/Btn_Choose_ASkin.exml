@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btn_Choose_ASkin" width="610" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down">
+	<e:Image source="btn_choose_up0_png" includeIn="up" x="0" scaleX="1" verticalCenter="0"/>
+	<e:Label id="labelDisplay" text="" width="525.33" size="30" fontFamily="微软雅黑" lineSpacing="15" verticalAlign="bottom" textAlign="left" x="66.65" anchorOffsetX="0" verticalCenter="0" height="30"/>
+	<e:Image source="btn_choose_down0_png" includeIn="down" x="0" verticalCenter="0"/>
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+</e:Skin>

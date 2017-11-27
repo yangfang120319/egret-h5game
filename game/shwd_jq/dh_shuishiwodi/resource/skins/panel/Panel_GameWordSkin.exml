@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_GameWordSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_back" left="0" right="0" top="0" bottom="0" locked="true">
+		<e:Image id="img_bacck" source="back_g_panel_desc_png" x="1" y="1" height="366" width="526" scale9Grid="12,39,77,247"/>
+		<e:Label horizontalCenter="0.5" y="22" textColor="0xB45827" fontFamily="微软雅黑" size="40" x="10" text="你的词语"/>
+		<e:Image source="back_g_p_hk_png" y="100" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Label id="txt_word" y="150" textColor="0xB45827" text="越野摩托车" fontFamily="微软雅黑" size="50" horizontalCenter="0"/>
+	<e:Button id="btn_yes" label="按钮" horizontalCenter="0.5" bottom="22">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="222" height="74">
+	<e:Image source="btn_g_orange0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

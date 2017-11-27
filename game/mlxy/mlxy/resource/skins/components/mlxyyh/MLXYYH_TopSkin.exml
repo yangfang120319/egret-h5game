@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_TopSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1138" height="65">
+	<e:Image source="back_mlxyyh_top_png" x="0" y="0"/>
+	<e:Button id="btn_back" y="-10" label="按钮" x="3" icon="btn_mlxyyh_fanhui_txt_ch_png">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="160" height="81">
+				<e:Group horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9">
+					<e:Image source="btn_mlxyyh_fanhui_icon_png" x="0" y="7"/>
+					<e:Image id="iconDisplay" source="btn_mlxyyh_fanhui_txt_ch_png" x="61" y="7"/>
+				</e:Group>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_set" y="-7" label="按钮" x="974" icon="btn_mlxyyh_shezhi_txt_ch_png">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="160" height="81">
+				<e:Group horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9">
+					<e:Image source="btn_mlxyyh_shezhi_icon_png" x="0" y="0"/>
+					<e:Image id="iconDisplay" source="btn_mlxyyh_shezhi_txt_ch_png" x="61" y="5"/>
+				</e:Group>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_EnterRoomSkin" xmlns:e="http://ns.egret.com/eui" width="606" height="456">
+	<e:Group x="0" y="0" scaleX="1.2" scaleY="1.2">
+		<e:Group x="0" y="0">
+			<e:Image x="0" y="0" scale9Grid="47,79,286,12" height="380" source="back_g_title2_png"/>
+			<e:Image source="txt_g_srf_ch_png" y="15" x="195"/>
+		</e:Group>
+		<e:Group x="10" y="82">
+			<e:Image source="back_g_huise_png" y="0" scale9Grid="12,13,5,5" width="251" height="211" x="0"/>
+			<e:Image source="back_g_heise_png" scale9Grid="9,8,14,16" y="104" width="32" x="91"/>
+			<e:Image source="back_g_heise_png" scale9Grid="9,8,14,16" y="104" width="32" x="131"/>
+			<e:Image source="back_g_heise_png" scale9Grid="9,8,14,16" y="104" width="32" x="170"/>
+			<e:Image source="back_g_heise_png" scale9Grid="9,8,14,16" y="104" width="32" x="209"/>
+			<e:Image source="back_g_heise_png" scale9Grid="9,8,14,16" y="104" width="32" x="52"/>
+			<e:Image source="back_g_heise_png" x="13" y="104" scale9Grid="9,8,14,16" width="32"/>
+			<e:Label text="输入房间号：" x="72" y="76" textColor="0x131313" fontFamily="微软雅黑" size="18"/>
+			<e:BitmapLabel id="txt_number0" x="16.75" y="108.45" font="num_game_jianpan_fnt" text="8" scaleX="0.7" scaleY="0.7" width="35" textAlign="center"/>
+			<e:BitmapLabel id="txt_number1" x="55.75" y="108.45" text="8" font="num_game_jianpan_fnt" textAlign="center" width="35" scaleY="0.7" scaleX="0.7"/>
+			<e:BitmapLabel id="txt_number2" y="108.45" text="8" font="num_game_jianpan_fnt" textAlign="center" scaleX="0.7" width="35" scaleY="0.7" x="94.75"/>
+			<e:BitmapLabel id="txt_number3" x="134.75" y="108.45" text="8" font="num_game_jianpan_fnt" scaleX="0.7" width="35" scaleY="0.7" textAlign="center"/>
+			<e:BitmapLabel id="txt_number4" y="108.45" text="8" font="num_game_jianpan_fnt" scaleX="0.7" textAlign="center" width="35" scaleY="0.7" x="173.75"/>
+			<e:BitmapLabel id="txt_number5" x="212.75" y="108.45" text="8" font="num_game_jianpan_fnt" textAlign="center" width="35" scaleY="0.7" scaleX="0.7"/>
+		</e:Group>
+		<e:Group x="267" y="77">
+			<e:Button id="btn_number1" label="1" x="0" y="0" name="1">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number2" y="0" label="2" x="80" name="2">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number3" y="0" label="3" x="160" name="3">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number7" label="7" x="0" y="149" name="7">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number8" y="149" label="8" x="80" name="8">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number0" y="224" label="0" x="80" name="0">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number4" label="4" x="0" y="75" name="4">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="-2" verticalCenter="0.5"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number5" y="75" label="5" x="80" name="5">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number9" y="149" label="9" x="160" name="9">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_number6" y="75" label="6" x="160" name="6">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:BitmapLabel id="labelDisplay" font="num_game_jianpan_fnt" text="1" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_delete" y="224" x="160">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:Image source="txt_g_sc_ch_png" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_again" y="224" x="0">
+				<e:skinName>
+					<e:Skin states="up,down" width="72" height="72" xmlns:w="http://ns.egret.com/wing">
+						<e:Image source="btn_g_jianpan1_png" includeIn="down" x="0" y="0"/>
+						<e:Image source="btn_g_jianpan0_png" includeIn="up" y="0" x="0"/>
+						<e:Image source="txt_g_cs_ch_png" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="btn_createroom" label="按钮" y="304" x="10">
+			<e:skinName>
+				<e:Skin states="up,down" width="246" height="66" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+					<e:Image source="btn_g_chuangjian1_png" horizontalCenter="0" verticalCenter="0" includeIn="down"/>
+					<e:Image source="btn_g_chuangjian0_png" horizontalCenter="0" verticalCenter="0" includeIn="up"/>
+					<e:Image horizontalCenter="0" verticalCenter="0" source="btn_g_cjsrf_ch_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="4" icon="btn_g_close_png" skinName="Btn_CloseSkin" id="btn_close" label="按钮" x="439"/>
+	</e:Group>
+</e:Skin>

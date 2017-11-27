@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_NN_PaiXingSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_back" fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="img_back" width="352" height="558" verticalCenter="33" left="0" source="back_g_paixing_png" scale9Grid="7,31,31,29"/>
+	<e:Scroller skinName="ListSkin" width="345" height="537" y="83" x="0">
+		<e:List id="list" itemRendererSkinName="Item_NN_PaiXingSkin" x="0" width="240" verticalCenter="0" height="430">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object beishu="4" itemname="txt_nn_px_ndg_png" itemicon="icon_nn_paixing12_png"/>
+					<e:Object beishu="3" itemname="txt_nn_px_dzn_png" itemicon="icon_nn_paixing11_png"/>
+					<e:Object beishu="2" itemname="txt_nn_px_nn_png" itemicon="icon_nn_paixing10_png"/>
+					<e:Object beishu="1" itemname="txt_nn_px_n9_png" itemicon="icon_nn_paixing9_png"/>
+					<e:Object beishu="1" itemname="txt_nn_px_n6_png" itemicon="icon_nn_paixing6_png"/>
+					<e:Object beishu="1" itemname="txt_nn_px_n3_png" itemicon="icon_nn_paixing3_png"/>
+					<e:Object beishu="1" itemname="txt_nn_px_n1_png" itemicon="icon_nn_paixing1_png"/>
+					<e:Object beishu="1" itemname="txt_nn_px_mn_png" itemicon="icon_nn_paixing0_png"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="justify" gap="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

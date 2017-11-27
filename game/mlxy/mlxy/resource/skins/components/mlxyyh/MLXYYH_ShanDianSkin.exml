@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_ShanDianSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="310" height="500">
+	<e:Image id="img_shan" x="0" y="0" source="icon_mlxyyh_sd1_png"/>
+</e:Skin>

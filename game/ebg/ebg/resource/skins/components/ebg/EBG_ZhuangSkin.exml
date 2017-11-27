@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_ZhuangSkin" width="142" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:Game_Mahjong id="mahjong0" skinName="Game_MahjongSkin" x="0" y="0" visible="false"/>
+	<ns1:Game_Mahjong id="mahjong1" skinName="Game_MahjongSkin" x="71" y="0" visible="false"/>
+	<ns1:EBG_Result id="result" x="-15" y="52" skinName="EBG_ResultSkin" visible="false"/>
+</e:Skin>

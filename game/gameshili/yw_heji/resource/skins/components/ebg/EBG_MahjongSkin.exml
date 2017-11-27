@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_MahjongSkin" states="close,open" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_mahjong" source="icon_mahjong1_1_png" includeIn="open" x="0" y="0"/>
+	<e:Image id="img_back" includeIn="close" y="0" source="icon_mahjong_back_png" x="0"/>
+</e:Skin>

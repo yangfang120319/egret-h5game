@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_LuZiSkin" xmlns:e="http://ns.egret.com/eui" width="380" height="207">
+	<e:Image source="back_ysc_luzi_png" x="0" y="0"/>
+</e:Skin>

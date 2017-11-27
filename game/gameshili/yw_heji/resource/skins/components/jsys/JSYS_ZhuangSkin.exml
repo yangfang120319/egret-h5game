@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_ZhuangSkin" width="500" height="111" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_zhuanglist" y="-257" x="9" locked="true" visible="false">
+		<e:Group x="0" y="0">
+			<e:Image source="back_jsys_zhuanglist_png" y="0" x="0" scale9Grid="60,45,362,273"/>
+		</e:Group>
+		<e:Scroller skinName="ListSkin" width="480" height="318" y="39">
+			<e:List id="list" itemRendererSkinName="Item_JSYS_ZhuangListSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="5" horizontalAlign="justify" paddingLeft="10" paddingRight="10" paddingTop="5" paddingBottom="5"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Rect id="rect_mask" height="332" width="497" x="1" y="109" locked="true" visible="false"/>
+	<e:Group id="g_back" x="0" y="0">
+		<e:Image source="back_jsys_upzhuang_png" x="0" y="0" scale9Grid="14,14,39,40" width="500"/>
+		<e:Image source="txt_jsys_zj_png" x="36" y="32"/>
+		<e:Image source="icon_jsys_gold_png" y="66" x="255"/>
+	</e:Group>
+	<e:Group id="g_vip" x="150" y="71">
+		<e:Image source="back_jsys_gold_png" x="0" y="0" scale9Grid="20,14,25,2" width="89"/>
+		<e:Image y="5.5" id="img_vip" source="txt_s_vip12_png" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="g_gold" x="307" y="70">
+		<e:Image source="back_jsys_gold_png" scale9Grid="20,14,25,2" y="0" width="160" x="0"/>
+		<e:BitmapLabel id="txt_gold" x="8" y="2" font="font_jsys_gold_fnt" text="1499.89y" width="144" height="27"/>
+	</e:Group>
+	<e:Label y="38" text="用户昵称" fontFamily="微软雅黑" id="txt_name" width="166" size="20" x="159"/>
+	<e:Label id="txt_num" y="38" text="剩余局数:7" fontFamily="微软雅黑" width="143" size="20" x="316.5" textColor="0xF5C208" textAlign="center"/>
+	<e:Label id="txt_zhuang_times" text="排庄名次:1" x="316" y="8" textColor="0x0FAE1C" fontFamily="微软雅黑" size="19" width="144" textAlign="center"/>
+	<ns1:Head id="head" x="71" y="30" skinName="HeadSkin" scaleX="0.55" scaleY="0.55"/>
+	<e:Button id="btn" label="按钮" left="0" right="0" top="0" bottom="0" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="100" height="100">
+	<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

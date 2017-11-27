@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_ChooseSkin" width="640" xmlns:e="http://ns.egret.com/eui" height="306">
+	<e:Group x="7" y="14">
+		<e:Group x="131" y="24">
+			<e:BitmapLabel id="txt_total11" x="0" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" width="115" scaleY="0.7" textAlign="right"/>
+			<e:BitmapLabel id="txt_total1" x="91" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" width="115" scaleY="0.7" scaleX="0.7"/>
+			<e:BitmapLabel id="txt_total0" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" scaleX="0.7" width="115" scaleY="0.7" x="182"/>
+			<e:BitmapLabel id="txt_total10" x="273" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" width="115" scaleY="0.7" textAlign="right"/>
+		</e:Group>
+		<e:Group x="131" y="-2">
+			<e:BitmapLabel id="txt_user11" x="0" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" width="115" scaleY="0.7" scaleX="0.7"/>
+			<e:BitmapLabel id="txt_user1" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" scaleX="0.7" width="115" scaleY="0.7" x="91"/>
+			<e:BitmapLabel id="txt_user0" x="182" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" width="115" scaleY="0.7" textAlign="right"/>
+			<e:BitmapLabel id="txt_user10" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" textAlign="right" width="115" scaleY="0.7" x="273"/>
+		</e:Group>
+		<e:Group x="-4" y="181">
+			<e:BitmapLabel id="txt_total9" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" textAlign="right" width="115" scaleY="0.7" x="0"/>
+			<e:BitmapLabel id="txt_total8" x="77" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" width="115" scaleY="0.7" scaleX="0.7"/>
+			<e:BitmapLabel id="txt_total7" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" scaleX="0.7" width="115" scaleY="0.7" x="156"/>
+			<e:BitmapLabel id="txt_total6" x="234" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" width="115" scaleY="0.7" textAlign="right"/>
+			<e:BitmapLabel id="txt_total2" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" textAlign="right" width="115" scaleY="0.7" x="312"/>
+			<e:BitmapLabel id="txt_total3" x="389" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" width="115" scaleY="0.7" scaleX="0.7"/>
+			<e:BitmapLabel id="txt_total4" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" scaleX="0.7" width="115" scaleY="0.7" x="467"/>
+			<e:BitmapLabel id="txt_total5" x="545" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" width="115" scaleY="0.7" textAlign="right"/>
+		</e:Group>
+		<e:Group x="-4" y="155">
+			<e:BitmapLabel id="txt_user9" x="0" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" width="115" scaleY="0.7" scaleX="0.7"/>
+			<e:BitmapLabel id="txt_user8" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" scaleX="0.7" width="115" scaleY="0.7" x="77"/>
+			<e:BitmapLabel id="txt_user7" x="156" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" width="115" scaleY="0.7" textAlign="right"/>
+			<e:BitmapLabel id="txt_user6" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" textAlign="right" width="115" scaleY="0.7" x="234"/>
+			<e:BitmapLabel id="txt_user2" x="312" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" width="115" scaleY="0.7" scaleX="0.7"/>
+			<e:BitmapLabel id="txt_user3" y="0" text="0" font="font_jsys_gold_fnt" textAlign="right" scaleX="0.7" width="115" scaleY="0.7" x="389"/>
+			<e:BitmapLabel id="txt_user4" x="467" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" width="115" scaleY="0.7" textAlign="right"/>
+			<e:BitmapLabel id="txt_user5" y="0" text="0" font="font_jsys_gold_fnt" scaleX="0.7" textAlign="right" width="115" scaleY="0.7" x="545"/>
+		</e:Group>
+	</e:Group>
+	<e:Group x="140" y="61">
+		<e:Button id="btn_choose10" y="0" label="按钮" x="272" name="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled10_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down10_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up10_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose1" y="0" label="按钮" x="91" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled1_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down1_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up1_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose0" y="1" label="按钮" x="181" name="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled0_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down0_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up0_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose11" y="1" label="按钮" x="0" name="11">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled11_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down11_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up11_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group x="10" y="219">
+		<e:Button id="btn_choose9" y="0" label="按钮" x="0" name="9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled9_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down9_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up9_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose8" y="0" label="按钮" x="78" name="8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled8_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down8_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up8_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose7" y="0" label="按钮" x="156" name="7">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled7_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down7_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up7_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose6" y="0" label="按钮" x="234" name="6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled6_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down6_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up6_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose2" y="0" label="按钮" x="312" name="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled2_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down2_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up2_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose3" y="0" label="按钮" x="390" name="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled3_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down3_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up3_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose4" y="0" label="按钮" x="468" name="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled4_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down4_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up4_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose5" y="0" label="按钮" x="546" name="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_jsys_choose_disabled5_png" includeIn="disabled" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_down5_png" includeIn="down" x="0" y="0"/>
+					<e:Image source="btn_jsys_choose_up5_png" includeIn="up" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

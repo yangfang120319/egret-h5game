@@ -1,0 +1,14 @@
+{"file":"/font_ebg_goldjin.png","frames":{
+".":{"x":37,"y":23,"w":4,"h":4,"offX":1,"offY":15,"sourceW":6,"sourceH":22},
+"0":{"x":46,"y":0,"w":12,"h":20,"offX":0,"offY":0,"sourceW":12,"sourceH":20},
+"1":{"x":39,"y":65,"w":10,"h":20,"offX":1,"offY":0,"sourceW":12,"sourceH":20},
+"2":{"x":0,"y":46,"w":11,"h":20,"offX":0,"offY":0,"sourceW":12,"sourceH":20},
+"3":{"x":0,"y":24,"w":11,"h":20,"offX":0,"offY":0,"sourceW":12,"sourceH":20},
+"4":{"x":23,"y":23,"w":12,"h":19,"offX":0,"offY":1,"sourceW":12,"sourceH":20},
+"5":{"x":26,"y":65,"w":11,"h":19,"offX":0,"offY":1,"sourceW":12,"sourceH":20},
+"6":{"x":37,"y":43,"w":11,"h":20,"offX":0,"offY":0,"sourceW":12,"sourceH":20},
+"7":{"x":46,"y":22,"w":12,"h":19,"offX":0,"offY":1,"sourceW":12,"sourceH":20},
+"8":{"x":50,"y":43,"w":11,"h":20,"offX":0,"offY":0,"sourceW":12,"sourceH":20},
+"9":{"x":13,"y":44,"w":11,"h":20,"offX":0,"offY":0,"sourceW":12,"sourceH":20},
+"w":{"x":0,"y":0,"w":21,"h":22,"offX":0,"offY":0,"sourceW":21,"sourceH":22},
+"y":{"x":23,"y":0,"w":21,"h":21,"offX":0,"offY":0,"sourceW":21,"sourceH":22}}}

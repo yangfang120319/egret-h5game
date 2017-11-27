@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_ChipSkin" width="411" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="7" x="79" locked="true">
+		<e:Image y="0" x="0" source="back_interval_png"/>
+		<e:Image y="10" x="10" source="back_interval_png"/>
+		<e:Image y="20" x="20" source="back_interval_png"/>
+		<e:Image y="30" x="30" source="back_interval_png"/>
+		<e:layout>
+			<e:HorizontalLayout gap="82"/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="0" y="0">
+		<e:Button id="btn_chip0" y="0" x="0" name="0" label="1w">
+			<e:skinName>
+				<e:Skin width="75" height="75" states="up,down" xmlns:w="http://ns.egret.com/wing">
+					<e:Image horizontalCenter="0" verticalCenter="0" includeIn="up,down" source="icon_bigchip1_png"/>
+					<e:BitmapLabel id="labelDisplay" text="1w" x="20" y="26" font="font_ebg_goldjin_fnt"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_chip1" y="0" x="86" name="1" label="10w">
+			<e:skinName>
+				<e:Skin width="75" height="75" states="up,down" xmlns:w="http://ns.egret.com/wing">
+					<e:Image horizontalCenter="0" verticalCenter="0" includeIn="up,down" source="icon_bigchip2_png"/>
+					<e:BitmapLabel id="labelDisplay" text="1000" horizontalCenter="0" verticalCenter="0" font="font_ebg_goldjin_fnt"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_chip2" y="0" x="167" name="2" label="100w">
+			<e:skinName>
+				<e:Skin width="75" height="75" states="up,down" xmlns:w="http://ns.egret.com/wing">
+					<e:Image horizontalCenter="0" verticalCenter="0" includeIn="up,down" source="icon_bigchip3_png"/>
+					<e:BitmapLabel id="labelDisplay" text="100w" horizontalCenter="0" verticalCenter="0" font="font_ebg_goldjin_fnt" scaleX="0.8" scaleY="0.8"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_chip3" y="0" x="244" name="3" label="1000w">
+			<e:skinName>
+				<e:Skin width="75" height="75" states="up,down" xmlns:w="http://ns.egret.com/wing">
+					<e:Image horizontalCenter="0" verticalCenter="0" includeIn="up,down" source="icon_bigchip4_png"/>
+					<e:BitmapLabel id="labelDisplay" text="1000w" horizontalCenter="0" verticalCenter="0" font="font_ebg_goldjin_fnt" scaleX="0.7" scaleY="0.7"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_chip4" y="0" x="322" name="4" label="1y">
+			<e:skinName>
+				<e:Skin width="75" height="75" states="up,down" xmlns:w="http://ns.egret.com/wing">
+					<e:Image horizontalCenter="0" verticalCenter="0" includeIn="up,down" source="icon_bigchip5_png"/>
+					<e:BitmapLabel id="labelDisplay" text="5w" horizontalCenter="0" verticalCenter="0" font="font_ebg_goldjin_fnt"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout gap="9"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="img_choose" y="-14.5" x="-12.5" source="back_aperture_png" locked="true"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Com_ShengFuSkin" width="44" height="40" xmlns:e="http://ns.egret.com/eui" states="0,1,2">
+	<e:Image x="0" y="0" alpha="0.25" scale9Grid="5,5,10,10" width="100%" height="100%" source="back_g_5hudu_png" width.2="44" height.2="40" y.2="0" x.2="0"/>
+	<e:Image source="txt_g_ping_ch_png" includeIn="2" x="7.5" y="4.5"/>
+	<e:Image includeIn="0" horizontalCenter="0" verticalCenter="0" source="txt_g_fu_ch_png"/>
+	<e:Image includeIn="1" horizontalCenter="0" verticalCenter="0" source="txt_g_sheng_ch_png"/>
+</e:Skin>

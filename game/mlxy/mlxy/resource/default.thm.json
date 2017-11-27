@@ -1,0 +1,33 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/components/CaiShenSkin.exml",
+    "resource/skins/ui/VScrollBar_ListSkin.exml",
+    "resource/skins/components/ListSkin.exml",
+    "resource/skins/components/LoadingSkin.exml",
+    "resource/skins/components/game/Game_CountDownSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_BaoZhaSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_ChooseSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_HistorySkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_OverSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_ShanDianSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_PKSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_RunBoxSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_RunSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_ShowSkin.exml",
+    "resource/skins/components/mlxyyh/MLXYYH_TopSkin.exml",
+    "resource/skins/components/tianshi/Game_TianShi_EyesSkin.exml",
+    "resource/skins/components/tianshi/Game_TianShiSkin.exml",
+    "resource/skins/components/tianshi/Game_TianShi_ShanSkin.exml",
+    "resource/skins/components/tianshi/Game_TianShi_BaoSkin.exml",
+    "resource/skins/components/tianshi/Game_TianShiTotalSkin.exml",
+    "resource/skins/ui/ToggleSwitch_SetSkin.exml",
+    "resource/skins/panel/PanelSetSkin.exml",
+    "resource/skins/panel/Panel_MLXYYH_ChooseChipSkin.exml",
+    "resource/skins/scenes/SceneGame_MLXYYHSkin.exml",
+    "resource/skins/scenes/SceneLoadingSkin.exml",
+    "resource/skins/ui/TabBar_LanguageSkin.exml",
+    "resource/skins/ui/btn/Btn_CloseSkin.exml"
+  ]
+}

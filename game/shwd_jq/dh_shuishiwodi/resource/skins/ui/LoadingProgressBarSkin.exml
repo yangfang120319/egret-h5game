@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoadingProgressBarSkin" xmlns:e="http://ns.egret.com/eui" width="374" height="44">
+	<e:Image id="track" source="icon_l_loading1_png" y="0" x="-4"/>
+	<e:Image id="thumb" y="0" x="0" source="icon_l_loading0_png" scale9Grid="14,14,347,4" anchorOffsetX="0" width="374"/>
+</e:Skin>

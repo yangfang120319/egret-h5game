@@ -1,0 +1,11 @@
+{"file":"/num_game_beishu.png","frames":{
+"1":{"x":62,"y":44,"w":28,"h":20,"offX":4,"offY":0,"sourceW":36,"sourceH":20},
+"2":{"x":0,"y":44,"w":29,"h":20,"offX":3,"offY":0,"sourceW":36,"sourceH":20},
+"3":{"x":0,"y":22,"w":29,"h":20,"offX":3,"offY":0,"sourceW":36,"sourceH":20},
+"4":{"x":93,"y":22,"w":29,"h":20,"offX":3,"offY":0,"sourceW":36,"sourceH":20},
+"5":{"x":31,"y":44,"w":29,"h":20,"offX":3,"offY":0,"sourceW":36,"sourceH":20},
+"6":{"x":31,"y":22,"w":29,"h":20,"offX":0,"offY":0,"sourceW":29,"sourceH":20},
+"7":{"x":69,"y":0,"w":29,"h":20,"offX":3,"offY":0,"sourceW":36,"sourceH":20},
+"8":{"x":38,"y":0,"w":29,"h":20,"offX":0,"offY":0,"sourceW":29,"sourceH":20},
+"9":{"x":62,"y":22,"w":29,"h":20,"offX":3,"offY":0,"sourceW":36,"sourceH":20},
+"a":{"x":0,"y":0,"w":36,"h":20,"offX":0,"offY":0,"sourceW":36,"sourceH":20}}}

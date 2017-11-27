@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Btn_MLXYYH_ChooseSkin" xmlns:e="http://ns.egret.com/eui" width="120" height="160">
+	<e:Image source="icon_mlxyyh_0_0_png" x="10" y="12"/>
+</e:Skin>

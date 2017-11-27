@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ScenePKSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_pk_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Group id="g_cd" x="0" y="0"/>
+	<e:Group horizontalCenter="0" y="280" id="g_title" x="10" locked="true">
+		<e:Image source="back_win_tiao_png" y="-60" x="0"/>
+	</e:Group>
+	<e:Image source="icon_tz_win_png" y="150" x="204" id="img_xunzhang" locked="true"/>
+	<e:Component id="com_jian0" rotation="-30" y="303" x="230" locked="true">
+		<e:skinName>
+			<e:Skin xmlns:w="http://ns.egret.com/wing">
+				<e:Image source="icon_jian2_png" x="-28" y="-156"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Component id="com_jian1" rotation="30" y="317" x="415" locked="true">
+		<e:skinName>
+			<e:Skin xmlns:w="http://ns.egret.com/wing">
+				<e:Image source="icon_jian1_png" x="-166" y="-166"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+</e:Skin>

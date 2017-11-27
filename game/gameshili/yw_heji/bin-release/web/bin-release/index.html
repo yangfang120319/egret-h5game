@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>金马电玩城</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+    	//IOS调用函数
+    	function setupWebViewJavascriptBridge(callback) {
+    		if (window.WebViewJavascriptBridge) { 
+    				return callback(WebViewJavascriptBridge); 
+    		}
+    		if (window.WVJBCallbacks) { 
+    			return window.WVJBCallbacks.push(callback); 
+    		}
+    		window.WVJBCallbacks = [callback];
+    		var WVJBIframe = document.createElement('iframe');
+    		WVJBIframe.style.display = 'none';
+    		WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+    		document.documentElement.appendChild(WVJBIframe);
+    		setTimeout(function() { 
+    			document.documentElement.removeChild(WVJBIframe) 
+    		}, 0)
+    	}
+    	
+    	//------------JS调用安卓------------
+    	//隐藏图片
+    	function AndroidhidePicture(_data){
+    		YiZhuan.hidePicture(_data);
+    	}
+    	
+    	//退出程序
+    	function AndroidexitGame(_data){
+    		YiZhuan.exitGame(_data);
+    	}
+    	
+    	//------------安卓调用JS------------
+    	function AndroidshowExitTips(_data){
+    	
+    	}
+    	
+    	//------------JS调用IOS------------
+    	//隐藏图片
+    	function IOShidePicture(_data){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			bridge.callHandler("hidePicture",_data);
+    		})
+    	}
+    	
+    	//保存账号
+    	function IOSsaveAccount(_data){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			bridge.callHandler("saveAccount",_data);
+    		})
+    	}
+    	
+    	//保存密码
+    	function IOSsavePassword(_data){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			bridge.callHandler("savePassword",_data);
+    		})
+    	}
+    	
+    	//------------IOS调用JS------------
+    	function funRegister(callback){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			//获取账号
+    			bridge.registerHandler("onGetAccount",function(data){
+    				callback("onGetAccount",data);
+    			})
+    	
+    			//获取密码
+    			bridge.registerHandler("onGetPassword",function(data){
+    				callback("onGetPassword",data);
+    			})
+    		})
+    	}
+    </script>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script src="main.min.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="exactFit"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1136"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        egret.runEgret();
+    </script>
+</body>
+</html>

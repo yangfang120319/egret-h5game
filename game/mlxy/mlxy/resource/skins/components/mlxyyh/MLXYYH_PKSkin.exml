@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_PKSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="rect_back" fillAlpha="0.8" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Group id="g_light" width="0" height="0" horizontalCenter="0" verticalCenter="0" locked="true">
+		<e:Image id="img_light" x="-275" y="-275" source="back_g_light_png"/>
+	</e:Group>
+	<e:Image id="img_left" source="icon_mlxyyh_6_2_png" y="207" x="117"/>
+	<e:Image id="img_right" source="icon_mlxyyh_6_2_png" y="207" x="757"/>
+	<ns1:MLXYYH_ShanDian id="shandian2" y="-38" skinName="MLXYYH_ShanDianSkin" rotation="30" scaleX="0.75" scaleY="0.75" horizontalCenter="138.25" locked="true"/>
+	<ns1:MLXYYH_ShanDian id="shandian1" y="612" skinName="MLXYYH_ShanDianSkin" scaleX="0.75" scaleY="0.75" skewX="180" rotation="20" horizontalCenter="-150.75" locked="true"/>
+	<e:Image id="img_pk" source="icon_mlxyyh_PK_png" horizontalCenter="0" verticalCenter="0" scaleX="1.5" scaleY="1.5" locked="true"/>
+	<e:Image id="img_pk_add" source="icon_mlxyyh_PK_png" horizontalCenter="0" verticalCenter="0" blendMode="add" scaleX="1.5" scaleY="1.5" locked="true"/>
+	<ns1:MLXYYH_BaoZha id="baozha" skinName="MLXYYH_BaoZhaSkin" horizontalCenter="-21.5" verticalCenter="-26" locked="true"/>
+	<e:Group id="g_type" scaleX="1.5" scaleY="1.5" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="img_type" source="txt_mlxyyh_xsx_png" x="0" y="0"/>
+		<e:Image id="img_type_add" source="txt_mlxyyh_xsx_png" blendMode="add" x="0" y="0"/>
+	</e:Group>
+	<e:Image id="img_luck" y="400" x="454" source="icon_mlxyyh_6_2_png"/>
+</e:Skin>

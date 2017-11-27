@@ -1,0 +1,28 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/components/Game_ChipSkin.exml",
+    "resource/skins/components/Game_CountDownSkin.exml",
+    "resource/skins/components/LoadingSkin.exml",
+    "resource/skins/components/ysc/YSC_ChooeseSkin.exml",
+    "resource/skins/components/ysc/YSC_History1Skin.exml",
+    "resource/skins/components/ysc/YSC_History2Skin.exml",
+    "resource/skins/components/ysc/YSC_LuZiSkin.exml",
+    "resource/skins/components/ysc/YSC_OverShowSkin.exml",
+    "resource/skins/components/ysc/YSC_OverSkin.exml",
+    "resource/skins/components/ysc/YSC_PlaySkin.exml",
+    "resource/skins/components/ysc/YSC_TimeSkin.exml",
+    "resource/skins/components/ysc/YSC_UserGoldSkin.exml",
+    "resource/skins/components/ysc/YSC_YaZhuSkin.exml",
+    "resource/skins/panel/Panel_ChooseChipSkin.exml",
+    "resource/skins/scenes/SceneGame_YSCSkin.exml",
+    "resource/skins/scenes/SceneLoadingSkin.exml",
+    "resource/skins/scenes/SceneWaitingSkin.exml",
+    "resource/skins/ui/TabBar_LanguageSkin.exml",
+    "resource/skins/ui/ToggleSwitch_SetSkin.exml",
+    "resource/skins/ui/btn/Btn_MLXYYH_ChooseSkin.exml",
+    "resource/skins/ui/item/Item_YSC_History1Skin.exml",
+    "resource/skins/ui/item/Item_YSC_History2Skin.exml"
+  ],
+  "skins": {}
+}

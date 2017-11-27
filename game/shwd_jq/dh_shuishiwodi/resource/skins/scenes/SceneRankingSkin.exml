@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneRankingSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="640" height="1136">
+	<e:Group id="g_back" left="0" right="0" top="0" bottom="0" locked="true">
+		<e:Image source="back_l_loading_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+		<e:Image source="back_s_top_png" x="0" y="0"/>
+		<e:Label text="排行榜" y="20" size="40" horizontalCenter="0" fontFamily="微软雅黑"/>
+		<e:Label y="12" size="20" text="返回" fontFamily="微软雅黑" width="40" x="566"/>
+	</e:Group>
+	<e:Group id="g_content" left="0" right="0" top="175" bottom="0" locked="true">
+		<e:Image source="back_s_black_png" horizontalCenter="0" top="0" bottom="20" scale9Grid="77,113,466,684" locked="true"/>
+		<e:Image source="back_s_rank_png" horizontalCenter="0" top="15" scale9Grid="73,128,442,610" bottom="35"/>
+		<e:Label y="58.79" size="28" text="段数" fontFamily="微软雅黑" x="406"/>
+		<e:Label y="58.79" size="28" text="场数" fontFamily="微软雅黑" x="516"/>
+		<e:Label text="玩家" x="116" y="58.79" size="28" fontFamily="微软雅黑"/>
+		<e:Label x="293" y="58.79" size="28" text="胜率" fontFamily="微软雅黑"/>
+	</e:Group>
+	<e:Group id="g_tabbar" height="60" width="400" x="62" y="114" locked="true">
+		<e:TabBar id="tabbar" height="60" width="400" x="0" y="0" itemRendererSkinName="TabBarRankingSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object txt="周榜"/>
+					<e:Object txt="总榜"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:TabBar>
+	</e:Group>
+	<e:ViewStack id="viewstack" width="590" horizontalCenter="0" selectedIndex="1" top="290" bottom="153" anchorOffsetY="0" locked="true">
+		<e:Scroller left="0" right="0" top="0" bottom="0">
+			<e:List id="list0" itemRendererSkinName="Item_RankinglistSkin" width="590" horizontalCenter="0" top="0">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller right="0" bottom="0" left="0" top="0">
+			<e:List itemRendererSkinName="Item_RankinglistSkin" id="list1" width="590" horizontalCenter="0" top="0">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+						<e:Object/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+	</e:ViewStack>
+	<e:Button id="btn_return" label="按钮" y="0" x="520" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="120" height="86">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+			<e:Image source="icon_shar_tips_png" scaleX="0.3" scaleY="0.3" horizontalCenter="0" verticalCenter="14" scaleX.down="0.24" scaleY.down="0.24"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group bottom="60" horizontalCenter="-3.5">
+		<e:Label id="txt_totalnum" text="120" fontFamily="微软雅黑" size="22" x="467.33" textColor="0xF7A051" anchorOffsetX="0" width="77" textAlign="center" y="25"/>
+		<e:Label id="txt_name" text="五个小奶牛" x="81" size="22" fontFamily="微软雅黑" textColor="0xA3A3A3" anchorOffsetX="0" width="150" lineSpacing="5" y="25"/>
+		<e:Image id="img_vip" x="363" width="38" height="38" source="icon_vip1_png" y="17"/>
+		<e:Image id="img_star" source="icon_star0_png" x="407" y="30"/>
+		<e:Label id="txt_win" text="50%" fontFamily="微软雅黑" size="22" x="233.02" y="25" textColor="0x87C7F7" anchorOffsetX="0" width="86" verticalAlign="bottom" textAlign="center"/>
+		<ns1:Head id="head" x="4" skinName="HeadSkin" scaleX="0.56" scaleY="0.56" y="0"/>
+	</e:Group>
+</e:Skin>

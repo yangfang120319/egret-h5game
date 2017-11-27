@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingSkin" width="280" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="back_loading_fangzi_png" y="33" x="39"/>
+	<e:Image id="img_light3" source="icon_loading_light1_png" x="39" y="314"/>
+	<e:Image id="img_light2" source="icon_loading_light2_png" x="40" y="165"/>
+	<e:Image id="img_light1" source="icon_loading_light3_png" x="56" y="167" alpha="1"/>
+	<e:Image id="img_ma0" source="icon_loading_ma_png" x="39" y="241"/>
+	<e:Image id="img_ma2" source="icon_loading_ma_png" x="155" y="209"/>
+	<e:Image id="img_ma1" source="icon_loading_ma_png" x="97" y="225"/>
+	<e:Image id="img_star" source="icon_loading_star_png" horizontalCenter="0" verticalCenter="-162" rotation="0" visible="false"/>
+</e:Skin>

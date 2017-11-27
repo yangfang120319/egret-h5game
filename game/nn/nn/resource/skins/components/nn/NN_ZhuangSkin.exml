@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NN_ZhuangSkin" width="158" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="128" id="g_card" horizontalCenter="0" verticalCenter="0">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		<ns1:Game_Card id="card0" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" x="0" xmlns:ns1="*"/>
+		<ns1:Game_Card id="card1" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" x="32" xmlns:ns1="*"/>
+		<ns1:Game_Card id="card2" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" x="64" xmlns:ns1="*"/>
+		<ns1:Game_Card id="card3" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" x="96" xmlns:ns1="*"/>
+		<ns1:Game_Card id="card4" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" x="128" xmlns:ns1="*"/>
+	</e:Group>
+	<ns1:NN_Result id="result" y="56" skinName="NN_ResultSkin" horizontalCenter="0.875"/>
+</e:Skin>

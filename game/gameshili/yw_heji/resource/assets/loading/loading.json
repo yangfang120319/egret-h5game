@@ -1,0 +1,8 @@
+{"file":"loading.png","frames":{
+"back_loading1_png":{"x":0,"y":157,"w":454,"h":36,"offX":4,"offY":1,"sourceW":458,"sourceH":37},
+"back_loading2_png":{"x":0,"y":249,"w":446,"h":27,"offX":10,"offY":6,"sourceW":458,"sourceH":37},
+"btn_l_start_png":{"x":0,"y":0,"w":404,"h":155,"offX":0,"offY":0,"sourceW":404,"sourceH":155},
+"icon_l_mima_png":{"x":430,"y":0,"w":20,"h":32,"offX":0,"offY":0,"sourceW":20,"sourceH":32},
+"icon_l_zhanghao_png":{"x":406,"y":0,"w":22,"h":32,"offX":0,"offY":0,"sourceW":22,"sourceH":32},
+"txt_l_dl_png":{"x":249,"y":195,"w":124,"h":49,"offX":0,"offY":0,"sourceW":124,"sourceH":49},
+"txt_l_zhdl_png":{"x":0,"y":195,"w":247,"h":52,"offX":0,"offY":0,"sourceW":247,"sourceH":52}}}

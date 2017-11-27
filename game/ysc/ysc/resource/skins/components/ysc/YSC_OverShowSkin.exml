@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_OverShowSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect right="0" left="0" top="0" bottom="0" fillAlpha="0.8" id="rect_back" x="10" y="10" locked="true"/>
+	<e:Group verticalCenter="0" id="g_light" width="0" height="0" horizontalCenter="0" x="10" y="10">
+		<e:Image y="-275" x="-275" id="img_light0" source="back_ysc_choosechiplightratation1_png"/>
+	</e:Group>
+	<e:Group id="g_show" x="480" y="320">
+		<e:Image id="img_back" source="back_ysc_redbox_png" y="-111" x="-116.5"/>
+		<e:Image id="img_icon" source="icon_ysc_choose_b_0_png" y="-77" x="-76.5"/>
+		<e:Image id="img_light" source="back_ysc_redbox_light_png" y="-120" x="-125.5" blendMode="add"/>
+	</e:Group>
+</e:Skin>

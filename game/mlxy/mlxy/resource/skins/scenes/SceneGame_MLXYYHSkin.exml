@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneGame_MLXYYHSkin" width="1000" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_mlxyyh_jpg" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Rect id="rect_back" height="633" width="100" fillAlpha="0.8" horizontalCenter="0" y="4" fillColor="0x290C0C" locked="true"/>
+	<ns1:MLXYYH_Show id="show" x="574" y="142" skinName="MLXYYH_ShowSkin" scaleX="0.88" scaleY="0.88" locked="true"/>
+	<ns1:MLXYYH_History id="history" x="80" y="141" skinName="MLXYYH_HistorySkin" scaleX="0.88" scaleY="0.88" locked="true"/>
+	<ns1:MLXYYH_Run id="run_left" skinName="MLXYYH_RunSkin" y="72" x="9" scaleX="0.88" scaleY="0.88" locked="true"/>
+	<ns1:MLXYYH_Run id="run_right" skinName="MLXYYH_RunSkin" scaleX="0.88" scaleY="0.88" y="71" x="504" locked="true"/>
+	<ns1:MLXYYH_Choose id="choose" x="0" y="287" skinName="MLXYYH_ChooseSkin" scaleX="0.88" scaleY="0.88" locked="true"/>
+	<ns1:MLXYYH_Top id="menu_top" x="0" y="0" skinName="MLXYYH_TopSkin" scaleX="0.88" scaleY="0.88"/>
+	<ns1:Game_CountDown id="countdown" skinName="Game_CountDownSkin" horizontalCenter="0" verticalCenter="0" locked="true" visible="false"/>
+	<ns1:MLXYYH_Over id="over" skinName="MLXYYH_OverSkin" left="0" right="0" top="0" bottom="0" locked="true" visible="false"/>
+	<ns1:MLXYYH_PK id="PK" skinName="MLXYYH_PKSkin" left="0" right="0" top="0" bottom="0" locked="true" visible="false"/>
+</e:Skin>

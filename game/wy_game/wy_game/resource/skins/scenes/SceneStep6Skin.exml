@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneStep6Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" horizontalCenter="0" bottom="0" source="back_step4_jpg"/>
+	<e:Button y="20" horizontalCenter="0" id="btn_next" bottom="0" label="按钮" x="20" skinName="Btn_NextSkin"/>
+	<e:Group id="g_detail1" horizontalCenter="0" bottom="20" height="550" width="660" locked="true" visible="false">
+		<e:Rect width="660" fillAlpha="0" anchorOffsetY="0" top="0" bottom="0" horizontalCenter="0"/>
+		<e:Image source="back_tc_png" scale9Grid="61,53,369,19" top="0" bottom="0" horizontalCenter="0"/>
+		<e:Label text="咚咚〜咚咚〜，咚咚〜咚咚〜" y="65" width="609" size="40" fontFamily="微软雅黑" lineSpacing="15" horizontalCenter="0"/>
+		<e:Label text="看来并不会有人来欢迎了，但我可不想被雨淋，得赶紧找办法进去。" y="127.12" width="609" size="40" fontFamily="微软雅黑" lineSpacing="15" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Image source="img_mask_png" left="0" right="0" top="0" bottom="0" scale9Grid="3,3,24,24" id="img_mask" x="10" y="10" visible="false" locked="true"/>
+</e:Skin>

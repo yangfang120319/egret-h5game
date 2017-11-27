@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Game_CardSkin" states="close,open" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group includeIn="open" y="0" horizontalCenter="0">
+		<e:Image includeIn="open" x="0" y="0" source="back_g_paimian_png"/>
+		<e:Image id="img_huaseda" includeIn="open" x="41" y="65" source="icon_g_da_pai0_png"/>
+		<e:Image id="img_value" includeIn="open" x="6" y="6" source="num_g_b_1_png"/>
+		<e:Image id="img_huasexiao" includeIn="open" x="12" y="46" source="icon_g_xiao_pai0_png"/>
+		<e:Image id="img_value_new" source="num_g_b_1_png" y="44" x="7" includeIn="open"/>
+		<e:Rect id="rect_delete" height="45" width="3" includeIn="open" x="36" y="7" fillColor="0xFF0000" rotation="35"/>
+	</e:Group>
+	<e:Image includeIn="close" y="0" horizontalCenter="0" source="back_g_beimian_png" width="126" height="156"/>
+</e:Skin>

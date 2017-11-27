@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneGame_NNSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="back_nn_jpg" locked="true"/>
+	<e:Image id="img_title" source="txt_nn_png" horizontalCenter="0" y="290" locked="true"/>
+	<e:Image id="img_vip" source="txt_g_vip_png" y="322" scaleX="0.8" scaleY="0.8" horizontalCenter="0.39999999999997726" locked="true" visible="false"/>
+	<e:Group id="g_tableback" left="0" right="0" top="0" bottom="0" locked="true">
+		<e:Group id="g_table0" y="141" width="280" height="213" x="0">
+			<e:Image source="back_g_table_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="txt_nn_weizhi1_png"/>
+		</e:Group>
+		<e:Group id="g_table1" y="359" height="170" width="280" x="0">
+			<e:Image source="back_g_table_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="txt_nn_weizhi2_png"/>
+		</e:Group>
+		<e:Group id="g_table2" height="170" width="250" y="359" horizontalCenter="0">
+			<e:Image source="back_g_table_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="txt_nn_weizhi3_png"/>
+		</e:Group>
+		<e:Group y="359" width="280" height="170" id="g_table3" right="0">
+			<e:Image source="back_g_table_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="txt_nn_weizhi5_png"/>
+		</e:Group>
+		<e:Group y="141" id="g_table4" width="280" height="213" right="0">
+			<e:Image source="back_g_table_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="txt_nn_weizhi6_png"/>
+		</e:Group>
+		<e:Group id="g_zhuang_table" y="148" horizontalCenter="0">
+			<e:Image source="back_g_table_png" x="0" y="0"/>
+			<e:Image source="txt_nn_zj_ch_png" x="37" y="17"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="g_down" y="528.939393939394" left="0" right="0" locked="true">
+		<e:Image source="back_g_down_png" right="0" y="-1.1368683772161605e-13" left="0"/>
+		<e:Image id="img_ling1" y="10" x="360" source="icon_nn_ling_png"/>
+		<e:Image y="10" x="820" id="img_ling2" source="icon_nn_ling_png"/>
+		<e:Group id="g_gold" y="22.5" x="117">
+			<e:Image source="back_g_gold_png" y="0" scaleX="1.5" width="140" scaleY="1.5" x="5"/>
+			<e:Image y="3.733333333333349" scaleY="1.5" scaleX="1.5" x="0" source="icon_gold_png"/>
+			<e:Label x="60" y="18.25" textColor="0xFBD05D" text="900000K" fontFamily="微软雅黑" textAlign="left" bold="true" width="160" size="28" id="txt_gold_user" height="28"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="g_zhuang" y="2" horizontalCenter="0" locked="true">
+		<ns1:Game_Head id="head_zhuang" y="13" x="36.5" skinName="Game_HeadSkin"/>
+		<e:Label id="txt_gold_zhuang" text="9000000" y="116" fontFamily="微软雅黑" size="22" width="173" textAlign="center" x="0" bold="true"/>
+		<e:Image x="118" y="1" source="icon_g_zhuang_ch_png"/>
+	</e:Group>
+	<ns1:Game_ChipFly id="chipfly" x="0" y="0" locked="true"/>
+	<e:Group id="g_tabletotal" left="0" right="0" bottom="111" top="110" locked="true">
+		<ns1:NN_Table id="table2" skinName="NN_TableSkin" y="241" width="200" height="187" horizontalCenter="0"/>
+		<ns1:NN_Table id="table1" skinName="NN_TableSkin" y="241" height="187" width="200" x="37"/>
+		<ns1:NN_Table id="table0" y="32" skinName="NN_TableSkin" width="200" height="210" x="37"/>
+		<ns1:NN_Zhuang id="zhuang" y="36" skinName="NN_ZhuangSkin" horizontalCenter="0"/>
+		<ns1:NN_Table id="table4" y="32" width="200" skinName="NN_TableSkin" height="210" x="896"/>
+		<ns1:NN_Table id="table3" y="241" width="200" skinName="NN_TableSkin" height="187" x="896"/>
+	</e:Group>
+	<ns1:NN_SendCard id="sendcard" skinName="NN_SendCardSkin" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Group id="g_btn" left="0" right="0" top="0" bottom="0" locked="true">
+		<e:Group right="0" y="0" id="g_shangzhuang" x="10">
+			<e:Image y="0" scale9Grid="20,5,15,14" width="210" height="114" x="0" source="back_g_heise_yuan_png"/>
+			<e:Button id="btn_up_zhuang" y="12" icon="txt_g_sqsz_ch_png" label="按钮" right="20">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="170" height="55" xmlns:w="http://ns.egret.com/wing">
+						<e:Rect height="70" width="190" fillAlpha="0" horizontalCenter="-0.5" verticalCenter="0.5"/>
+						<e:Image source="btn_g_common_png" width="170" height="55" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" scale9Grid="8,5,45,18"/>
+						<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" scaleX.down="0.81" scaleY.down="0.81" source="txt_g_sqsg_ch_png" scaleX="0.9" scaleY="0.9"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="txt_sg_condition" y="83" text="上庄条件：1000000" fontFamily="微软雅黑" textAlign="center" bold="true" width="193" size="17" x="7"/>
+		</e:Group>
+		<e:Group id="g_room" y="0" x="213">
+			<e:Image scale9Grid="20,5,13,14" width="190" y="0" x="0" source="back_g_heise_yuan_png" height="68"/>
+			<e:Image source="txt_g_fjh_ch_png" y="21.4" x="6" scaleX="0.7" scaleY="0.7"/>
+			<e:Label id="txt_roomid" y="21.5" text="123456" fontFamily="微软雅黑" textAlign="left" bold="true" width="93" size="25" x="92" height="25"/>
+		</e:Group>
+		<e:Button id="btn_exit" label="按钮" y="12" x="12" scaleX="0.9" scaleY="0.9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="110" height="55">
+					<e:Rect height="69" width="108" fillAlpha="0" horizontalCenter="1.5" verticalCenter="-0.5"/>
+					<e:Image width="110" height="55" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" scale9Grid="8,5,42,18" source="btn_g_common_png"/>
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_g_fh_ch_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_paixin" label="按钮" y="12" x="705">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="150" height="55">
+					<e:Rect height="70" width="170" fillAlpha="0" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="btn_g_common_png" width="150" height="55" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" scale9Grid="8,5,45,18"/>
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_g_px_ch_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:Game_Choose id="choose" y="532" scaleX="0.6" width="597" scaleY="0.6" skinName="Game_ChooseSkin" x="374"/>
+		<e:Button y="359" width="356" label="按钮" height="170" name="2" id="btn_table2" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin>
+					<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="359" id="btn_table1" width="380" label="按钮" height="170" name="1" x="0">
+			<e:skinName>
+				<e:Skin>
+					<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="141" id="btn_table0" width="380" label="按钮" height="213" name="0" x="0">
+			<e:skinName>
+				<e:Skin>
+					<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="359" right="0" width="380" label="按钮" height="170" name="3" id="btn_table3" x="10">
+			<e:skinName>
+				<e:Skin>
+					<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button y="141" right="0" width="380" label="按钮" height="213" name="4" id="btn_table4" x="10">
+			<e:skinName>
+				<e:Skin>
+					<e:Rect fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_luzi" label="按钮" y="555.5" x="981">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="130" height="55">
+					<e:Rect height="70" width="140" fillAlpha="0" verticalCenter="0" horizontalCenter="0"/>
+					<e:Image source="btn_g_common_png" width="130" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" scale9Grid="8,5,45,18" height="55"/>
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_g_lz_ch_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choosechip" label="按钮" y="555.5" x="832">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="130" height="55">
+					<e:Rect height="70" width="160" fillAlpha="0" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="btn_g_common_png" width="130" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" scale9Grid="8,5,45,18" height="55"/>
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.72" scaleY.down="0.72" source="txt_g_xzcm_ch_png" scaleX="0.8" scaleY="0.8"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:Game_Head id="head_user" y="534" skinName="Game_HeadSkin" x="9"/>
+	</e:Group>
+	<ns1:Game_Clock id="clock" skinName="Game_ClockSkin" scaleX="0.8" scaleY="0.8" verticalCenter="-11" horizontalCenter="0" visible="false" locked="true"/>
+	<ns1:Game_SpecialResult id="specialresult" skinName="Game_SpecialResultSkin" left="0" right="0" top="0" bottom="0" locked="true" visible="false"/>
+	<ns1:NN_Over left="0" right="0" top="0" bottom="0" skinName="NN_OverSkin" locked="true" visible="false"/>
+</e:Skin>

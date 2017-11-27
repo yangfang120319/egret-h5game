@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneGameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="640" height="853">
+	<e:Image id="img_back" source="back_l_loading_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<ns1:GameLiZi id="lizi" width="640" height="638" x="0" y="0" anchorOffsetY="0"/>
+	<ns1:GameChat id="chat" skinName="GameChatSkin" width="640" horizontalCenter="0" bottom="0" anchorOffsetY="0" height="284"/>
+	<ns1:GameTop id="gametop" skinName="GameTopSkin" horizontalCenter="0" top="0"/>
+	<ns1:GameReady id="ready" x="0" y="86" skinName="GameReadySkin" height="480"/>
+	<ns1:GameVote id="vote" x="0" y="86" skinName="GameVoteSkin" height="450" locked="true"/>
+</e:Skin>

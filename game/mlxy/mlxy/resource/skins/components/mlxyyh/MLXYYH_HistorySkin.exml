@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_HistorySkin" width="395" height="473" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="34" horizontalCenter="0" locked="true">
+		<e:Image y="0" source="txt_mlxyyh_lotterytime_png" x="0"/>
+		<e:BitmapLabel id="txt_time" textAlign="center" y="37" text="10&amp;00" scaleX="0.9" scaleY="0.9" width="153" font="num_game_gold_fnt" x="14"/>
+		<e:Image id="img_type" y="35" source="txt_mlxyyh_kjz_ch_png" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="16" y="144">
+		<e:Image source="txt_mlxyyh_history_png" x="116.5" y="0"/>
+		<e:Image y="42" width="363" height="273" alpha="0.5" x="0" scale9Grid="6,11,20,14" source="back_g_heise_png"/>
+		<e:Image id="history0" source="icon_mlxyyh_0_0_png" x="0" y="42" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="history1" source="icon_mlxyyh_0_0_png" y="42" scaleY="0.7" x="73" scaleX="0.7"/>
+		<e:Image id="history2" source="icon_mlxyyh_0_0_png" y="42" scaleY="0.7" scaleX="0.7" x="145"/>
+		<e:Image id="history3" source="icon_mlxyyh_0_0_png" y="42" scaleY="0.7" x="218" scaleX="0.7"/>
+		<e:Image id="history4" source="icon_mlxyyh_0_0_png" y="42" scaleY="0.7" scaleX="0.7" x="290.2"/>
+		<e:Image id="history5" source="icon_mlxyyh_0_0_png" y="109.29999999999998" scaleY="0.7" x="0" scaleX="0.7"/>
+		<e:Image id="history6" source="icon_mlxyyh_0_0_png" y="109.29999999999998" scaleY="0.7" scaleX="0.7" x="73"/>
+		<e:Image id="history7" source="icon_mlxyyh_0_0_png" y="109.29999999999998" scaleY="0.7" x="145" scaleX="0.7"/>
+		<e:Image id="history8" source="icon_mlxyyh_0_0_png" y="109.29999999999998" scaleY="0.7" scaleX="0.7" x="218"/>
+		<e:Image id="history9" source="icon_mlxyyh_0_0_png" y="109.29999999999998" scaleY="0.7" x="290.2" scaleX="0.7"/>
+		<e:Image id="history10" source="icon_mlxyyh_0_0_png" y="177.29999999999995" scaleY="0.7" scaleX="0.7" x="0"/>
+		<e:Image id="history11" source="icon_mlxyyh_0_0_png" y="177.29999999999995" scaleY="0.7" x="73" scaleX="0.7"/>
+		<e:Image id="history12" source="icon_mlxyyh_0_0_png" y="177.29999999999995" scaleY="0.7" scaleX="0.7" x="145"/>
+		<e:Image id="history13" source="icon_mlxyyh_0_0_png" y="177.29999999999995" scaleY="0.7" x="218" scaleX="0.7"/>
+		<e:Image id="history14" source="icon_mlxyyh_0_0_png" y="177.29999999999995" scaleY="0.7" scaleX="0.7" x="290.2"/>
+		<e:Image id="history15" source="icon_mlxyyh_0_0_png" y="244.3" scaleY="0.7" x="0" scaleX="0.7"/>
+		<e:Image id="history16" source="icon_mlxyyh_0_0_png" y="244.3" scaleY="0.7" scaleX="0.7" x="73"/>
+		<e:Image id="history17" source="icon_mlxyyh_0_0_png" y="244.3" scaleY="0.7" x="145" scaleX="0.7"/>
+		<e:Image id="history18" source="icon_mlxyyh_0_0_png" y="244.3" scaleY="0.7" scaleX="0.7" x="218"/>
+		<e:Image id="history19" source="icon_mlxyyh_0_0_png" y="244.3" scaleY="0.7" x="290.2" scaleX="0.7"/>
+	</e:Group>
+</e:Skin>

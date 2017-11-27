@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneAboutSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="315" x="0" width="640" height="600" id="g_back" locked="true">
+		<e:Image source="back_s_deepred_png" left="0" bottom="0" top="0" scale9Grid="17,17,17,16" right="0"/>
+		<e:Image source="back_s_black_png" left="5" scale9Grid="41,42,23,21" top="105" bottom="10" right="5"/>
+		<e:Image source="back_s_red_png" left="20" scale9Grid="16,16,18,17" top="122" right="20" bottom="28"/>
+		<e:Image y="19.01515151515153" horizontalCenter="0" source="txt_s_gy_png"/>
+		<e:Image source="back_s_line_png" y="188" x="50"/>
+		<e:Label y="138" textColor="0xFEE999" text="棋牌合集" fontFamily="微软雅黑" bold="true" size="35" x="250"/>
+		<e:Image source="back_s_ranking_item_png" scale9Grid="13,11,27,27" width="580" alpha="0.7" x="30" top="200" bottom="40"/>
+		<e:Label text="官方邮箱:" fontFamily="微软雅黑" bold="true" size="38" x="42" y="285" verticalAlign="middle" textAlign="center" width="229" height="77" textColor="0xFFFFFF"/>
+		<e:Label text="客服电话:" y="388" size="38" verticalAlign="middle" fontFamily="微软雅黑" textAlign="center" bold="true" width="229" height="77" x="43" textColor="0xFFFFFF"/>
+	</e:Group>
+	<e:Button x="546" y="336" label="按钮" id="btn_close" skinName="Btn_CloseSkin" locked="true"/>
+</e:Skin>

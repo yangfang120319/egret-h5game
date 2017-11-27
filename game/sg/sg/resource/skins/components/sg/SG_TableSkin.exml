@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SG_TableSkin" width="200" height="220" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="116" height="30" bottom="15" horizontalCenter="0" scaleX="0.85" scaleY="0.85" locked="true">
+		<e:Image source="back_g_tablegold_png" y="0" horizontalCenter="0"/>
+		<e:Image source="icon_gold_png" x="-24" y="-5"/>
+		<e:Label id="txt_gold_user" y="3" fontFamily="微软雅黑" textAlign="center" width="84" size="22" x="16" height="22" textColor="0xFFFFFF" text="12121"/>
+	</e:Group>
+	<e:Group top="15" horizontalCenter="0" scaleX="0.85" scaleY="0.85" locked="true">
+		<e:Image source="back_g_tablegold_png" y="0" x="0"/>
+		<e:Label id="txt_gold_total" x="2" y="3" size="22" text="90000000" fontFamily="微软雅黑" textAlign="center" width="111" height="22" textColor="0xFBD05D"/>
+	</e:Group>
+	<e:Group width="170" id="g_card" horizontalCenter="0" verticalCenter="0" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		<ns1:Game_Card id="card0" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" xmlns:ns1="*" x="0"/>
+		<ns1:Game_Card id="card1" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" xmlns:ns1="*" horizontalCenter="0"/>
+		<ns1:Game_Card id="card2" scaleX="0.65" width="0" scaleY="0.65" skinName="Game_CardSkin" xmlns:ns1="*" x="170"/>
+	</e:Group>
+	<ns1:SG_Result id="result" skinName="SG_ResultSkin" verticalCenter="26.75" horizontalCenter="-0.125"/>
+	<e:Image id="img_result" source="back_g_win_png" scaleX="1.2" scaleY="1.2" horizontalCenter="-1.200000000000017" verticalCenter="0.7999999999999972" scale9Grid="39,34,16,21" width="258" height="133" visible="false"/>
+	<e:Group id="g_result" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Image source="txt_g_win_png" x="0" y="0" scaleX="1.2" scaleY="1.2"/>
+		<e:BitmapLabel id="txt_result" x="78" y="20" font="num_game_win_fnt" text="x2" letterSpacing="-15" scaleX="1.2" scaleY="1.2"/>
+	</e:Group>
+	<e:BitmapLabel id="txt_lose" font="num_game_lose_fnt" text="x7" horizontalCenter="0" verticalCenter="0" letterSpacing="-10" scaleX="1.2" scaleY="1.2" visible="false"/>
+	<e:Image source="txt_g_he_png" verticalCenter="0" horizontalCenter="0" id="img_he" x="10" y="10" visible="false"/>
+</e:Skin>

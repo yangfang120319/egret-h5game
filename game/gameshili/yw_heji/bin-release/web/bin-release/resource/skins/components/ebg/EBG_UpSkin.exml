@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_UpSkin" width="640" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Button id="btn_exit" label="按钮" x="29" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down" width="80" height="80" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Rect height="102" width="108" horizontalCenter="0" verticalCenter="0" fillAlpha="0"/>
+				<e:Image alpha="0.25" scale9Grid="6,5,8,9" width="80" height="80" horizontalCenter="0" verticalCenter="0" source="back_ebg_5huduheidi_png"/>
+				<e:Image scaleX.down="0.9" scaleY.down="0.9" scale9Grid="19,15,31,7" horizontalCenter="0" verticalCenter="0" source="btn_ebg_exit_png"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="g_shangzhuang" x="447" verticalCenter="0">
+		<e:Image source="back_ebg_5huduheidi_png" y="0" scale9Grid="6,5,9,9" width="160" height="100" alpha="0.25" x="0"/>
+		<e:Button id="btn_up" y="16" icon="txt_ebg_zjlbbtn_png" x="22" label="按钮">
+			<e:skinName>
+				<e:Skin states="up,down" width="114" height="40" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+					<e:Image source="btn_ebg_huangse_png" scale9Grid="7,11,2,17" width="114" height="40" horizontalCenter="0" verticalCenter="0" scale9Grid.down="7,11,2,17" scaleX.down="0.9" scaleY.down="0.9"/>
+					<e:Image id="iconDisplay" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="txt_ebg_zjlbbtn_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="上庄条件：5亿" x="21" y="67" fontFamily="微软雅黑" size="18"/>
+	</e:Group>
+	<e:Group id="g_zhuang" x="160" y="30">
+		<e:Image source="back_ebg_5huduheidi_png" scale9Grid="7,9,6,3" alpha="0.25" width="250" x="0" height="100" y="0"/>
+		<e:Image source="back_ebg_5huduheidi_png" y="46" scale9Grid="6,5,9,9" width="145" height="42" alpha="0.25" x="91"/>
+		<ns1:Head id="head" x="6" y="11" skinName="EBG_HeadSkin" width="78" height="78"/>
+		<e:BitmapLabel id="txt_gold" y="57" text="12366.3y" letterSpacing="0.5" textAlign="center" width="134" height="21" x="96" font="font_ebg_goldjin_fnt"/>
+		<e:Label id="txt_name" y="16" size="20" text="财神银行" fontFamily="微软雅黑" textAlign="center" width="120" height="20" x="103.5"/>
+		<e:Image source="icon_ebg_zhuangjia_png" y="0" x="-3"/>
+	</e:Group>
+</e:Skin>

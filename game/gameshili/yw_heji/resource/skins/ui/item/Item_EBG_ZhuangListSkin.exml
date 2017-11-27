@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_EBG_ZhuangListSkin" width="350" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image bottom="0" horizontalCenter="0" source="back_ebg_patternsinterval_png"/>
+	<e:Image x="108" y="48" source="icon_s_gold_png" width="30" height="29"/>
+	<e:Label id="txt_name" text="HEHE" x="103" y="19" fontFamily="微软雅黑" size="20" width="159"/>
+	<e:BitmapLabel id="txt_jinbi" x="150" y="54" text="2568563w" letterSpacing="0.5" width="177" font="font_ebg_goldjin_fnt"/>
+	<e:Image id="img_head" height="50" width="50" x="28" verticalCenter="0"/>
+</e:Skin>

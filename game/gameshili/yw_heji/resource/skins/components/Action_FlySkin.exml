@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Action_FlySkin" width="800" height="1420" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="29" rotation="0" y="450" id="g_tips">
+		<e:Image source="action_henfu_png" y="-71" x="-22"/>
+		<e:Label id="txt_name" y="-39" size="25" text="小明" fontFamily="微软雅黑" width="219" height="27" x="224"/>
+		<e:Image id="img_head" width="76" y="-51" height="76" x="130"/>
+		<e:Label id="txt_gold" text="1220万" x="332" y="-3" textColor="0xF1B04C" fontFamily="微软雅黑" size="35" width="142" bold="true"/>
+	</e:Group>
+	<e:Image source="action_fly_png" y="378" x="334" id="img_fly"/>
+</e:Skin>

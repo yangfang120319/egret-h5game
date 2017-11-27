@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneStartSkin" width="640" height="853" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="img_back" source="back_l_loading_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Button id="btn_share" label="按钮" y="51" x="495">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="145" height="72">
+	<e:Image source="btn_s_share_png" right="0" scaleX.down="0.9" scaleY.down="0.9" verticalCenter="0"/>
+	<e:Image source="icon_s_share_png" right="12.599999999999994" scaleX.down="0.72" scaleY.down="0.72" verticalCenter="0" scaleX="0.8" scaleY="0.8"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group horizontalCenter="0" top="180" bottom="120">
+		<e:Image source="back_s_white1_png" left="0" right="0" top="0" bottom="0" scale9Grid="70,107,422,646"/>
+		<e:Button id="btn_ranking" label="按钮" y="25" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="248" height="60">
+					<e:Image source="btn_s_yellow3_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0" locked="true"/>
+					<e:Image source="icon_s_rank_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" locked="true"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_createroom" label="按钮" horizontalCenter="0" y="110">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="390" height="116">
+					<e:Image source="btn_s_yellow0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					<e:Image source="icon_s_bulidroom_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_quickenter" label="按钮" y="255" x="86">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="390" height="116">
+					<e:Image source="btn_s_red_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					<e:Image source="icon_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_findroom" label="按钮" horizontalCenter="0" y="400">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="390" height="116">
+					<e:Image source="btn_s_blue_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="icon_s_findroom_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" locked="true"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<ns1:StartMsg id="startmsg" x="39" y="29" skinName="StartMsgSkin"/>
+	<e:Image source="icon_logodown_png" horizontalCenter="0" bottom="15"/>
+</e:Skin>

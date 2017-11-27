@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Com_RankingSkin" states="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,0,21,22,23,24,25,26,27,28,29,30" width="85" height="94" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="icon_ranking5_png" y="7" x="0" includeIn="0"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="30"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="30" text="30" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="29"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="29" text="29" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="28"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="28" text="28" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="27"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="27" text="27" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="26"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="26" text="26" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="25"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="25" text="25" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="24"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="24" text="24" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="23"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="23" text="23" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="22"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="22" text="22" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="21"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="21" text="21" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="20"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="20" text="20" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="19"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="19" text="19" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="18"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="18" text="18" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="17"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="17" text="17" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="16"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="16" text="16" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="15"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="15" text="15" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="14"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="14" text="14" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="13"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="13" text="13" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="12"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="12" text="12" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="11"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="11" text="11" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="10"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="10" text="10" scaleX="0.75" scaleY="0.75" horizontalCenter="0" verticalCenter="0" letterSpacing="-7"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="9"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="9" text="9" verticalCenter="0.5" horizontalCenter="-0.5"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="8"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="8" text="8" verticalCenter="0.5" horizontalCenter="-0.5"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="7"/>
+	<e:BitmapLabel includeIn="7" text="7" verticalCenter="0.5" horizontalCenter="-0.5" font="font_ranking_fnt"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="6"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="6" text="6" verticalCenter="0.5" horizontalCenter="-1.5"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="5"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="5" text="5" verticalCenter="0.5" horizontalCenter="-0.5"/>
+	<e:Image source="icon_ranking4_png" y="0" x="0" includeIn="4"/>
+	<e:BitmapLabel font="font_ranking_fnt" includeIn="4" text="4" horizontalCenter="-2.5" verticalCenter="0.5"/>
+	<e:Image source="icon_ranking3_png" y="0" x="0" includeIn="3"/>
+	<e:Image source="icon_ranking2_png" y="0" x="0" includeIn="2" />
+	<e:Image source="icon_ranking1_png" y="0" x="0" includeIn="1" />
+</e:Skin>

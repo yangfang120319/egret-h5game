@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>第五人格</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+
+		.NIE-share_buttons a{
+			font-size: 2.5rem;
+		}
+    </style>
+	
+	
+
+
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js"></script>
+	<script egret="lib" src="promise/bin/promise.js"></script>
+	<!--modules_files_end-->
+
+
+
+	
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="lib" src="bin-debug/basiclib/popup/PanelBase.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/scene/SceneBase.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Action_Other.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/animation/IAnimation.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/animation/Wave.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/popup/DialogEffect.js"></script>
+	<script egret="lib" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/popup/PopUpManager.js"></script>
+	<script egret="lib" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/scene/SceneeEffect.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/scene/SceneManager.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/Dispatcher.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/LanguageManager.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/LocalStorage.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/Native.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/SoundManager.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/StageProxy.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/Timer.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/TimerEvent.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/tools/HashMap.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/tools/MathUtils.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/tools/Utils.js"></script>
+	<script egret="lib" src="bin-debug/model/EventNames.js"></script>
+	<script egret="lib" src="bin-debug/model/GameConfig.js"></script>
+	<script egret="lib" src="bin-debug/model/LoaderData.js"></script>
+	<script egret="lib" src="bin-debug/model/SceneNames.js"></script>
+	<script egret="lib" src="bin-debug/model/UserData.js"></script>
+	<script egret="lib" src="bin-debug/views/SceneLoading.js"></script>
+	<script egret="lib" src="bin-debug/views/SceneWaiting.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Action_Mask.js"></script>
+	<script egret="lib" src="bin-debug/Main.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ChooseBtn.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Monolog.js"></script>
+	<script egret="lib" src="bin-debug/views/components/TextDetail.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/PanelNickName.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneOver.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep1.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep10.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep11.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep12.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep13.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep14.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep15.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep16.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep17.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep18.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep19.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep2.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep20.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep21.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep22.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep23.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep24.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep25.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep3.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep4.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep5.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep6.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep7.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep8.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStep9.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+	
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="30"
+         data-content-width="750"
+         data-content-height="1334"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        egret.runEgret();
+    </script>
+
+	
+
+
+</body>
+
+
+
+<script src="share.js"></script>
+
+</html>

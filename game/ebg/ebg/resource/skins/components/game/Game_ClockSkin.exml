@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Game_ClockSkin" width="90" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" y="1" horizontalCenter="0.25" x="10" source="icon_g_countdown_png" scaleX="1.5" scaleY="1.5"/>
+	<e:Label textColor="0xDE1003" fontFamily="Arial" bold="true" width="40" id="txt_time" size="35" textAlign="center" height="35" horizontalCenter="-1" verticalCenter="4.5"/>
+	<e:Image id="img_countdown" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1" source="icon_countdown0_png"/>
+	<e:Image id="img_countdown_add" source="icon_countdown0_png" horizontalCenter="0" scaleX="1" verticalCenter="0" scaleY="1" x="10" y="10" blendMode="add"/>
+	<e:Group id="g_waiting" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bac_g_tips_png" x="0" y="0" scale9Grid="243,31,82,188" width="800" alpha="0.9"/>
+		<e:Label id="txt_tips" text="本局马上开始，等待开始下注！" horizontalCenter="0" verticalCenter="0" fontFamily="微软雅黑"/>
+	</e:Group>
+</e:Skin>

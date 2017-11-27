@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabBarRankingSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width.up="190" height.up="59" height="59">
+	<w:Config id="15e9cf253cf"/>
+	<e:Image includeIn="up,down" x="0" y.down="0" source.down="btn_s_yellow1_png" source.up="btn_s_yellow2_png" source="btn_s_yellow2_png" horizontalCenter.up="0" bottom.up="0" bottom="0" horizontalCenter.down="0"/>
+	<e:Label id="labelDisplay" text="{data.txt}" includeIn="up,down" size="32" horizontalCenter="0" fontFamily="微软雅黑" size.down="40" horizontalCenter.up="0" verticalCenter.up="5.5" bottom="7"/>	
+</e:Skin>

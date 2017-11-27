@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_HistorySkin" width="476" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="67">
+	<e:Group y="0" horizontalCenter="0" locked="true">
+		<e:Image source="back_jsys_record_png" x="0" y="0"/>
+		<e:Image source="back_jsys_record_png" y="10" x="10"/>
+		<e:Image source="back_jsys_record_png" y="20" x="20"/>
+		<e:Image source="back_jsys_record_png" y="30" x="30"/>
+		<e:Image source="back_jsys_record_png" y="40" x="40"/>
+		<e:Image source="back_jsys_record_png" y="50" x="50"/>
+		<e:Image source="back_jsys_record_png" y="60" x="60"/>
+		<e:Image source="back_jsys_record_png" y="70" x="70"/>
+		<e:layout>
+			<e:HorizontalLayout gap="4"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="g_show" x="10" y="6">
+		<e:Image id="img_box0" x="0" y="1" width="42" height="55"/>
+		<e:Image id="img_box1" x="116" y="1" width="42" height="55"/>
+		<e:Image id="img_box2" x="58" y="3" width="42" height="55"/>
+		<e:Image id="img_box3" width="42" y="1" height="55" x="175"/>
+		<e:Image id="img_box4" width="42" y="3" height="55" x="231"/>
+		<e:Image id="img_box5" width="42" y="0" height="55" x="290"/>
+		<e:Image id="img_box6" width="42" y="0" height="55" x="350"/>
+		<e:Image id="img_box7" width="42" y="0" height="55" x="407"/>
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="4" paddingRight="4" gap="16"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="img_new" source="txt_jsys_new_png" x="13" y="44"/>
+</e:Skin>

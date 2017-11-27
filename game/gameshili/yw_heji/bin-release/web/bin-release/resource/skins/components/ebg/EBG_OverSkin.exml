@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_OverSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="556" height="422">
+	<e:Component id="com_light" width="0" height="0" horizontalCenter="0" verticalCenter="0" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="back_ebg_light_png" x="-340" y="-340"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Group id="g_back" x="0" y="0" locked="true">
+		<e:Image source="back_ebg_over1_png" x="0" y="0"/>
+		<e:Image source="txt_ebg_js_png" x="234" y="22"/>
+		<e:Image source="back_ebg_over2_png" x="6.5" y="82"/>
+		<e:Image source="back_ebg_over3_png" x="4" y="80"/>
+		<e:Image source="back_ebg_over3_png" y="186" x="3.5"/>
+		<e:Image source="back_ebg_over3_png" y="292" x="3.5"/>
+		<e:Image source="back_ebg_over4_png" x="19.5" y="95.5"/>
+		<e:Image source="back_ebg_over5_png" x="319" y="117.5"/>
+		<e:Image source="back_ebg_over5_png" y="223.5" x="319"/>
+		<e:Image source="back_ebg_over5_png" y="329.5" x="319"/>
+		<e:Image source="icon_s_gold_png" x="324" y="121"/>
+		<e:Image source="icon_s_gold_png" y="227" x="324"/>
+		<e:Image source="icon_s_gold_png" y="333" x="324"/>
+	</e:Group>
+	<e:Group x="20" y="107">
+		<ns1:Head id="head_user" x="11" y="0" skinName="EBG_HeadSkin" scaleX="0.5" scaleY="0.5"/>
+		<ns1:Head id="head_zhuang" x="10" scaleY="0.5" y="106" skinName="EBG_HeadSkin" scaleX="0.5"/>
+		<ns1:Head id="head_bigwin" scaleX="0.5" y="209" scaleY="0.5" skinName="EBG_HeadSkin" x="12"/>
+		<e:Label id="txt_name_user" text="标签" x="85" y="35" textColor="0xEFA736" fontFamily="微软雅黑" width="191" size="25"/>
+		<e:Label id="txt_name_zhuang" y="138" textColor="0xEFA736" text="标签" fontFamily="微软雅黑" width="191" size="25" x="85"/>
+		<e:Label id="txt_name_bigwin" y="243" textColor="0xEFA736" text="标签" fontFamily="微软雅黑" width="191" size="25" x="85"/>
+		<e:Label id="txt_gold_user" x="351" y="21" size="22" bold="true" fontFamily="微软雅黑" width="137" height="22"/>
+		<e:Label id="txt_gold_zhuang" y="127" size="22" text="0122" fontFamily="微软雅黑" bold="true" width="137" height="22" x="351"/>
+		<e:Label id="txt_gold_bigwin" y="235" height="22" text="0122" fontFamily="微软雅黑" bold="true" width="137" size="22" x="351"/>
+		<e:Image source="txt_ebg_dyj_png" x="0" y="201"/>
+		<e:Image source="icon_ebg_zhuangjia_png" x="0" y="97"/>
+	</e:Group>
+</e:Skin>

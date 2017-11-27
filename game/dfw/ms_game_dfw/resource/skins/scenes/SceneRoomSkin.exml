@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneRoomSkin" width="750" height="1200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="img_back" source="back_start_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+    <e:Group id="g_topbtn" horizontalCenter="0" top="10" locked="true">
+			<e:layout>
+				<e:HorizontalLayout gap="50"/>
+			</e:layout>
+    </e:Group>
+    <e:Scroller id="scroller" top="130" bottom="125" y="10" left="0" right="0">
+		<e:Group id="g_detail">
+            <e:Image x="16.03" y="71.69" anchorOffsetX="0" anchorOffsetY="0" source="back_s_banner1_png"/>
+            <e:Image source="back_s_dqcode_png" x="421" y="135.49" scaleX="0.95" scaleY="0.95"/>
+            <e:Image source="txt_s_wj_png" x="28" y="506.98"/>
+            <e:Image source="txt_s_sm_png" x="473" y="441.6"/>
+            <e:Image source="back_s_line_png" y="562.98" horizontalCenter="0"/>
+            <e:Button id="btn_invitaion" label="Button" x="372.76" y="522.15" visible="false">
+                <e:skinName>
+                <e:Skin states="up,down,disabled" width="266" height="96">
+                    <e:Image includeIn="disabled" horizontalCenter="0" verticalCenter="0" source="btn_s_Invitation_hide_png"/>
+                    <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" includeIn="up,down" source="btn_s_Invitation_png"/>
+                </e:Skin>
+                </e:skinName>
+            </e:Button>
+            <e:Label id="txt_roomname_back" text="金权的发富翁局" x="405.63" y="81.69" anchorOffsetX="0" width="320" fontFamily="Microsoft YaHei" textColor="0x000000" alpha="0.6" textAlign="center"/>
+            <e:Label id="txt_roomname" text="金权的发富翁局" x="404" y="79.36" anchorOffsetX="0" width="320" fontFamily="Microsoft YaHei" textAlign="center"/>
+            <e:Group y="565.91" anchorOffsetX="0" width="680" x="35">
+                <ns1:Head id="head0" skinName="HeadSkin"/>
+                <ns1:Head id="head1" skinName="HeadSkin"/>
+                <ns1:Head id="head2" skinName="HeadSkin"/>
+                <ns1:Head id="head3" skinName="HeadSkin"/>
+                <ns1:Head id="head4" skinName="HeadSkin"/>
+                <ns1:Head id="head5" skinName="HeadSkin"/>
+                <ns1:Head id="head6" skinName="HeadSkin"/>
+                <ns1:Head id="head7" skinName="HeadSkin"/>
+                    <e:layout>
+                        <e:TileLayout horizontalGap="40" paddingBottom="40" verticalGap="30" paddingTop="10"/>
+                    </e:layout>
+            </e:Group>
+            <e:Image id="img_dqcode" width="260" height="260" x="434" y="148.49" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:Chat id="chat" y="12" skinName="ChatSkin" horizontalCenter="0" x="25" scaleX="1" scaleY="1"/>
+        </e:Group>
+	</e:Scroller>
+	<e:Button id="btn_start" label="Button" bottom="0" horizontalCenter="0" locked="true" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="680" height="125">
+			<e:Image includeIn="disabled" horizontalCenter="0" verticalCenter="0" source="btn_s_start_hide_png"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" includeIn="up,down" source="btn_s_start_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_tips" text="等待房主开始游戏" size="40" bottom="43" horizontalCenter="0" fontFamily="Microsoft YaHei" locked="true"/>
+	<ns1:StartUser id="user" skinName="StartUserSkin" y="0" x="0"/>
+</e:Skin>

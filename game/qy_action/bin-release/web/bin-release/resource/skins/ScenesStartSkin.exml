@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ScenesStartSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="rect_back" left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Group width="600" horizontalCenter="0" bottom="30">
+		<e:Button id="btn_win0" label="挑战胜利" x="0" y="0" skinName="BtnSkin"/>
+		<e:Button id="btn_win1" skinName="BtnSkin" y="25.90909090909099" label="挑战完成" x="229.0909090909091"/>
+		<e:Button id="btn_win2" label="闯关成功" skinName="BtnSkin" y="3.9393939393939945" x="464.09090909090907"/>
+		<e:Button id="btn_lose0" skinName="BtnSkin" y="128.93939393939388" label="挑战失败" x="31.06060606060606"/>
+		<e:Button id="btn_lose1" label="闯关失败" skinName="BtnSkin" y="120.9090909090911" x="281.06060606060606"/>
+		<e:Button id="btn_pk" x="6" y="22" label="PK" skinName="BtnSkin"/>
+		<e:Button id="btn_start" x="16" label="开始动画" y="32" skinName="BtnSkin"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="30" verticalGap="20"/>
+		</e:layout>
+	</e:Group>
+	<ns1:Action_Win id="win" skinName="Action_WinSkin" left="0" right="0" top="0" bottom="250" locked="true" visible="false"/>
+	<ns1:Action_Lose id="lose" skinName="Action_LoseSkin" left="0" right="0" top="0" bottom="250" locked="true" visible="false"/>
+	<ns1:StartAction id="startaction" skinName="StartActionSkin" left="0" right="0" top="0" bottom="250" locked="true" visible="false"/>
+</e:Skin>

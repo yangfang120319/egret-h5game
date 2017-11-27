@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardSkin" currentState="0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="1,2,3,0"  >
+	<e:Image id="img_back" source="10_png"/>
+	<e:Image source="icon_g_wine_png" includeIn="3" y="59" horizontalCenter="10.5"/>
+	<e:BitmapLabel includeIn="3" x="24" y="162" font="font_g_rednum_fnt" text="x"/>
+	<e:BitmapLabel id="txt_rednum" includeIn="3" x="86" y="163" font="font_g_rednum_fnt" text="10"/>
+	<e:BitmapLabel id="txt_bluenum" includeIn="2" x="111" y="191" font="font_g_bluenum_fnt" text="3"/>
+	<e:Image source="icon_g_wine_png" includeIn="2" x="57" y="56"/>
+	<e:BitmapLabel includeIn="2" x="52" y="189" font="font_g_bluenum_fnt" text="x"/>
+	<e:Image source="back_g_newgrey_png" includeIn="1"/>
+</e:Skin>

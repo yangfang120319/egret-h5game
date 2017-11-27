@@ -1,0 +1,7 @@
+{"file":"game_countdown.png","frames":{
+"icon_countdown0_png":{"x":0,"y":0,"w":453,"h":113,"offX":0,"offY":0,"sourceW":453,"sourceH":113},
+"icon_countdown1_png":{"x":156,"y":115,"w":94,"h":202,"offX":36,"offY":0,"sourceW":166,"sourceH":203},
+"icon_countdown2_png":{"x":623,"y":0,"w":160,"h":203,"offX":3,"offY":0,"sourceW":166,"sourceH":203},
+"icon_countdown3_png":{"x":0,"y":115,"w":154,"h":203,"offX":6,"offY":0,"sourceW":166,"sourceH":203},
+"icon_countdown4_png":{"x":785,"y":0,"w":160,"h":203,"offX":3,"offY":0,"sourceW":166,"sourceH":203},
+"icon_countdown5_png":{"x":455,"y":0,"w":166,"h":203,"offX":0,"offY":0,"sourceW":166,"sourceH":203}}}

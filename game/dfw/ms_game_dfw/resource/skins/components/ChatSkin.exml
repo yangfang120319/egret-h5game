@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSkin" width="700" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6" locked="true"/>
+	<e:Image source="back_s_chat_png" x="0" y="0" scale9Grid="13,12,23,9" anchorOffsetX="0" width="700" height="40" alpha="0.2" locked="true"/>
+	<e:Image source="icon_s_chat_png" x="10" y="7" locked="true"/>
+	<e:Label id="txt_chat" text="扫码【充值】：找美女扫码充值5折优惠！找美女，5折" x="50" y="5" fontFamily="Microsoft YaHei" size="26" height="26"/>
+	<e:Rect id="rect_mask" width="650" height="40" x="50" y="0" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false"/>
+</e:Skin>

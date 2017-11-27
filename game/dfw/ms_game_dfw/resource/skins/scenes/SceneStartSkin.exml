@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneStartSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" source="back_start_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Scroller id="scroller" top="115" bottom="170" y="10" left="0" right="0" anchorOffsetY="0">
+		<e:Group id="g_detail" width="750" x="0" y="0">
+			<e:Image source="back_s_banner_png" x="0" y="0"/>
+			<e:Image source="txt_s_yxsm_png" x="31" y="368.77"/>
+			<e:Image source="back_s_line_png" y="335.7" x="12"/>
+			<e:Group x="30" y="443.98">
+				<e:Image source="back_s_rule_png" y="0" x="0" scale9Grid="86,65,518,395" anchorOffsetY="0" height="443.66"/>
+				<e:Label text="天仙配" x="285" y="74.69" size="40" fontFamily="Microsoft YaHei" textColor="0xebbefc"/>
+				<e:Label text="        这是一个支持4-8人进行游玩的趣味图版游戏。" x="55" y="155.67" anchorOffsetX="0" width="580" fontFamily="Microsoft YaHei" lineSpacing="10" textColor="0xebbefc"/>
+				<e:Label text="        游戏者凭运气（掷骰子）及使用策略可获得丰富的助兴活动，享受无与伦比的趣味体验和物超所值的娱乐过程。" x="55" y="245.11" anchorOffsetX="0" width="580" fontFamily="Microsoft YaHei" lineSpacing="10" textColor="0xebbefc"/>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="btn_create" label="Button" bottom="35" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="310" height="108">
+				<e:Image source="btn_s_createroom_hide_png" includeIn="disabled" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="btn_s_createroom_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" includeIn="up,down"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_enter" label="Button" x="400" bottom="35" locked="true" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="310" height="108">
+			<e:Image includeIn="disabled" horizontalCenter="0" verticalCenter="0" source="btn_s_enterroom_hide_png"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" includeIn="up,down" source="btn_s_enterroom_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_exit" label="Button" x="35" y="5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*" width="98" height="101">
+			<e:Image source="btn_s_exit_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChooseBtnSkin" width="610" height="310" xmlns:e="http://ns.egret.com/eui">
+	<e:Button id="btn_choose0" label="屏住呼吸，不动声色" x="0" y="20" skinName="Btn_Choose_ASkin" name="0" scaleX="1" scaleY="1"/>
+	<e:Button id="btn_choose1" label="等他靠近之后，抓准时机偷袭他" x="0" y="120" skinName="Btn_Choose_BSkin" name="1" scaleX="1" scaleY="1"/>
+	<e:Button id="btn_choose2" label="等他靠近之后，抓准时机偷袭他" x="0" y="220" name="2" scaleX="1" scaleY="1" skinName="Btn_Choose_CSkin"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_TimeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="230" height="50">
+	<e:Image id="img_name" scaleY="0.8" x="10" scaleX="0.8" source="txt_ysc_ddsj_ch_png" y="13"/>
+	<e:BitmapLabel id="txt_time" x="123" text="00&amp;amp;20" scaleX="0.8" width="114" scaleY="0.8" letterSpacing="-1" font="num_gold2_fnt" y="12"/>
+</e:Skin>

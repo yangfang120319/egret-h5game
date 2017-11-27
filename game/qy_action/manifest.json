@@ -1,0 +1,37 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js"
+	],
+	"game": [
+		"bin-debug/basic/scene/SceneBase.js",
+		"bin-debug/Action_Lose.js",
+		"bin-debug/Action_Win.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/Main.js",
+		"bin-debug/ScenePK.js",
+		"bin-debug/ScenesStart.js",
+		"bin-debug/StartAction.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/basic/popup/DialogEffect.js",
+		"bin-debug/basic/popup/PanelBase.js",
+		"bin-debug/basic/popup/PopUpManager.js",
+		"bin-debug/Action_PaoWuXian.js",
+		"bin-debug/basic/scene/SceneeEffect.js",
+		"bin-debug/basic/scene/SceneManager.js",
+		"bin-debug/basic/support/Dispatcher.js",
+		"bin-debug/basic/support/LocalStorage.js",
+		"bin-debug/basic/support/Native.js",
+		"bin-debug/basic/support/SoundManager.js",
+		"bin-debug/basic/support/StageProxy.js",
+		"bin-debug/basic/support/Timer.js",
+		"bin-debug/basic/support/TimerEvent.js",
+		"bin-debug/basic/tools/HashMap.js",
+		"bin-debug/basic/tools/MathUtils.js",
+		"bin-debug/basic/tools/Utils.js"
+	]
+}

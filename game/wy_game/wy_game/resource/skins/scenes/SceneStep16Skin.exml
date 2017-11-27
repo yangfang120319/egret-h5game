@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneStep16Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" horizontalCenter="0" bottom="0" source="back_step8_jpg"/>
+	<e:Button bottom="0" label="按钮" horizontalCenter="0" id="btn_next" x="10" y="10" skinName="Btn_NextSkin" locked="true"/>
+	<e:Image id="img_mask" x="0" y="0" width="750" height="1334" source="img_mask_png" locked="true" visible="false"/>
+</e:Skin>

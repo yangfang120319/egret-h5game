@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneLoadingSkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="1334">
+	<e:Image source="back_loading_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="txt_loading" text="100%" fontFamily="Microsoft YaHei" width="153" textAlign="center" verticalCenter="0.5" textColor="0xffffff" size="45" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Label id="txt_tips" text="游戏正在加载中..." verticalCenter="74" horizontalCenter="20"/>
+</e:Skin>

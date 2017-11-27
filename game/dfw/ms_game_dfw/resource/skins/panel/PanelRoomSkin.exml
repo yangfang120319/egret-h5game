@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelRoomSkin" width="647" height="492" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_s_box_png" x="0" y="0" locked="true"/>
+	<e:Image id="img_title" y="-87" source="txt_g_fj_png" horizontalCenter="0"/>
+	<e:Image id="img_tips" source="txt_g_dqtips_png" y="420" horizontalCenter="0.5"/>
+	<e:Image y="63" x="163" source="back_s_dqcode1_png"/>
+	<e:Button id="btn_close" label="Button" x="544" y="14">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="87" height="87">
+				<e:Image source="btn_g_close_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

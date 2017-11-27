@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_StartTipsSkin" width="640" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_back" height="170" width="640" x="0" y="0" fillAlpha="0.7"/>
+	<e:Image id="img_3" source="txt_ebg_yazhu3_png" x="450" y="35"/>
+	<e:Image id="img_2" source="txt_ebg_yazhu2_png" x="330" y="35"/>
+	<e:Image id="img_1" source="txt_ebg_yazhu1_png" x="210" y="35"/>
+	<e:Image id="img_0" source="txt_ebg_yazhu0_png" x="90" y="35"/>
+</e:Skin>

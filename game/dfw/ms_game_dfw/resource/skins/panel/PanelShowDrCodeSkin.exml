@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelShowDrCodeSkin" width="647" height="492" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_s_box_png" x="0" y="0"/>
+	<e:Image x="163" source="back_s_dqcode1_png" y="111"/>
+	<e:Label text="玩游戏赢大奖" y="32" size="50" fontFamily="Microsoft YaHei" x="163"/>
+	<e:Image source="txt_s_tips_gzh_png" y="443" scaleX="0.65" scaleY="0.65" x="190"/>
+</e:Skin>

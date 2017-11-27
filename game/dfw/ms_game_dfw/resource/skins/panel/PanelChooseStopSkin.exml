@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelChooseStopSkin" width="647" height="492" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="back_s_box_png" x="0" y="0" locked="true"/>
+	<e:Button id="btn_yes" label="Button" y="368" x="162">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="323" height="108">
+	<e:Image source="btn_s_yes_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="g_head" y="57" anchorOffsetX="0" width="680" scaleX="0.9" scaleY="0.9" x="18">
+		<ns1:Head id="head0" skinName="HeadSkin"/>
+		<ns1:Head id="head1" skinName="HeadSkin"/>
+		<ns1:Head id="head2" skinName="HeadSkin"/>
+		<ns1:Head id="head3" skinName="HeadSkin"/>
+		<ns1:Head id="head4" skinName="HeadSkin"/>
+		<ns1:Head id="head5" skinName="HeadSkin"/>
+		<ns1:Head id="head6" skinName="HeadSkin"/>
+		<ns1:Head id="head7" skinName="HeadSkin"/>
+		<e:layout>
+		<e:TileLayout horizontalGap="40" paddingTop="10" paddingBottom="10" verticalGap="20"/>
+		</e:layout>
+	</e:Group>
+    <e:Group id="g_btn" y="57" anchorOffsetX="0" width="680" scaleX="0.9" scaleY="0.9" x="18">
+		<e:Button id="btn_head0" label="Button" x="86" y="373" name="0">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btn_head1" label="Button" x="86" y="373" name="1">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btn_head2" label="Button" x="86" y="373" name="2">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btn_head3" label="Button" x="86" y="373" name="3">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btn_head4" label="Button" x="86" y="373" name="4">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btn_head5" label="Button" x="86" y="373" name="5">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btn_head6" label="Button" x="86" y="373" name="6">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="btn_head7" label="Button" x="86" y="373" name="7">
+            <e:skinName>
+                <e:Skin states="up,down,disabled" width="140" height="140">
+                    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+		<e:layout>
+		<e:TileLayout horizontalGap="40" paddingTop="10" paddingBottom="10" verticalGap="20"/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="请选择要原地停留一回合的人" y="17" fontFamily="Microsoft YaHei" horizontalCenter="0.5"/>
+	
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_s_head_png" locked="true" visible="false"/>
+	<e:Image id="img_head" x="0" y="0" source="" width="128" height="128"/>
+	<e:Image id="img_headmask" source="back_s_headmask_png" x="4" y="4" locked="true" visible="false"/>
+	<e:Image id="img_hook" source="icon_g_tag_png" x="91" y="5" locked="true" visible="false"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Game_TianShiTotalSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.4" locked="true"/>
+	<e:Image id="img_caihong" source="back_ch_png" y="241" horizontalCenter="0" locked="true"/>
+	<ns1:Game_TianShi_Shan y="20" horizontalCenter="523" skinName="Game_TianShi_ShanSkin" id="shan8" x="10"/>
+	<ns1:Game_TianShi_Shan y="13" horizontalCenter="-136" skinName="Game_TianShi_ShanSkin" id="shan7" x="10"/>
+	<ns1:Game_TianShi_Shan y="28" horizontalCenter="-282" skinName="Game_TianShi_ShanSkin" id="shan6" x="10"/>
+	<ns1:Game_TianShi_Shan id="shan5" y="10" skinName="Game_TianShi_ShanSkin" horizontalCenter="333"/>
+	<ns1:Game_TianShi_Shan id="shan4" y="3" skinName="Game_TianShi_ShanSkin" horizontalCenter="-326"/>
+	<ns1:Game_TianShi_Shan id="shan3" y="18" skinName="Game_TianShi_ShanSkin" horizontalCenter="-472"/>
+	<ns1:Game_TianShi_Shan id="shan2" y="5" skinName="Game_TianShi_ShanSkin" horizontalCenter="458"/>
+	<ns1:Game_TianShi_Shan id="shan1" y="10" skinName="Game_TianShi_ShanSkin" horizontalCenter="211"/>
+	<ns1:Game_TianShi_Shan id="shan0" y="257" skinName="Game_TianShi_ShanSkin" horizontalCenter="-223"/>
+	<ns1:Game_TianShi id="tianshi" y="-36" skinName="Game_TianShiSkin" horizontalCenter="0"/>
+	<ns1:Game_TianShi id="tianshi_right" skinName="Game_TianShiSkin" horizontalCenter="342" x="10" scaleX="0.6" scaleY="0.6" y="52"/>
+	<ns1:Game_TianShi id="tianshi_left" scaleX="0.6" scaleY="0.6" skinName="Game_TianShiSkin" skewY="180" y="63" horizontalCenter="-350"/>
+	<ns1:Game_TianShi_Bao id="bao_left" y="149" skinName="Game_TianShi_BaoSkin" horizontalCenter="-333"/>
+	<ns1:Game_TianShi_Bao id="bao_right" y="144" horizontalCenter="327" skinName="Game_TianShi_BaoSkin" x="10"/>
+</e:Skin>

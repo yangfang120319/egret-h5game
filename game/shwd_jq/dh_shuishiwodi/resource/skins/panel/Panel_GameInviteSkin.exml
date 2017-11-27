@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_GameInviteSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_back" left="0" right="0" top="0" bottom="0">
+		<e:Image id="img_bacck" source="back_g_panel_desc_png" x="1" y="1" height="366" width="526" scale9Grid="12,39,77,247"/>
+		<e:Label horizontalCenter="0.5" y="22" textColor="0xB45827" text="邀请" fontFamily="微软雅黑" size="40" x="10"/>
+	</e:Group>
+	<e:Group id="g_middle" height="282" y="84" left="0" right="0">
+		<e:Label id="txt_name" y="22" textColor="0xB45827" text="好友“名字好多哟”邀请您加入房间" fontFamily="微软雅黑" size="24" horizontalCenter="0.5"/>
+		<ns1:Head id="head" y="63" skinName="HeadSkin" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.30000000000001137"/>
+	</e:Group>
+	<e:Group id="g_bottom" height="97" left="0" right="0" bottom="0">
+		<e:Button id="btn_cancel" label="按钮" x="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="222" height="74">
+	<e:Image source="btn_g_blue0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_enter" label="按钮" right="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="222" height="74">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_g_orange1_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

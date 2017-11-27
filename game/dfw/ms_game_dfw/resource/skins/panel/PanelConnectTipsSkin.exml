@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelConnectTipsSkin" width="647" height="492" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_s_box_png" x="0" y="0" locked="true"/>
+	<e:Button id="btn_yes" label="Button" y="329" x="162">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="323" height="108">
+	<e:Image source="btn_s_yes_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="服务器连接断开，请点击确定重新进入" x="77.5" y="125" anchorOffsetX="0" width="491" textAlign="center" size="40" anchorOffsetY="0" lineSpacing="10"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Game_ChipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="129" height="129">
+	<e:Image id="img_chip" source="back_g_chip100000_png" x="0" y="0"/>
+	<e:BitmapLabel id="txt_gold" font="num_game_chip_fnt" text="100" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

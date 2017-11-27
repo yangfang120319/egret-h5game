@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneWaitingSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+	<e:Component id="com_waiting" width="0" height="0" horizontalCenter="0" verticalCenter="0" scaleX="0.5" scaleY="0.5">
+		<e:skinName>
+			<e:Skin>
+	<e:Image source="icon_waiting_png" x="-109" y="-109"/>
+</e:Skin>
+		</e:skinName>
+	</e:Component>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_GameDescriptionSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="366">
+	<e:Group id="g_back" left="0" right="0" top="0" bottom="0" locked="true">
+		<e:Image id="img_bacck" source="back_g_panel_desc_png" x="1" y="1" height="366" width="526" scale9Grid="12,39,77,247"/>
+		<e:Label y="110" textColor="0xB45827" fontFamily="微软雅黑" size="26" text="请描述你的词，求含蓄!" horizontalCenter="0.5"/>
+		<e:Image source="back_g_p_sr0_png" y="169" horizontalCenter="0"/>
+	</e:Group>
+	<e:EditableText id="txt_description" width="380" height="67" y="172" horizontalCenter="3.5" verticalAlign="middle" textAlign="center" size="30" textColor="0x110505" prompt="填入您的描述（10字以内）" fontFamily="Microsoft YaHei"/>
+	<e:Label id="txt_word" horizontalCenter="0.5" y="22" textColor="0xB45827" text="美容" fontFamily="微软雅黑" size="40" x="10"/>
+	<e:Button id="btn_yes" label="按钮" horizontalCenter="0.5" y="268">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="222" height="74">
+	<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_g_orange0_png"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

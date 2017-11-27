@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_ChooseSkin" xmlns:e="http://ns.egret.com/eui" width="1138" height="400" xmlns:ns1="*">
+	<e:Image id="img_beilvlight" source="btn_mlxyyh_beilvlight_png" x="0" y="17" locked="true"/>
+	<e:Image id="img_back" source="back_mlxyyh_yazhu_png" x="0" y="1" locked="true"/>
+	<e:Image id="img_txt_jb" source="txt_mlxyyh_jb2_ch_png" x="866" y="61" width="74" height="33" locked="true"/>
+	<e:Group id="g_beilv" x="63" y="352">
+		<e:BitmapLabel x="0" y="0" font="num_mlxyyh_peilv_fnt" text="x48"/>
+		<e:BitmapLabel y="-1" text="x48" font="num_mlxyyh_peilv_fnt" x="153"/>
+		<e:BitmapLabel y="-1" text="x24" font="num_mlxyyh_peilv_fnt" x="308"/>
+		<e:BitmapLabel y="0" text="x12" font="num_mlxyyh_peilv_fnt" x="463"/>
+		<e:BitmapLabel y="0" text="x6" font="num_mlxyyh_peilv_fnt" x="632.5"/>
+		<e:BitmapLabel y="-1" text="x4" font="num_mlxyyh_peilv_fnt" x="787.5"/>
+		<e:BitmapLabel y="0" text="x2" font="num_mlxyyh_peilv_fnt" x="942.5"/>
+	</e:Group>
+	<e:Group id="g_btn" x="30" y="219" locked="true">
+		<e:Button id="btn_choose6" label="按钮" x="931" y="0" name="6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect height="180" width="140" x="0" fillAlpha="0" y="0"/>
+					<e:Image source="btn_mlxyyh_chooselight_png" y="2" includeIn="down" horizontalCenter="0" alpha="0.7"/>
+					<e:Image source="icon_mlxyyh_6_0_png" x="18" y="16" includeIn="up,disabled"/>
+					<e:Image source="icon_mlxyyh_6_1_png" x="18" y="16" includeIn="down"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose5" y="0" label="按钮" x="776" name="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect height="180" width="140" x="0" fillAlpha="0" y="0"/>
+					<e:Image source="btn_mlxyyh_chooselight_png" y="2" includeIn="down" horizontalCenter="0" alpha="0.7"/>
+					<e:Image source="icon_mlxyyh_5_0_png" x="18" y="16" includeIn="up,disabled"/>
+					<e:Image source="icon_mlxyyh_5_1_png" x="18" y="16" includeIn="down"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose4" y="0" label="按钮" x="621" name="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect height="180" width="140" x="0" fillAlpha="0" y="0"/>
+					<e:Image source="btn_mlxyyh_chooselight_png" y="2" includeIn="down" horizontalCenter="0" alpha="0.7"/>
+					<e:Image source="icon_mlxyyh_4_0_png" x="18" y="16" includeIn="up,disabled"/>
+					<e:Image source="icon_mlxyyh_4_1_png" x="18" y="16" includeIn="down"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose3" y="0" label="按钮" x="465" name="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect height="180" width="140" x="0" fillAlpha="0" y="0"/>
+					<e:Image source="btn_mlxyyh_chooselight_png" y="2" includeIn="down" horizontalCenter="0" alpha="0.7"/>
+					<e:Image source="icon_mlxyyh_3_0_png" x="18" y="16" includeIn="up,disabled"/>
+					<e:Image source="icon_mlxyyh_3_1_png" x="18" y="16" includeIn="down"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose2" y="0" label="按钮" x="310" name="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect height="180" width="140" x="0" fillAlpha="0" y="0"/>
+					<e:Image source="btn_mlxyyh_chooselight_png" y="2" includeIn="down" horizontalCenter="0" alpha="0.7"/>
+					<e:Image source="icon_mlxyyh_2_0_png" x="18" y="16" includeIn="up,disabled"/>
+					<e:Image source="icon_mlxyyh_2_1_png" x="18" y="16" includeIn="down"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose1" y="0" label="按钮" x="155" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect height="180" width="140" x="0" fillAlpha="0" y="0"/>
+					<e:Image source="btn_mlxyyh_chooselight_png" y="2" includeIn="down" horizontalCenter="0" alpha="0.7"/>
+					<e:Image source="icon_mlxyyh_1_0_png" x="18" y="16" includeIn="up,disabled"/>
+					<e:Image source="icon_mlxyyh_1_1_png" x="18" y="16" includeIn="down"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose0" y="0" label="按钮" x="0" name="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect height="180" width="140" x="0" fillAlpha="0" y="0"/>
+					<e:Image source="btn_mlxyyh_chooselight_png" y="2" includeIn="down" horizontalCenter="0" alpha="0.7"/>
+					<e:Image source="icon_mlxyyh_0_0_png" x="18" y="16" includeIn="up,disabled"/>
+					<e:Image source="icon_mlxyyh_0_1_png" x="18" y="16" includeIn="down"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="g_gold" x="26" y="122" locked="true">
+		<e:BitmapLabel id="txt_usergold0" x="0" y="38" font="num_mlxyyh_gold_fnt" text="0" letterSpacing="-4" width="144" textAlign="center"/>
+		<e:BitmapLabel id="txt_usergold1" x="156" y="38" text="0" font="num_mlxyyh_gold_fnt" textAlign="center" width="144" letterSpacing="-4"/>
+		<e:BitmapLabel id="txt_usergold2" y="38" text="0" font="num_mlxyyh_gold_fnt" textAlign="center" letterSpacing="-4" width="144" x="312"/>
+		<e:BitmapLabel id="txt_usergold3" x="468" y="38" text="0" font="num_mlxyyh_gold_fnt" letterSpacing="-4" width="144" textAlign="center"/>
+		<e:BitmapLabel id="txt_usergold4" y="38" text="0" font="num_mlxyyh_gold_fnt" letterSpacing="-4" textAlign="center" width="144" x="623"/>
+		<e:BitmapLabel id="txt_usergold5" x="780" y="38" text="0" font="num_mlxyyh_gold_fnt" textAlign="center" width="144" letterSpacing="-4"/>
+		<e:BitmapLabel id="txt_usergold6" y="38" text="0" font="num_mlxyyh_gold_fnt" textAlign="center" letterSpacing="-4" width="144" x="936"/>
+		<e:BitmapLabel id="txt_totalgold0" x="0" y="0" text="0" letterSpacing="-1" width="206" textAlign="center" scaleX="0.7" scaleY="0.7" font="num_game_gold_fnt"/>
+		<e:BitmapLabel id="txt_totalgold1" x="156" y="0" text="0" letterSpacing="-1" textAlign="center" width="206" scaleY="0.7" scaleX="0.7" font="num_game_gold_fnt"/>
+		<e:BitmapLabel id="txt_totalgold2" x="312" y="0" text="0" letterSpacing="-1" scaleX="0.7" width="206" scaleY="0.7" textAlign="center" font="num_game_gold_fnt"/>
+		<e:BitmapLabel id="txt_totalgold3" x="468" y="0" text="0" letterSpacing="-1" textAlign="center" width="206" scaleY="0.7" scaleX="0.7" font="num_game_gold_fnt"/>
+		<e:BitmapLabel id="txt_totalgold4" x="623" y="0" text="0" letterSpacing="-1" scaleX="0.7" width="206" scaleY="0.7" textAlign="center" font="num_game_gold_fnt"/>
+		<e:BitmapLabel id="txt_totalgold5" x="780" y="0" text="0" letterSpacing="-1" textAlign="center" width="206" scaleY="0.7" scaleX="0.7" font="num_game_gold_fnt"/>
+		<e:BitmapLabel id="txt_totalgold6" x="936" y="0" text="0" letterSpacing="-1" scaleX="0.7" width="206" scaleY="0.7" textAlign="center" font="num_game_gold_fnt"/>
+	</e:Group>
+	<e:BitmapLabel id="txt_gold" x="946" y="66" text="127361901" letterSpacing="-2" width="212" scaleX="0.8" scaleY="0.8" font="num_game_gold_fnt"/>
+	<e:Button id="btn_beilv" label="200k" x="0" y="17" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image source="btn_mlxyyh_beilv_png" x="0" y="0"/>
+				<e:Group verticalCenter="0" x="65">
+					<e:Image x="0" y="0" source="txt_mlxyyh_bl_ch_png" y.down="0"/>
+					<e:BitmapLabel id="labelDisplay" x="101" y="2" text="1000k" font="num_mlxyyh_beilv_fnt" x.down="101" letterSpacing="1"/>
+				</e:Group>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="279" y="16" locked="true">
+		<e:Image id="img_light_left13" source="icon_mlxyyh_light_png" x="0" y="59"/>
+		<e:Image id="img_light_left12" source="icon_mlxyyh_light_png" y="36" x="0"/>
+		<e:Image id="img_light_left11" source="icon_mlxyyh_light_png" y="14" x="6"/>
+		<e:Image id="img_light_left10" source="icon_mlxyyh_light_png" y="1" x="26"/>
+		<e:Image id="img_light_left9" source="icon_mlxyyh_light_png" y="0" x="50"/>
+		<e:Image id="img_light_left8" source="icon_mlxyyh_light_png" y="0" x="74"/>
+		<e:Image id="img_light_left7" source="icon_mlxyyh_light_png" y="0" x="97"/>
+		<e:Image id="img_light_left6" source="icon_mlxyyh_light_png" y="0" x="121"/>
+		<e:Image id="img_light_left5" source="icon_mlxyyh_light_png" y="0" x="145"/>
+		<e:Image id="img_light_left4" source="icon_mlxyyh_light_png" y="0" x="169"/>
+		<e:Image id="img_light_left3" source="icon_mlxyyh_light_png" y="0" x="193"/>
+		<e:Image id="img_light_left2" source="icon_mlxyyh_light_png" y="0" x="216"/>
+		<e:Image id="img_light_left1" source="icon_mlxyyh_light_png" y="0" x="240"/>
+		<e:Image id="img_light_left0" source="icon_mlxyyh_light_png" y="0" x="264"/>
+	</e:Group>
+	<e:Group x="567" y="16" locked="true">
+		<e:Image id="img_light_right0" source="icon_mlxyyh_light_png" y="0" x="0"/>
+		<e:Image id="img_light_right1" source="icon_mlxyyh_light_png" y="0" x="24"/>
+		<e:Image id="img_light_right2" source="icon_mlxyyh_light_png" y="0" x="48"/>
+		<e:Image id="img_light_right3" source="icon_mlxyyh_light_png" y="0" x="71"/>
+		<e:Image id="img_light_right4" source="icon_mlxyyh_light_png" y="0" x="95"/>
+		<e:Image id="img_light_right5" source="icon_mlxyyh_light_png" y="0" x="119"/>
+		<e:Image id="img_light_right6" source="icon_mlxyyh_light_png" y="0" x="143"/>
+		<e:Image id="img_light_right7" source="icon_mlxyyh_light_png" y="0" x="167"/>
+		<e:Image id="img_light_right8" source="icon_mlxyyh_light_png" y="0" x="190"/>
+		<e:Image id="img_light_right9" source="icon_mlxyyh_light_png" y="0" x="214"/>
+		<e:Image id="img_light_right10" source="icon_mlxyyh_light_png" y="0" x="238"/>
+		<e:Image id="img_light_right13" source="icon_mlxyyh_light_png" y="59" x="263"/>
+		<e:Image id="img_light_right12" source="icon_mlxyyh_light_png" y="36" x="263"/>
+		<e:Image id="img_light_right11" source="icon_mlxyyh_light_png" y="14" x="258"/>
+	</e:Group>
+</e:Skin>

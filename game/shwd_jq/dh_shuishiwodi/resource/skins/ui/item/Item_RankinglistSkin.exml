@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_RankinglistSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="588" height="96">
+	<e:Image source="back_s_line_png" bottom="0" horizontalCenter="0"/>
+	<e:Label id="txt_totalnum" text="120" fontFamily="微软雅黑" size="22" x="485.33" textColor="0xF7A051" verticalCenter="0" anchorOffsetX="0" width="77" textAlign="center"/>
+	<e:Label id="txt_name" text="五个小奶牛" x="99" verticalCenter="0" size="22" fontFamily="微软雅黑" textColor="0xA3A3A3" anchorOffsetX="0" width="150" lineSpacing="5"/>
+	<e:Image id="img_vip" x="381" width="38" height="38" source="icon_vip1_png" y="29"/>
+	<e:Image id="img_star" source="icon_star0_png" x="425" y="42"/>
+	<e:Label id="txt_win" text="50%" fontFamily="微软雅黑" verticalCenter="0" size="22" x="251.02" y="10" textColor="0x87C7F7" anchorOffsetX="0" width="86" verticalAlign="bottom" textAlign="center"/>
+	<ns1:Head id="head" x="22" skinName="HeadSkin" scaleX="0.56" scaleY="0.56" verticalCenter="0"/>
+</e:Skin>

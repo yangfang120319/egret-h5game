@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_History2Skin" height="90" xmlns:e="http://ns.egret.com/eui" width="986">
+	<e:Image source="back_ysc_history_png" y="27" x="15"/>
+	<e:List id="list" x="176" y="0" itemRendererSkinName="Item_YSC_History2Skin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+				<e:Object/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:List>
+	<e:Image source="back_ysc_line_png" x="177" y="0" rotation="90" width="90"/>
+</e:Skin>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_YaZhuSkin" width="609" height="561" xmlns:e="http://ns.egret.com/eui">
+	<e:Group x="58" y="50">
+		<e:Group x="10" y="9">
+			<e:Image y="0" x="0" width="100" scale9Grid="24,20,39,2" alpha="0.8" source="back_ysc_totalgold_png"/>
+			<e:Label id="txt_yazhu_total0" x="5.5" y="9" size="25" fontFamily="微软雅黑" bold="true" width="89" textAlign="center" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group y="7" x="123">
+			<e:Image x="0" y="0" width="100" source="back_ysc_totalgold_png" scale9Grid="22,21,43,1" alpha="0.8"/>
+			<e:Label id="txt_yazhu_user0" x="5.5" y="9" size="25" textColor="0xEDB940" fontFamily="微软雅黑" bold="true" width="89" textAlign="center"/>
+		</e:Group>
+		<e:Button id="btn_ya0" y="0" label="按钮" x="0" name="0" anchorOffsetX="0" width="233" anchorOffsetY="0" height="222" scaleX="1" scaleY="1" locked="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_qiang0" y="152" label="q" x="9" name="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="217" height="67">
+					<e:Image source="btn_ysc_get_down_png" includeIn="down" x="0" y="0"/>
+					<e:Image scaleX.down="0.9" scaleY.down="0.9" includeIn="up,disabled" source="btn_ysc_get_up_png"/>
+					<e:BitmapLabel id="iconDisplay" text="q" horizontalCenter="0" verticalCenter="-2.5" horizontalCenter.down="0" verticalCenter.down="1.5" letterSpacing="-5" font="num_ysc_qiangzhu_fnt"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group y="50" x="312">
+		<e:Group x="10" y="9">
+			<e:Image y="0" x="0" width="100" scale9Grid="24,20,39,2" alpha="0.8" source="back_ysc_totalgold_png"/>
+			<e:Label id="txt_yazhu_total1" x="5.5" y="9" size="25" fontFamily="微软雅黑" bold="true" width="89" textAlign="center" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group y="7" x="123">
+			<e:Image x="0" y="0" width="100" source="back_ysc_totalgold_png" scale9Grid="22,21,43,1" alpha="0.8"/>
+			<e:Label id="txt_yazhu_user1" x="5.5" y="9" size="25" textColor="0xEDB940" fontFamily="微软雅黑" bold="true" width="89" textAlign="center"/>
+		</e:Group>
+		<e:Button id="btn_ya1" y="0" label="按钮" x="0" name="1" anchorOffsetX="0" width="233" anchorOffsetY="0" height="222" scaleX="1" scaleY="1" locked="true">
+			<e:Skin states="up,down,disabled">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="btn_qiang1" y="152" label="q" x="9" name="1" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="217" height="67">
+					<e:Image source="btn_ysc_get_down_png" includeIn="down" x="0" y="0"/>
+					<e:Image scaleX.down="0.9" scaleY.down="0.9" includeIn="up,disabled" source="btn_ysc_get_up_png"/>
+					<e:BitmapLabel id="labelDisplay" font="num_ysc_qiangzhu_fnt" text="q" horizontalCenter="0" verticalCenter="-2.5" horizontalCenter.down="0" verticalCenter.down="1.5" letterSpacing="-5"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group y="285" x="312">
+		<e:Group x="10" y="9">
+			<e:Image y="0" x="0" width="100" scale9Grid="24,20,39,2" alpha="0.8" source="back_ysc_totalgold_png"/>
+			<e:Label id="txt_yazhu_total2" x="5.5" y="9" size="25" fontFamily="微软雅黑" bold="true" width="89" textAlign="center" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group y="7" x="123">
+			<e:Image x="0" y="0" width="100" source="back_ysc_totalgold_png" scale9Grid="22,21,43,1" alpha="0.8"/>
+			<e:Label id="txt_yazhu_user2" x="5.5" y="9" size="25" textColor="0xEDB940" fontFamily="微软雅黑" bold="true" width="89" textAlign="center"/>
+		</e:Group>
+		<e:Button id="btn_ya2" y="0" label="按钮" x="0" name="2" anchorOffsetX="0" width="233" anchorOffsetY="0" height="222" scaleX="1" scaleY="1" locked="true">
+			<e:Skin states="up,down,disabled">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="btn_qiang2" y="152" label="q" x="9" name="2" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="217" height="67">
+					<e:Image source="btn_ysc_get_down_png" includeIn="down" x="0" y="0"/>
+					<e:Image scaleX.down="0.9" scaleY.down="0.9" includeIn="up,disabled" source="btn_ysc_get_up_png"/>
+					<e:BitmapLabel id="labelDisplay" font="num_ysc_qiangzhu_fnt" text="q" horizontalCenter="0" verticalCenter="-2.5" horizontalCenter.down="0" verticalCenter.down="1.5" letterSpacing="-5"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group y="285" x="57">
+		<e:Group x="10" y="9">
+			<e:Image y="0" x="0" width="100" scale9Grid="24,20,39,2" alpha="0.8" source="back_ysc_totalgold_png"/>
+			<e:Label id="txt_yazhu_total3" x="5.5" y="9" size="25" fontFamily="微软雅黑" bold="true" width="89" textAlign="center" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group y="7" x="123">
+			<e:Image x="0" y="0" width="100" source="back_ysc_totalgold_png" scale9Grid="22,21,43,1" alpha="0.8"/>
+			<e:Label id="txt_yazhu_user3" x="5.5" y="9" size="25" textColor="0xEDB940" fontFamily="微软雅黑" bold="true" width="89" textAlign="center"/>
+		</e:Group>
+		<e:Button id="btn_ya3" y="0" label="按钮" x="0" name="3" anchorOffsetX="0" width="233" anchorOffsetY="0" height="222" scaleX="1" scaleY="1" locked="true">
+			<e:Skin states="up,down,disabled">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="btn_qiang3" y="152" label="q" x="9" name="3" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="217" height="67">
+					<e:Image source="btn_ysc_get_down_png" includeIn="down" x="0" y="0"/>
+					<e:Image scaleX.down="0.9" scaleY.down="0.9" includeIn="up,disabled" source="btn_ysc_get_up_png"/>
+					<e:BitmapLabel id="labelDisplay" font="num_ysc_qiangzhu_fnt" text="q" horizontalCenter="0" verticalCenter="-2.5" horizontalCenter.down="0" verticalCenter.down="1.5" letterSpacing="-5"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

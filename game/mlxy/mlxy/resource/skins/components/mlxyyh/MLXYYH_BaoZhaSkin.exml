@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_BaoZhaSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bao1" x="0" y="0" scaleX="3" scaleY="3" source="icon_mlxyyh_bz2_png"/>
+	<e:Image id="img_bao2" source="icon_mlxyyh_bao0_png" x="119" y="47" scaleX="2" scaleY="2"/>
+</e:Skin>

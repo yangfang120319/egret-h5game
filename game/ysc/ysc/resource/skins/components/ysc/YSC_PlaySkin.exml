@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_PlaySkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="609" height="561">
+	<e:Image source="back_ysc_box_png" y="-1" x="-1" locked="true"/>
+	<e:Group id="g_table0" x="175" y="161">
+		<e:Image source="back_ysc_redbox_png" x="-116.5" y="-111"/>
+		<e:Image source="icon_ysc_choose_b_0_png" x="-76.5" y="-77"/>
+		<e:Image id="img_light0" source="back_ysc_redbox_light_png" x="-125.5" y="-120" blendMode="add" alpha="0"/>
+		<e:Image id="img_mask0" source="back_ysc_mask_png" x="-116.5" y="-111" alpha="0"/>
+	</e:Group>
+	<e:Group id="g_table1" y="161" x="430">
+		<e:Image source="back_ysc_bluebox_png" x="-116.5" y="-111"/>
+		<e:Image source="icon_ysc_choose_b_1_png" x="-76.5" y="-77"/>
+		<e:Image id="img_light1" source="back_ysc_bluebox_light_png" x="-125.5" y="-120" blendMode="add" alpha="0"/>
+		<e:Image id="img_mask1" source="back_ysc_mask_png" x="-116.5" y="-111" alpha="0"/>
+	</e:Group>
+	<e:Group id="g_table2" x="430" y="396">
+		<e:Image source="back_ysc_redbox_png" x="-116.5" y="-111"/>
+		<e:Image source="icon_ysc_choose_b_3_png" x="-76.5" y="-77"/>
+		<e:Image id="img_light2" x="-125.5" y="-120" alpha="0" source="back_ysc_redbox_light_png" blendMode="add"/>
+		<e:Image id="img_mask2" source="back_ysc_mask_png" x="-116.5" y="-111" alpha="0"/>
+	</e:Group>
+	<e:Group id="g_table3" x="175" y="396">
+		<e:Image source="back_ysc_bluebox_png" x="-116.5" y="-111"/>
+		<e:Image source="icon_ysc_choose_b_2_png" x="-76.5" y="-77"/>
+		<e:Image id="img_light3" x="-125.5" y="-120" source="back_ysc_bluebox_light_png" blendMode="add" alpha="0"/>
+		<e:Image id="img_mask3" source="back_ysc_mask_png" x="-116.5" y="-111" alpha="0"/>
+	</e:Group>
+	<e:Group id="g_light" x="-6" y="-4">
+		<e:Image id="img_light_0" source="icon_ysc_light_yellow_png" y="0" x="0"/>
+		<e:Image id="img_light_1" y="1" x="86" scaleX="0.7" scaleY="0.7" source="icon_ysc_light_red_png"/>
+		<e:Image id="img_light_2" y="1" x="167" scaleX="0.7" scaleY="0.7" source="icon_ysc_light_hong_png"/>
+		<e:Image id="img_light_3" y="1" scaleY="0.7" x="248" scaleX="0.7" source="icon_ysc_light_lv_png"/>
+		<e:Image id="img_light_4" y="1" scaleY="0.7" x="328" scaleX="0.7" source="icon_ysc_light_yellow_png"/>
+		<e:Image id="img_light_5" y="1" scaleY="0.7" scaleX="0.7" x="409" source="icon_ysc_light_red_png"/>
+		<e:Image id="img_light_6" y="1" scaleY="0.7" scaleX="0.7" x="490" source="icon_ysc_light_hong_png"/>
+		<e:Image id="img_light_7" y="0" x="555" source="icon_ysc_light_lv_png"/>
+		<e:Image id="img_light_8" source="icon_ysc_light_yellow_png" y="89" scaleY="0.7" x="573" scaleX="0.7"/>
+		<e:Image id="img_light_9" y="159.3" scaleY="0.7" x="573" scaleX="0.7" source="icon_ysc_light_red_png"/>
+		<e:Image id="img_light_10" y="230.3" scaleY="0.7" scaleX="0.7" x="573" source="icon_ysc_light_hong_png"/>
+		<e:Image id="img_light_11" y="300.3" scaleY="0.7" scaleX="0.7" x="573" source="icon_ysc_light_lv_png"/>
+		<e:Image id="img_light_12" y="370.3" scaleY="0.7" x="573" scaleX="0.7" source="icon_ysc_light_yellow_png"/>
+		<e:Image id="img_light_13" scaleY="0.7" x="573" scaleX="0.7" y="441" source="icon_ysc_light_red_png"/>
+		<e:Image id="img_light_14" y="507" x="555" source="icon_ysc_light_hong_png"/>
+		<e:Image id="img_light_15" y="523" scaleY="0.7" scaleX="0.7" x="487" source="icon_ysc_light_lv_png"/>
+		<e:Image id="img_light_16" source="icon_ysc_light_yellow_png" y="523" scaleY="0.7" scaleX="0.7" x="407"/>
+		<e:Image id="img_light_17" source="icon_ysc_light_red_png" y="523" scaleY="0.7" scaleX="0.7" x="327"/>
+		<e:Image id="img_light_18" y="523" scaleY="0.7" x="246" scaleX="0.7" source="icon_ysc_light_hong_png"/>
+		<e:Image id="img_light_19" y="523" scaleY="0.7" x="166" scaleX="0.7" source="icon_ysc_light_lv_png"/>
+		<e:Image id="img_light_20" source="icon_ysc_light_yellow_png" y="523" scaleY="0.7" scaleX="0.7" x="86"/>
+		<e:Image id="img_light_21" x="0" y="507" source="icon_ysc_light_red_png"/>
+		<e:Image id="img_light_22" scaleY="0.7" x="2" scaleX="0.7" y="441" source="icon_ysc_light_hong_png"/>
+		<e:Image id="img_light_23" y="370.3" scaleY="0.7" x="2" scaleX="0.7" source="icon_ysc_light_lv_png"/>
+		<e:Image id="img_light_24" source="icon_ysc_light_yellow_png" y="299.3" scaleY="0.7" scaleX="0.7" x="2"/>
+		<e:Image id="img_light_25" source="icon_ysc_light_red_png" y="228.3" scaleY="0.7" scaleX="0.7" x="2"/>
+		<e:Image id="img_light_26" y="157.3" scaleY="0.7" x="2" scaleX="0.7" source="icon_ysc_light_hong_png"/>
+		<e:Image id="img_light_27" y="86" scaleY="0.7" x="2" scaleX="0.7" source="icon_ysc_light_lv_png"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_TableSkin" width="200" height="220" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="116" height="30" bottom="15" x="42">
+		<e:Image source="back_g_tablegold_png" y="0" x="0"/>
+		<e:Image source="icon_gold_png" x="-24" y="-5"/>
+		<e:Label id="txt_gold_user" y="3" fontFamily="微软雅黑" textAlign="center" width="84" size="22" x="16" height="22" textColor="0xFFFFFF" text="12121"/>
+	</e:Group>
+	<e:Group top="15" x="42">
+		<e:Image source="back_g_tablegold_png" y="0" x="0"/>
+		<e:Label id="txt_gold_total" x="2" y="3" size="22" text="90000000" fontFamily="微软雅黑" textAlign="center" width="111" height="22" textColor="0xFBD05D"/>
+	</e:Group>
+	<ns1:Game_Mahjong id="mahjong0" skinName="Game_MahjongSkin" x="29" verticalCenter="0"/>
+	<ns1:Game_Mahjong id="mahjong1" skinName="Game_MahjongSkin" x="100" verticalCenter="0"/>
+	<ns1:EBG_Result id="result" x="17" skinName="EBG_ResultSkin" verticalCenter="30.5"/>
+	<e:Image source="back_g_win_png" width="165" verticalCenter="-0.20000000000000284" scaleX="1.2" scale9Grid="39,34,16,21" horizontalCenter="-1" scaleY="1.2" height="133" id="img_result" x="10" y="10" visible="false"/>
+	<e:Group id="g_result" y="20" verticalCenter="0" horizontalCenter="0" x="20" visible="false">
+		<e:Image source="txt_g_win_png" y="0" scaleY="1.2" x="0" scaleX="1.2"/>
+		<e:BitmapLabel id="txt_result" x="78" y="20" text="x2" font="num_game_win_fnt" letterSpacing="-15" scaleY="1.2" scaleX="1.2"/>
+	</e:Group>
+	<e:BitmapLabel id="txt_lose" y="20" verticalCenter="0" text="x7" font="num_game_lose_fnt" scaleX="1.2" letterSpacing="-10" horizontalCenter="0" scaleY="1.2" x="20" visible="false"/>
+</e:Skin>

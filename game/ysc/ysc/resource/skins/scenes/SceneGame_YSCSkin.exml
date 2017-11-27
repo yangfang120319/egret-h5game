@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneGame_YSCSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" >
+	<e:Image source="back_ysc_jpg" top="0" bottom="0" left="0" right="0" locked="true"/>
+	<ns1:YSC_Time id="time" x="403" y="12" skinName="YSC_TimeSkin" locked="true"/>
+	<ns1:YSC_Play id="play" x="20" y="73" skinName="YSC_PlaySkin" scaleX="0.82" scaleY="0.82" locked="true"/>
+	<e:Button x="0" y="16" icon="txt_ysc_fh_ch_png" scaleX="0.86" scaleY="0.86" label="按钮" id="btn_exit" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+				<e:Image source="btn_ysc_exit_png" x="0" y="0"/>
+				<e:Image id="iconDisplay" horizontalCenter="-5" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="back_ysc_title_png" y="12" id="img_title" scaleX="0.7" width="429" scaleY="0.7" x="107"/>
+	<ns1:YSC_Choose id="choose" x="524" y="74" scaleX="0.82" scaleY="0.82" skinName="YSC_ChooeseSkin"/>
+	<ns1:YSC_UserGold id="usergold" x="605" y="-2" skinName="YSC_UserGoldSkin" locked="true"/>
+	<ns1:YSC_ChipFly id="chipfly" x="0" y="0" locked="true"/>
+	<ns1:YSC_YaZhu id="yazhu" x="20" y="73" skinName="YSC_YaZhuSkin" scaleX="0.82" scaleY="0.82"/>
+	<ns1:YSC_LuZi id="luzi" x="524" y="370" skinName="YSC_LuZiSkin" scaleX="0.82" scaleY="0.82" locked="true"/>
+	<ns1:YSC_History id="history1" x="825" y="77" skinName="YSC_History1Skin" locked="true"/>
+	<ns1:YSC_History id="history2" x="14" y="547" skinName="YSC_History2Skin" locked="true"/>
+	<ns1:Game_CountDown id="countdown" skinName="Game_CountDownSkin" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:YSC_Over id="over" skinName="YSC_OverSkin" left="0" right="0" top="0" bottom="0" locked="true" visible="false"/>
+	<ns1:YSC_OverShow id="overshow" skinName="YSC_OverShowSkin" left="0" right="0" top="0" bottom="0" locked="true" visible="false"/>
+</e:Skin>

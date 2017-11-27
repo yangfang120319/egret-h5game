@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SG_ResultSkin" width="214" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="type1,type2,type3,type4" >
+	<e:Group id="g_caishen" width="290" y="-119" height="180" x="-40" includeIn="type4">
+		<e:Group verticalCenter="0" width="0" height="0" id="g_light" y="10" horizontalCenter="-10" scaleX="0.6" scaleY="0.6">
+			<e:Image source="back_g_light_png" y="-275" x="-275" id="img_light0"/>
+		</e:Group>
+		<e:Image id="img_caishen1" source="icon_sg_caishen__png" verticalCenter="14" scaleY="0.7" horizontalCenter="-78" scaleX="0.7"/>
+		<e:Image id="img_caishen2" source="icon_sg_caishen__png" verticalCenter="14" scaleY="0.7" horizontalCenter="73" scaleX="0.7"/>
+		<e:Image id="img_caishen0" source="icon_sg_caishen__png" verticalCenter="-4" scaleY="1" horizontalCenter="-9" scaleX="1"/>
+	</e:Group>
+	<e:Rect id="rect_back4" width="214" height="50" fillColor="0xB92100" includeIn="type4"/>
+	<e:Image id="img_shan4" source="icon_sg_bao0_png" includeIn="type4" horizontalCenter="3.5" verticalCenter="-10.5"/>
+	<e:Rect id="rect_back1" width="214" height="50" y="0" includeIn="type1" fillColor="0x99ACC3"/>
+	<e:Rect id="rect_back3" width="214" height="50" y="0" fillColor="0x82A659" includeIn="type3"/>
+	<e:Rect id="rect_back2" width="214" height="50" y="0" fillColor="0x99ACC3" includeIn="type2"/>
+	<e:Image id="img_dianshu4" source="icon_sg_sangong_png" y="7" x="2" includeIn="type4"/>
+	<e:Image id="img_shan1" source="icon_sg_shan0_png" includeIn="type1" verticalCenter="-25.5" horizontalCenter="16.5"/>
+	<e:Image id="img_shan2" source="icon_sg_shan0_png" includeIn="type2" horizontalCenter="16.5" verticalCenter="-25.5"/>
+	<e:Image id="img_shan3" includeIn="type3" source="icon_sg_dian0_png" horizontalCenter="3.5" verticalCenter="-7"/>
+	<e:Component id="com_bird" x="18" y="5" width="0" height="0" includeIn="type1">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="icon_sg_bird__png" x="-25" y="-22"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Image id="img_beishu1" source="icon_sg_bei1_png" x="99" y="2" includeIn="type1"/>
+	<e:Image id="img_beishu2" source="icon_sg_bei1_png" x="99" y="2" includeIn="type2"/>
+	<e:Image id="img_beishu3" source="icon_sg_bei2_png" x="99" y="5" includeIn="type3"/>
+	<e:Image id="img_beishu4" source="icon_sg_bei3_png" x="99" y="5" includeIn="type4"/>
+	<e:Image id="img_ji" source="icon_sg_dianshu1_1_png" x="50" y="3" includeIn="type1"/>
+	<e:Image id="img_yao" source="icon_sg_dianshu1_0_png" includeIn="type1" y="3" x="0"/>
+	<e:Image id="img_dianshu2" source="icon_sg_dianshu2_png" x="6" y="4" includeIn="type2"/>
+	<e:Image id="img_dianshu3" source="icon_sg_dianshu8_png" x="5" y="6" includeIn="type3"/>
+</e:Skin>

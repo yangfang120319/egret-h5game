@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_RunBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="76" height="76">
+	<e:Image id="img_box" source="back_mlxyyh_box_png" scale9Grid="34,33,23,19" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image id="img_icon" scaleX="0.83" scaleY="0.83" horizontalCenter="0" source="icon_mlxyyh_0_0_png" verticalCenter="0"/>
+	<e:Image id="img_light" scaleX="0.83" scaleY="0.83" horizontalCenter="0" source="icon_mlxyyh_0_1_png" verticalCenter="0" visible="false"/>
+	<e:Rect id="rect_mask" height="76" width="76" x="0" y="0" fillAlpha="0.8" alpha="0"/>
+</e:Skin>

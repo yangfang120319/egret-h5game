@@ -1,0 +1,16 @@
+{"file":"game_action.png","frames":{
+"icon_g_diceaction0_png":{"x":0,"y":0,"w":500,"h":454,"offX":0,"offY":15,"sourceW":500,"sourceH":500},
+"icon_g_diceaction1_png":{"x":502,"y":0,"w":500,"h":338,"offX":0,"offY":120,"sourceW":500,"sourceH":500},
+"icon_g_diceaction10_png":{"x":932,"y":568,"w":227,"h":180,"offX":132,"offY":156,"sourceW":500,"sourceH":500},
+"icon_g_diceaction11_png":{"x":475,"y":557,"w":226,"h":181,"offX":136,"offY":153,"sourceW":500,"sourceH":500},
+"icon_g_diceaction12_png":{"x":1161,"y":568,"w":221,"h":181,"offX":136,"offY":158,"sourceW":500,"sourceH":500},
+"icon_g_diceaction13_png":{"x":1384,"y":580,"w":217,"h":181,"offX":138,"offY":146,"sourceW":500,"sourceH":500},
+"icon_g_diceaction14_png":{"x":1603,"y":580,"w":212,"h":181,"offX":142,"offY":154,"sourceW":500,"sourceH":500},
+"icon_g_diceaction2_png":{"x":1004,"y":0,"w":487,"h":330,"offX":13,"offY":136,"sourceW":500,"sourceH":500},
+"icon_g_diceaction3_png":{"x":1493,"y":0,"w":486,"h":318,"offX":14,"offY":134,"sourceW":500,"sourceH":500},
+"icon_g_diceaction4_png":{"x":1493,"y":320,"w":493,"h":258,"offX":7,"offY":158,"sourceW":500,"sourceH":500},
+"icon_g_diceaction5_png":{"x":1004,"y":332,"w":454,"h":234,"offX":0,"offY":146,"sourceW":500,"sourceH":500},
+"icon_g_diceaction6_png":{"x":502,"y":340,"w":345,"h":215,"offX":83,"offY":154,"sourceW":500,"sourceH":500},
+"icon_g_diceaction7_png":{"x":0,"y":456,"w":245,"h":179,"offX":107,"offY":155,"sourceW":500,"sourceH":500},
+"icon_g_diceaction8_png":{"x":247,"y":456,"w":226,"h":181,"offX":138,"offY":153,"sourceW":500,"sourceH":500},
+"icon_g_diceaction9_png":{"x":703,"y":557,"w":227,"h":180,"offX":132,"offY":148,"sourceW":500,"sourceH":500}}}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_OverShowSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Component id="com_light" width="0" height="0" scaleX="1.5" scaleY="1.5" horizontalCenter="0" verticalCenter="0">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="back_jsys_light_png" x="-154" y="-154"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Group id="g_show" width="400" horizontalCenter="0" bottom="75" scaleX="1" scaleY="1" locked="true">
+		<e:Image source="back_jsys_openstart_png" x="0" y="55.90909090909091"/>
+		<e:Image source="back_jsys_openstart_png" y="53.93939393939394" x="399.0151515151515" skewY="180"/>
+		<e:Image id="img_box" horizontalCenter="0" y="27" source="icon_jsys_box_big9_png"/>
+	</e:Group>
+	<e:Image id="img_tiao" source="back_jsys_open_png" y="150" horizontalCenter="0"/>
+	<e:Image id="img_beilv" source="txt_sjys_x6_png" horizontalCenter="0" verticalCenter="29"/>
+</e:Skin>

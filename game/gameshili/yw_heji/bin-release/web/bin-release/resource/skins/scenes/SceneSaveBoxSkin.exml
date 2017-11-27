@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneSaveBoxSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_back" left="0" right="0" top="0" bottom="0" fillAlpha="0.6" locked="true"/>
+	<e:Group y="295" x="0" width="640" height="580" id="g_back" locked="true">
+		<e:Image source="back_s_deepred_png" scale9Grid="17,17,17,16" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="back_s_black_png" left="5" bottom="10" top="105" right="5" scale9Grid="41,42,23,21"/>
+		<e:Image source="back_s_red_png" left="20" right="20" top="122" bottom="28" scale9Grid="16,16,18,17"/>
+		<e:Image y="19.01515151515153" source="txt_s_bxx_png" horizontalCenter="0"/>
+		<e:Image source="back_s_gold_png" y="209" scale9Grid="27,23,17,4" width="370" x="226"/>
+		<e:Image source="back_s_savebox_png" y="280" x="36"/>
+		<e:Image source="back_s_gold_png" x="226" y="143" scale9Grid="27,23,17,4" width="370" alpha="0.5"/>
+		<e:Image source="txt_s_ccjb_png" x="50" y="215"/>
+		<e:Image source="txt_s_xyjb_png" x="87" y="154"/>
+	</e:Group>
+	<e:Button x="556" y="316" label="按钮" id="btn_close" skinName="Btn_CloseSkin"/>
+	<e:Label id="txt_tips" x="207" y="648" size="22" textAlign="right" width="390" fontFamily="微软雅黑"/>
+	<e:Button id="btn_seposit" label="按钮" y="683" skinName="BtnSkin" icon="btn_s_seposit_png" width="146" height="134" x="357"/>
+	<e:Button id="btn_get" label="按钮" y="683" skinName="BtnSkin" icon="btn_s_get_png" width="146" height="134" horizontalCenter="-110"/>
+	<e:Button id="btn_right" label="按钮" x="545" y="571" skinName="BtnSkin" icon="btn_s_right_png" width="70" height="70"/>
+	<e:Button id="btn_left" label="按钮" x="26" y="571" skinName="BtnSkin" icon="btn_s_left_png" width="70" height="70"/>
+	<e:Label id="txt_change_gold" text="100000 整存整取" x="110" y="588" textColor="0x9E3133" fontFamily="微软雅黑" width="422" textAlign="center"/>
+	<e:BitmapLabel id="txt_gold" x="235" y="445" font="font_jsys_gold_fnt" text="12123312" scaleX="1.3" scaleY="1.3" width="267" letterSpacing="-2"/>
+	<e:BitmapLabel id="txt_savegold" x="235" y="510" text="12123312" font="font_jsys_gold_fnt" letterSpacing="-2" width="267" scaleY="1.3" scaleX="1.3"/>
+</e:Skin>

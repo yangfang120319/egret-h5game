@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneStartSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="img_back" source="back_start_jpg" y="64" locked="true"/>
+	<e:Group id="g_down" x="0" y="1003">
+		<e:Image source="back_s_down_png"/>
+		<e:TabBar id="tabbar_menu" x="0" y="3" itemRendererSkinName="TabBar_MenuSkin" visible="false">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object tbicon="icon_s_menu0_png" tbtxt="txt_s_menu0_png"/>
+					<e:Object tbicon="icon_s_menu1_png" tbtxt="txt_s_menu1_png"/>
+					<e:Object tbicon="icon_s_menu2_png" tbtxt="txt_s_menu2_png"/>
+					<e:Object tbicon="icon_s_menu3_png" tbtxt="txt_s_menu3_png"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:TabBar>
+		<e:TabBar y="3" x="0" itemRendererSkinName="TabBar_MenuSkin" id="tabbar_menu0">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object tbtxt="txt_s_menu0_png" tbicon="icon_s_menu0_png"/>
+					<e:Object tbtxt="txt_s_menu2_png" tbicon="icon_s_menu2_png"/>
+					<e:Object tbtxt="txt_s_menu3_png" tbicon="icon_s_menu3_png"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="60" paddingLeft="20" paddingRight="20"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+	<ns1:Start_Up id="start_up" skinName="Start_UpSkin"/>
+	<ns1:Start_Cards id="start_cards" x="1" y="280" skinName="Start_CardsSkin"/>
+	<ns1:Start_Chat id="start_chat" y="170" skinName="Start_ChatSkin" x="3"/>
+</e:Skin>

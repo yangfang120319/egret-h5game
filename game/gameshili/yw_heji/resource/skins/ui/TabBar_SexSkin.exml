@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabBar_SexSkin" width="80" height="60" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+	<e:Image includeIn="down" horizontalCenter="0" verticalCenter="0" source="{data.downicon}"/>
+	<e:Image includeIn="up" horizontalCenter="0" verticalCenter="0" source="{data.upicon}"/>
+</e:Skin>

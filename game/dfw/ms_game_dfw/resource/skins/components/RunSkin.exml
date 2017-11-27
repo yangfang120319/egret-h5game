@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RunSkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1080">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<ns1:Card id="card0" x="45" y="66" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card1" x="55" y="76" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card2" x="65" y="86" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card3" x="75" y="96" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card4" x="85" y="106" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card5" x="95" y="116" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card6" x="105" y="126" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card7" x="115" y="136" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<ns1:Card id="card8" x="125" y="146" skinName="CardSkin" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout requestedRowCount="3" requestedColumnCount="3" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap"/>
+		</e:layout>
+	</e:Group>
+	
+</e:Skin>

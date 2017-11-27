@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_BoxSkin" width="615" height="616" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="g_btn" x="0" y="0">
+		<e:Button id="btn_box_0" label="按钮" x="0" y="0" skinName="Btn_JSYS_BlueSkin"/>
+		<e:Button id="btn_box_1" x="65.98484848484848" label="按钮" y="0" icon="icon_jsys_box6_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_2" x="131.96969696969697" label="按钮" y="0" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box6_png"/>
+		<e:Button id="btn_box_3" skinName="Btn_JSYS_YellowSkin" y="0" label="按钮" icon="icon_jsys_box6_png" x="197.95454545454547"/>
+		<e:Button id="btn_box_4" y="0" label="按钮" x="263.93939393939394" skinName="Btn_JSYS_RedSkin"/>
+		<e:Button id="btn_box_5" x="345.9848484848485" label="按钮" y="0" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box2_png"/>
+		<e:Button id="btn_box_6" x="411.96969696969694" label="按钮" y="0" icon="icon_jsys_box2_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_7" skinName="Btn_JSYS_YellowSkin" y="0" label="按钮" icon="icon_jsys_box2_png" x="477.95454545454544"/>
+		<e:Button id="btn_box_8" x="543.9393939393939" label="按钮" y="0" skinName="Btn_JSYS_BlueSkin"/>
+		<e:Button id="btn_box_9" x="543.9393939393939" label="按钮" y="83.93939393939394" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box3_png"/>
+		<e:Button id="btn_box_10" x="543.9393939393939" label="按钮" y="166.96969696969697" icon="icon_jsys_box3_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_11" x="527.9545454545454" label="按钮" y="250" skinName="Btn_JSYS_RedSkin"/>
+		<e:Button id="btn_box_12" x="543.9393939393939" label="按钮" y="361.969696969697" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box4_png"/>
+		<e:Button id="btn_box_13" x="543.9393939393939" label="按钮" y="445" icon="icon_jsys_box4_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_14" x="543.9393939393939" label="按钮" skinName="Btn_JSYS_BlueSkin" y="527.9545454545454"/>
+		<e:Button id="btn_box_15" skinName="Btn_JSYS_YellowSkin" y="527.9545454545454" label="按钮" icon="icon_jsys_box5_png" x="477.95454545454544"/>
+		<e:Button id="btn_box_16" x="411.96969696969694" label="按钮" y="527.9545454545454" icon="icon_jsys_box5_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_17" x="345.9848484848485" label="按钮" y="527.9545454545454" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box5_png"/>
+		<e:Button id="btn_box_18" x="263.93939393939394" label="按钮" y="500" skinName="Btn_JSYS_RedSkin"/>
+		<e:Button id="btn_box_19" skinName="Btn_JSYS_YellowSkin" y="527.9545454545454" label="按钮" icon="icon_jsys_box9_png" x="197.95454545454547"/>
+		<e:Button id="btn_box_20" x="131.96969696969697" label="按钮" y="527.9545454545454" icon="icon_jsys_box9_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_21" x="65.98484848484848" label="按钮" y="527.9545454545454" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box9_png"/>
+		<e:Button id="btn_box_22" skinName="Btn_JSYS_BlueSkin" y="527.9545454545454" label="按钮" x="0"/>
+		<e:Button id="btn_box_23" x="0" label="按钮" y="445" icon="icon_jsys_box8_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_24" x="0" label="按钮" y="361.969696969697" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box8_png"/>
+		<e:Button id="btn_box_25" skinName="Btn_JSYS_RedSkin" y="250" label="按钮" x="0"/>
+		<e:Button id="btn_box_26" x="0" label="按钮" y="166.96969696969697" icon="icon_jsys_box7_png" skinName="Btn_JSYS_YellowSkin"/>
+		<e:Button id="btn_box_27" x="0" label="按钮" y="83.93939393939394" skinName="Btn_JSYS_YellowSkin" icon="icon_jsys_box7_png"/>
+	</e:Group>
+	<ns1:JSYS_OverShow id="overshow" y="158" skinName="JSYS_OverShowSkin" horizontalCenter="0" visible="false"/>
+	<e:Image id="img_over" x="171" y="261" source="icon_jsys_box1_png" visible="false"/>
+</e:Skin>

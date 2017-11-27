@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_TableSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="540">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0" locked="true"/>
+	<ns1:EBG_ChipFly id="chipfly" x="0" y="0" locked="true"/>
+	<e:Group id="g_zhuang" x="251" y="0" height="108" width="139" locked="true">
+		<ns1:EBG_Mahjong id="zhuang_mahjong0" y="0" skinName="EBG_MahjongSkin" x="0"/>
+		<ns1:EBG_Mahjong id="zhuang_mahjong1" y="0" skinName="EBG_MahjongSkin" x="68"/>
+		<ns1:EBG_Result id="result_zhuang" y="63" skinName="EBG_ResultSkin" horizontalCenter="14"/>
+	</e:Group>
+	<e:Group id="g_table0" y="126" width="200" height="200" x="0" locked="true">
+		<e:Group id="g_user0" y="167" x="26">
+			<e:Image y="5" width="135" height="28" alpha="0.7" x="9" scale9Grid="5,4,2,2" source="back_ebg_yuanjiaoheisedi_png"/>
+			<e:Image y="0" x="0" source="icon_s_gold_png"/>
+			<e:Label id="txt_user0" y="9" size="20" text="0" fontFamily="Arial" textAlign="center" bold="true" width="94" height="20" x="40"/>
+		</e:Group>
+		<e:Image source="back_ebg_yuanjiaoheisedi_png" y="7" scale9Grid="5,5,2,1" width="130" height="28" horizontalCenter="0"/>
+		<ns1:EBG_Mahjong id="user_mahjong0_0" y="47" skinName="EBG_MahjongSkin" x="31"/>
+		<ns1:EBG_Mahjong id="user_mahjong0_1" y="47" skinName="EBG_MahjongSkin" x="99"/>
+		<e:BitmapLabel id="txt_total0" y="10" text="1234567" textAlign="center" width="120" horizontalCenter="0" font="font_ebg_goldjin_fnt"/>
+		<ns1:EBG_Result id="result_table0" skinName="EBG_ResultSkin" horizontalCenter="14.5" verticalCenter="41.5"/>
+		<e:Component id="com_result0" x="19" y="39" skinName="Com_ResultSkin" scaleX="0.6" scaleY="0.6"/>
+	</e:Group>
+	<e:Group id="g_table1" width="200" y="317" height="200" x="220" locked="true">
+		<e:Group id="g_user1" y="167" x="26">
+			<e:Image y="5" width="135" height="28" alpha="0.7" x="9" source="back_ebg_yuanjiaoheisedi_png" scale9Grid="5,5,2,1"/>
+			<e:Image source="icon_s_gold_png" y="0" x="0"/>
+			<e:Label id="txt_user1" y="9" size="20" text="0" fontFamily="Arial" textAlign="center" bold="true" width="94" height="20" x="40"/>
+		</e:Group>
+		<e:Image source="back_ebg_yuanjiaoheisedi_png" y="7" scale9Grid="5,5,2,1" width="130" height="28" horizontalCenter="0"/>
+		<ns1:EBG_Mahjong id="user_mahjong1_0" y="47" skinName="EBG_MahjongSkin" xmlns:ns1="*" x="31"/>
+		<ns1:EBG_Mahjong id="user_mahjong1_1" y="47" skinName="EBG_MahjongSkin" x="99"/>
+		<e:BitmapLabel id="txt_total1" y="10" text="1234567" textAlign="center" width="120" horizontalCenter="0" font="font_ebg_goldjin_fnt"/>
+		<ns1:EBG_Result id="result_table1" skinName="EBG_ResultSkin" horizontalCenter="4.5" verticalCenter="41.5"/>
+		<e:Component id="com_result1" x="19" scaleY="0.6" y="39" skinName="Com_ResultSkin" scaleX="0.6"/>
+	</e:Group>
+	<e:Group id="g_table2" width="200" y="126" height="200" x="440" locked="true">
+		<e:Group id="g_user2" y="167" x="26">
+			<e:Image y="5" width="135" height="28" alpha="0.7" x="9" source="back_ebg_yuanjiaoheisedi_png" scale9Grid="5,5,2,1"/>
+			<e:Image source="icon_s_gold_png" y="0" x="0"/>
+			<e:Label x="40" y="9" height="20" text="0" fontFamily="Arial" textAlign="center" bold="true" width="94" size="20" id="txt_user2"/>
+		</e:Group>
+		<e:Image source="back_ebg_yuanjiaoheisedi_png" y="7" scale9Grid="5,5,2,1" width="130" height="28" horizontalCenter="0"/>
+		<ns1:EBG_Mahjong id="user_mahjong2_0" y="47" skinName="EBG_MahjongSkin" xmlns:ns1="*" x="31"/>
+		<ns1:EBG_Mahjong id="user_mahjong2_1" y="47" skinName="EBG_MahjongSkin" xmlns:ns1="*" x="99"/>
+		<e:BitmapLabel y="10" text="1234567" textAlign="center" width="120" id="txt_total2" horizontalCenter="0" font="font_ebg_goldjin_fnt"/>
+		<ns1:EBG_Result id="result_table2" skinName="EBG_ResultSkin" horizontalCenter="14.5" verticalCenter="41.5"/>
+		<e:Component id="com_result2" scaleX="0.6" y="39" scaleY="0.6" skinName="Com_ResultSkin" x="19"/>
+	</e:Group>
+	<e:Group y="-20" id="g_mahjong3" scaleX="0.5" scaleY="0.5" x="-51">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image source="icon_mahjong_back_png" y="0" id="img_mahjong0" x="0"/>
+	</e:Group>
+	<e:Group y="-20" id="g_mahjong2" scaleX="0.5" scaleY="0.5" x="-84">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image source="icon_mahjong_back_png" y="0" id="img_mahjong1" x="0"/>
+	</e:Group>
+	<e:Group y="-20" id="g_mahjong1" scaleX="0.5" scaleY="0.5" x="-117">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image source="icon_mahjong_back_png" y="0" id="img_mahjong2" x="0"/>
+	</e:Group>
+	<e:Group y="-20" id="g_mahjong0" scaleX="0.5" scaleY="0.5" x="-150">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image source="icon_mahjong_back_png" y="0" id="img_mahjong3" x="0"/>
+	</e:Group>
+	<e:Group id="g_btn" x="0" y="-45" locked="true">
+		<e:Button id="btn_choose1" y="366" label="按钮" x="7" name="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect width="130" y="0" height="312" skewX="52" x="250" fillAlpha="0"/>
+					<e:Rect width="125" y="0" height="192" x="250" fillAlpha="0"/>
+					<e:Rect width="364" y="93" height="99" x="130" fillAlpha="0"/>
+					<e:Rect width="131" y="0" height="312" skewX="-52" x="250" fillAlpha="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose0" y="30" label="按钮" x="0" name="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect width="332" y="0" skewY="41" height="72" x="0" fillAlpha="0"/>
+					<e:Rect width="250" y="219" height="74" x="0" fillAlpha="0"/>
+					<e:Rect width="76" y="66" height="350" x="0" fillAlpha="0"/>
+					<e:Rect width="306" y="399" skewY="-35" height="72" x="0" fillAlpha="0"/>
+					<e:Rect width="128" y="151" height="197" x="46" fillAlpha="0"/>
+					<e:Rect width="128" y="130" height="197" x="20" fillAlpha="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_choose2" y="31" label="按钮" x="389" name="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Rect width="332" y="218" skewY="-41" height="72" x="0" fillAlpha="0"/>
+					<e:Rect width="250" y="218" height="74" x="0" fillAlpha="0"/>
+					<e:Rect width="76" y="67" height="347" x="174" fillAlpha="0"/>
+					<e:Rect width="306" y="221" skewY="35" height="72" x="0" fillAlpha="0"/>
+					<e:Rect width="128" y="152" height="197" x="80" fillAlpha="0"/>
+					<e:Rect width="128" y="129" height="197" x="120" fillAlpha="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PanelUserSkin" width="540" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="0" y="0" locked="true">
+		<e:Image source="back_s_deepred_png" scale9Grid="13,11,25,27" width="540" x="0" height="660" y="0"/>
+		<e:Image y="11" source="txt_s_grxx_png" x="129"/>
+		<e:Image source="back_s_red_png" y="94" scale9Grid="20,19,12,13" width="510" height="280" horizontalCenter="0"/>
+		<e:Image source="txt_s_zh_png" x="279" y="251"/>
+		<e:Image source="txt_s_nc_png" x="30" y="317"/>
+		<e:Image source="txt_s_mm_png" x="39" y="477"/>
+		<e:Image source="txt_s_sjhm_png" x="39" y="406"/>
+		<e:Image source="txt_s_xb_png" x="283" y="318"/>
+		<e:Image source="back_s_grbox_png" x="108" y="244" scale9Grid="9,6,36,41" width="150" height="50"/>
+		<e:Image source="back_s_grbox_png" y="244" scale9Grid="9,6,36,41" width="150" height="50" x="356"/>
+		<e:Image source="txt_s_id_png" x="37" y="255"/>
+		<e:Image source="back_s_grbox_png" y="310" scale9Grid="9,6,36,41" width="150" height="50" x="109"/>
+		<e:Image source="back_s_grbox_png" y="399" scale9Grid="9,6,36,41" width="340" height="50" x="165"/>
+		<e:Image source="back_s_grbox_png" y="470" scale9Grid="9,6,36,41" width="340" height="50" x="166"/>
+	</e:Group>
+	<e:Button x="460" y="13" label="按钮" id="btn_close" skinName="Btn_CloseSkin" locked="true"/>
+	<ns1:Head id="head" x="36" y="111" skinName="HeadSkin" width="110" height="110" locked="true"/>
+	<e:Group id="g_gold" y="111" x="163" locked="true">
+		<e:Image source="back_s_gold_png" scale9Grid="29,23,16,4" y="0" width="252" x="0"/>
+		<e:Image source="icon_s_gold_png" y="7" x="10"/>
+		<e:Label id="txt_gold" y="13" size="25" text="123456789012" fontFamily="微软雅黑" textAlign="left" width="183" height="25" x="54" bold="true"/>
+	</e:Group>
+	<e:Group id="g_vip" y="170" x="163" locked="true">
+		<e:Image source="back_s_gold_png" scale9Grid="29,23,16,4" y="0" width="134" x="0"/>
+		<e:Image id="img_vip" source="txt_s_vip12_png" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btn_save" label="按钮" y="565" skinName="BtnSkin" icon="btn_s_save_png" width="233" height="68" x="154" locked="true"/>
+	<e:TabBar id="tabbar_sex" x="357" y="303" itemRendererSkinName="TabBar_SexSkin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object upicon="btn_sex_up0_png" downicon="btn_sex_down0_png"/>
+				<e:Object upicon="btn_sex_up1_png" downicon="btn_sex_down1_png"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Label id="txt_id" y="256" size="25" fontFamily="微软雅黑" textAlign="left" bold="true" width="132" height="25" x="115" locked="true"/>
+	<e:Label id="txt_account" x="365" y="256" height="25" fontFamily="微软雅黑" textAlign="left" bold="true" width="132" size="25" locked="true"/>
+	<e:Label id="txt_name" y="322" size="25" text="无敌小王子" fontFamily="微软雅黑" textAlign="left" width="140" height="25" x="113" textColor="0xDB4648" locked="true"/>
+	<e:EditableText id="txt_namechange" width="140" height="45" x="113" y="312" size="25" fontFamily="微软雅黑" textColor="0xDB4648" verticalAlign="middle" locked="true"/>
+	<e:EditableText id="txt_phone" x="169" y="399" height="48" fontFamily="微软雅黑" textAlign="left" bold="true" width="330" size="30" verticalAlign="middle" locked="true"/>
+	<e:EditableText id="txt_password" y="470" size="30" fontFamily="微软雅黑" textAlign="left" bold="true" width="330" height="48" x="169" verticalAlign="middle" locked="true"/>
+	<e:Group id="g_choosehead" x="0" y="0" locked="true" visible="false">
+		<e:Image source="back_s_deepred_png" y="0" scale9Grid="13,11,25,27" width="540" height="660" x="0"/>
+		<e:Image id="img_headlight" source="back_headlight_png" x="-14" y="-10" width="144" height="144"/>
+		<e:Group x="8" y="13" width="524" height="635">
+			<e:Button id="btn_head0" name="0" label="按钮" x="0" y="0" icon="icon_head0_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head1" name="1" label="按钮" x="0" y="0" icon="icon_head1_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head2" name="2" label="按钮" x="0" y="0" icon="icon_head2_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head3" name="3" label="按钮" x="0" y="0" icon="icon_head3_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head4" name="4" label="按钮" x="0" y="0" icon="icon_head4_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head5" name="5" label="按钮" x="0" y="0" icon="icon_head5_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head6" name="6" label="按钮" x="0" y="0" icon="icon_head6_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head7" name="7" label="按钮" x="0" y="0" icon="icon_head7_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head8" name="8" label="按钮" x="0" y="0" icon="icon_head8_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head9" name="9" label="按钮" x="0" y="0" icon="icon_head9_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head10" name="10" label="按钮" x="0" y="0" icon="icon_head10_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head11" name="11" label="按钮" x="0" y="0" icon="icon_head11_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head12" name="12" label="按钮" x="0" y="0" icon="icon_head12_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head13" name="13" label="按钮" x="0" y="0" icon="icon_head13_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head14" name="14" label="按钮" x="0" y="0" icon="icon_head14_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head15" name="15" label="按钮" x="0" y="0" icon="icon_head15_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head16" name="16" label="按钮" x="0" y="0" icon="icon_head16_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head17" name="17" label="按钮" x="0" y="0" icon="icon_head17_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head18" name="18" label="按钮" x="0" y="0" icon="icon_head18_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head19" name="19" label="按钮" x="0" y="0" icon="icon_head19_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head20" name="20" label="按钮" x="0" y="0" icon="icon_head20_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head21" name="21" label="按钮" x="0" y="0" icon="icon_head21_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head22" name="22" label="按钮" x="0" y="0" icon="icon_head22_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head23" name="23" label="按钮" x="0" y="0" icon="icon_head23_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head24" name="24" label="按钮" x="0" y="0" icon="icon_head24_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head25" name="25" label="按钮" x="0" y="0" icon="icon_head25_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head26" name="26" label="按钮" x="0" y="0" icon="icon_head26_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head27" name="27" label="按钮" x="0" y="0" icon="icon_head27_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head28" name="28" label="按钮" x="0" y="0" icon="icon_head28_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="btn_head29" name="29" label="按钮" x="0" y="0" icon="icon_head29_jpg" skinName="BtnSkin" width="200" height="200" scaleX="0.5" scaleY="0.5"/>
+			<e:layout>
+				<e:TileLayout verticalGap="7"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Label id="txt_tips" x="171" y="528" width="330" textAlign="right" size="20" fontFamily="微软雅黑"/>
+</e:Skin>

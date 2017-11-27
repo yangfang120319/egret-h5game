@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneLoadingSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" source="back_loading_jpg" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Image id="img_logo" source="icon_loading_png" horizontalCenter="-0.5" verticalCenter="-310.5" scaleX="0.7" scaleY="0.7" locked="true"/>
+	<e:Label id="txt_tips_title" text="精神诊断日记" fontFamily="Microsoft YaHei" horizontalCenter="0" verticalCenter="-147"/>
+	<e:Image id="img_mask" source="img_mask_png" scale9Grid="3,3,24,24" left="0" right="0" top="0" bottom="0" visible="false"/>
+	<e:Button id="btn_next" label="按钮" bottom="0" horizontalCenter="0" skinName="Btn_NextSkin">
+	</e:Button>
+	<e:Group id="g_tips" horizontalCenter="0" verticalCenter="25" locked="true" visible="false">
+		<e:Label id="txt_tips0" text="20世纪初" y="0" fontFamily="微软雅黑" size="35" x="53" textColor="0xffffff"/>
+		<e:Label id="txt_tips1" y="53" text="欧洲某偏僻山区" fontFamily="微软雅黑" x="0" size="35"/>
+		<e:Label id="txt_tips2" y="106" text="........" fontFamily="微软雅黑" size="35" horizontalCenter="0"/>
+	</e:Group>
+	<e:Button id="btn_start" label="Button" horizontalCenter="0" verticalCenter="150" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+	<e:Image source="btn_start_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Rect width="360" height="120" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

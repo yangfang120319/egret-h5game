@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Action_LoseSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7" locked="true"/>
+	<e:Component id="com_light" y="332" width="0" height="0" x="320" locked="true">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="back_lose_light_png" x="-339" y="-339"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Image id="img_back" source="back_png" x="64" y="375" locked="true"/>
+	<e:Image id="img_renwu" x="-230" y="163" source="icon_lose_tz_png"/>
+	<e:Image id="img_book" source="icon_box_png" x="679" y="215" locked="true"/>
+	<e:Image id="img_xunzhang" y="90" x="204" source="icon_tz_lose_png" locked="true"/>
+	<e:Group id="g_title" y="290" horizontalCenter="0" locked="true">
+		<e:Image x="0" y="0" source="back_lose_tiao_png"/>
+		<e:Image id="img_title" x="100" y="6" source="txt_tzsb_png"/>
+	</e:Group>
+</e:Skin>

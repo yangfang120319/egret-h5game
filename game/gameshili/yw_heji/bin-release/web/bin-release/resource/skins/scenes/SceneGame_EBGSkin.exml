@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneGame_EBGSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Rect right="0" left="0" top="0" fillColor="0x211E33" bottom="0" x="10" y="10"/>
+		<e:Image source="back_ebg_table_jpg" x="0" y="256"/>
+		<e:Image source="back_ebg_border_png" x="0" y="210"/>
+		<e:Group y="395" x="0" width="640">
+			<e:Group x="0" y="40">
+				<e:Image source="back_ebg_tablerl_png" y="0" x="0"/>
+				<e:Image source="icon_ebg_wei_png" y="181" x="36"/>
+			</e:Group>
+			<e:Group x="37" y="-11">
+				<e:Image source="back_ebg_tableup_png" y="0" x="0"/>
+				<e:Image source="icon_ebg_zhuang_png" y="40" x="220"/>
+			</e:Group>
+			<e:Group x="65" y="371">
+				<e:Image source="back_ebg_tabledown_png" y="0" x="0"/>
+				<e:Image source="icon_ebg_wu_png" y="42" x="192"/>
+			</e:Group>
+			<e:Group x="474" y="41">
+				<e:Image source="back_ebg_tablerl_png" skewY="180" y="0" x="165"/>
+				<e:Image source="icon_ebg_shu_png" y="180" x="0"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<ns1:EBG_Down id="ebg_down" skinName="EBG_DownSkin" x="0" y="996" locked="true"/>
+	<ns1:EBG_Up id="ebg_up" x="0" y="40" skinName="EBG_UpSkin" locked="true"/>
+	<e:Group id="g_online" y="380" x="577" locked="true">
+		<e:Image source="icon_ebg_otherplayer_png" x="0" y="0"/>
+		<e:Label text="在线玩家" x="10" y="62" fontFamily="微软雅黑" size="12"/>
+	</e:Group>
+	<ns1:EBG_Table id="ebg_table" x="0" y="452" skinName="EBG_TableSkin" locked="true"/>
+	<ns1:EBG_Chat id="ebg_chat" y="304" skinName="EBG_ChatSkin" x="45" locked="true"/>
+	<ns1:EBG_GoldFlay id="goldflay" x="0" y="0" locked="true"/>
+	<ns1:EBG_Clock id="clock" y="625" skinName="EBG_ClockSkin" scaleX="1.4" scaleY="1.4" x="258" locked="true"/>
+	<ns1:EBG_StartTips id="starttips" skinName="EBG_StartTipsSkin" horizontalCenter="0" verticalCenter="30" locked="true" visible="false"/>
+	<ns1:EBG_SpecialResult id="specialresult" skinName="EBG_SpecialResultSkin" left="0" right="0" top="0" bottom="0" locked="true" visible="false"/>
+	<ns1:EBG_Over id="over" skinName="EBG_OverSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<ns1:EBG_BiaoQing skinName="JSYS_BiaoQingSkin" x="0" y="780" locked="true" visible="false"/>
+	<ns1:EBG_ChatSystem skinName="EBG_ChatSystemSkin" horizontalCenter="0"/>
+</e:Skin>

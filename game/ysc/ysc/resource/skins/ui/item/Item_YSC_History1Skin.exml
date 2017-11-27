@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_YSC_History1Skin" width="146" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="57">
+	<w:Config id="1583e2e5eb1"/>
+	<e:Image source="back_ysc_line_png" y="55" x="23"/>
+	<e:Image id="img_type" source="icon_ysc_choose_s_0_png" x="87" y="6"/>
+	<e:Label id="txt_num" text="2552" x="20" y="19" size="18" width="56" textAlign="center"/>
+</e:Skin>

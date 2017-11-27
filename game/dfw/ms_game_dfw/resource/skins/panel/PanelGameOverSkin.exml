@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelGameOverSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_start_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image y="-87" source="txt_g_yxjs_png" x="203"/>
+	<e:Button id="btn_yes" label="Button" y="28.12" x="622.85">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="100" height="100">
+	<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_g_back_png"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_tips" text="十四世纪、手机上赛季喝剩下的公共存酒" anchorOffsetX="0" width="547" anchorOffsetY="0" height="179" size="50" fontFamily="Microsoft YaHei" lineSpacing="10" textAlign="center" horizontalCenter="0.5" verticalCenter="-326.5" verticalAlign="middle"/>
+	<e:Image source="txt_g_over_png" y="47.12" scaleX="1.2" scaleY="1.2" horizontalCenter="0"/>
+	<e:Image id="img_box" source="back_g_jl_png" scale9Grid="72,75,125,104" anchorOffsetX="0" width="750" anchorOffsetY="0" height="355" verticalCenter="-79.5" horizontalCenter="0"/>
+	<e:Image id="img_title" source="txt_g_yxjl_png" verticalCenter="-163.5" horizontalCenter="0.5"/>
+	<e:Group id="g_gift" verticalCenter="-34" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="20"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="txt_tips1" text="与本局其他玩家自动加为好友" anchorOffsetX="0" anchorOffsetY="0" size="38" fontFamily="Microsoft YaHei" lineSpacing="10" textAlign="center" horizontalCenter="0.5" verticalAlign="top" width="700" bottom="40"/>
+	<e:Image scaleX="0.8" scaleY="0.8" bottom="92" horizontalCenter="0" source="txt_s_tips_gzh_png"/>
+</e:Skin>

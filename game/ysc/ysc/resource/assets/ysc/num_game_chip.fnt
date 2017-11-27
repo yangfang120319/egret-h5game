@@ -1,0 +1,12 @@
+{"file":"num_game_chip.png","frames":{
+"0":{"x":95,"y":0,"w":36,"h":49,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"1":{"x":112,"y":51,"w":28,"h":48,"offX":4,"offY":0,"sourceW":36,"sourceH":49},
+"2":{"x":75,"y":51,"w":35,"h":49,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"3":{"x":57,"y":0,"w":36,"h":49,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"4":{"x":209,"y":0,"w":36,"h":48,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"5":{"x":0,"y":49,"w":36,"h":48,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"6":{"x":133,"y":0,"w":36,"h":49,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"7":{"x":38,"y":51,"w":35,"h":49,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"8":{"x":171,"y":0,"w":36,"h":49,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"9":{"x":209,"y":50,"w":35,"h":49,"offX":0,"offY":0,"sourceW":36,"sourceH":49},
+"k":{"x":0,"y":0,"w":55,"h":47,"offX":0,"offY":1,"sourceW":55,"sourceH":49}}}

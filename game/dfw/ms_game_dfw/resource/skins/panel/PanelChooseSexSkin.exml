@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelChooseSexSkin" width="647" height="492" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="back_s_box_png" x="0" y="0" locked="true"/>
+	<e:Image source="txt_s_xzxb_png" y="-87" x="204" locked="true"/>
+	<e:Button id="btn_yes" label="Button" y="349" x="162" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="323" height="108">
+				<e:Image source="btn_s_yes_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_sex0" label="Button" y="24" name="0" x="84">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="200" height="250">
+	<e:Image source="btn_s_sex_down0_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_s_sex_up0_png" includeIn="up,disabled"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_sex1" label="Button" y="24" x="364" name="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="200" height="250">
+			<e:Image source="btn_s_sex_down1_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_s_sex_up1_png" includeIn="up,disabled"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="帅哥" x="144" y="274" size="40" fontFamily="Microsoft YaHei"/>
+	<e:Label text="美女" x="424" y="274" size="40" fontFamily="Microsoft YaHei"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_EBG_ZouShiSkin" width="85" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="back_yuanjiaoheisedi_png" scale9Grid="5,4,2,3" width="88" height="68" horizontalCenter="0" verticalCenter="-1"/>
+	<ns1:EBG_Mahjong id="mahjong0" skinName="EBG_MahjongSkin" currentState="open" scaleX="0.6" scaleY="0.6" left="0" verticalCenter="0"/>
+	<ns1:EBG_Mahjong id="mahjong1" currentState="open" scaleX="0.6" verticalCenter="0" scaleY="0.6" skinName="EBG_MahjongSkin" y="10" right="0"/>
+	<e:Component id="com_result" x="-12" y="-11" skinName="Com_ResultSkin" scaleX="0.5" scaleY="0.5"/>
+</e:Skin>

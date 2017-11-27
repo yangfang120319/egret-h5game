@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Start_CardSkin" width="444" height="630" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="show,hide" >
+	<e:Image id="img_back" horizontalCenter="0" verticalCenter="-20" source="back_s_box2_png"/>
+	<e:Image id="img_txt" scaleX="0.8" scaleY="0.8" horizontalCenter="0" verticalCenter="126" source="txt_s_box2_png"/>
+	<e:Image id="img_box" source="back_s_box_png" horizontalCenter="0.5" verticalCenter="0"/>
+	<e:Image id="img_texiao" blendMode="add" alpha="0.6" includeIn="show" verticalCenter="-20" horizontalCenter="0" source="back_s_box0_png"/>
+	<e:Image id="img_box_texiao" source="back_s_box_png" horizontalCenter="0.5" verticalCenter="0" x="10" y="10" blendMode="add"/>
+	<e:Image id="img_txt_texiao" source="txt_s_box0_png" horizontalCenter="0" verticalCenter="126" scaleX="0.8" scaleY="0.8" x="10" y="10" blendMode="add"/>
+	<e:Image id="img_icon" horizontalCenter="2" verticalCenter="-67" source="icon_s_box0_png"/>
+	<e:Image id="img_icon_texiao" source="icon_s_box0_png" horizontalCenter="2" verticalCenter="-67" x="10" y="10" blendMode="add"/>
+	<e:Image id="img_mask" includeIn="hide" horizontalCenter="-0.5" verticalCenter="0" alpha="0.6" source="back_s_mask_png"/>
+</e:Skin>

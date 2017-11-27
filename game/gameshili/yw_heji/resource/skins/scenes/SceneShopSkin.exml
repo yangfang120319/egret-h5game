@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneShopSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_back" x="0" y="245" height="750" width="640" locked="true">
+		<e:Image x="0" y="0" width="640" height="750" source="back_s_deepred_png" scale9Grid="17,17,17,16"/>
+		<e:Image source="back_s_black_png" scale9Grid="41,42,23,21" top="105" bottom="10" left="5" right="5"/>
+		<e:Image source="back_s_red_png" scale9Grid="16,16,18,17" top="122" left="20" right="20" bottom="28"/>
+		<e:Image source="txt_s_sc_png" x="243.93939393939394" y="19.01515151515153"/>
+	</e:Group>
+	<e:Button id="btn_close" label="按钮" x="556" y="266" skinName="Btn_CloseSkin" locked="true"/>
+	<e:Scroller skinName="ListSkin" top="367" left="20" right="20" bottom="170">
+		<e:List id="list" itemRendererSkinName="Item_ShopSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="17" horizontalAlign="justify" paddingLeft="10" paddingRight="10" paddingTop="15" paddingBottom="15"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

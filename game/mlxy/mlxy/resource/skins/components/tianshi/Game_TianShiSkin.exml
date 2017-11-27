@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Game_TianShiSkin" width="360" height="494" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Component id="com_chibang0" x="175" y="344" rotation="-10">
+		<e:skinName>
+			<e:Skin>
+	<e:Image source="icon_ch_chibang_png" x="-22" y="-120"/>
+</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Component id="com_chibang1" y="344" x="176" skewY="180" rotation="10">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="icon_ch_chibang_png" x="-22" y="-120"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Image id="img_body" source="icon_ch_ts_png" x="52" y="88"/>
+	<e:Component id="com_light" x="186" y="58">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="icon_ch_light_png" x="-94" y="-36"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<ns1:Game_TianShi_Eyes id="eyes" x="91" y="217" skinName="Game_TianShi_EyesSkin"/>
+</e:Skin>

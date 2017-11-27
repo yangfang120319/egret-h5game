@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Game_CountDownSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="0" height="0">
+	<e:Image verticalCenter="0" scaleX="1" source="icon_countdown0_png" scaleY="1" horizontalCenter="0" id="img_countdown" x="10" y="10"/>
+	<e:Image source="icon_countdown0_png" y="20" id="img_countdown_add" scaleX="1" verticalCenter="0" blendMode="add" scaleY="1" horizontalCenter="0" x="20"/>
+	<e:Group verticalCenter="0" horizontalCenter="0" id="g_waiting" x="10" y="10">
+		<e:Image y="0" scale9Grid="243,31,82,188" width="800" alpha="0.9" x="0" source="back_ysc_tips_png"/>
+		<e:Label id="txt_tips" verticalCenter="0" text="本局马上开始，等待开始下注！" horizontalCenter="0" fontFamily="微软雅黑"/>
+	</e:Group>
+</e:Skin>

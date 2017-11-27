@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PanelNickNameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="660" height="434">
+	<e:Image source="back_nickname_png" x="0" y="-181.8" scaleX="0.7" scaleY="0.7"/>
+	<e:Image source="back_nickbox_png" x="83.62" y="-13.14" scaleX="0.7" scaleY="0.7"/>
+	<e:Rect id="rect_mask" width="417.83" height="77.84" x="86" y="-11.14" fillColor="0xf2f2f2" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="txt_tips" x="118.9" y="95.61" width="400" textAlign="center" fontFamily="微软雅黑" size="25" height="25" text="我静极思动" textColor="0x686565"/>
+	<e:EditableText id="txt_nickname" width="382" height="81.33" x="88" y="-12.57" textColor="0x505153" size="40" fontFamily="微软雅黑" textAlign="center" verticalAlign="middle" text="金权试试" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="btn_yes" label="按钮" y="-30.74" horizontalCenter="189" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="194" height="171">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+			<e:Image source="btn_yes_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

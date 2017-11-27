@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartUserSkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="130">
+	<e:Group id="g_back" left="0" right="0" top="0" bottom="0">
+		<e:Image scale9Grid="93,36,561,54" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="back_s_gold_png"/>
+		<e:Rect width="160" height="35" x="130" y="26" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="15" fillAlpha="0.5" scaleX="1" scaleY="1"/>
+		<e:Rect width="160" height="35" x="130" y="72" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="15" fillAlpha="0.5" scaleX="1" scaleY="1"/>
+		<e:Image source="icon_s_gold_png" x="137" y="77" scaleX="0.45" scaleY="0.45"/>
+	</e:Group>
+	<ns1:Head id="head" x="3" y="2" skinName="HeadSkin" scaleX="0.9" scaleY="0.9"/>
+	<e:Button id="btn_exit" label="Button" y="16" width="98" height="101" x="640">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="98" height="99">
+	<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_s_exit_png"/>
+</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_gold" text="123456789" x="174.3" y="78.5" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="109" textColor="0xfbcf63"/>
+	<e:Label id="txt_name" text="用户的名字123" x="139" y="34" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="144" textColor="0xffffff"/>
+	<e:Button id="btn_shop" label="Button" y="15" x="527" width="98" height="101">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="98" height="101">
+			<e:Image source="btn_s_shop_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_send" label="Button" y="15" x="411.66" width="98" height="101">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" height="101" width="98">
+			<e:Image source="btn_s_send_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

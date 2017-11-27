@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_EBG_PaiXingSkin" width="240" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="15" y="75" width="210" source="back_ebg_patternsinterval_png"/>
+	<e:Image source="{data.itemname}" x="41" verticalCenter="-2.5"/>
+	<e:Image source="{data.mahjong0}" x="110" y="9" width="39" height="59"/>
+	<e:Image source="{data.mahjong1}" width="39" y="9" height="59" x="156"/>
+</e:Skin>

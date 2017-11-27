@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_RankingSkin" width="580" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="img_back" scale9Grid="14,10,27,29" left="0" right="0" top="0" bottom="0" source="back_s_ranking_item_png"/>
+	<e:Component id="com_ranking" x="21" width="85" height="94" skinName="Com_RankingSkin" scaleX="0.7" scaleY="0.7" y="19"/>
+	<e:Label id="txt_name" text="小飞侠有几个名字" x="208" y="28" fontFamily="微软雅黑" bold="true" italic="false" size="20" width="198" textColor="0xFFFFFF"/>
+	<e:Label id="txt_gold" size="22" fontFamily="微软雅黑" bold="true" width="170" italic="false" x="387" text="1235230万" textColor="0xFFFFFF" textAlign="right" y="44"/>
+	<e:Label id="txt_id" y="49" textColor="0xFFFFFF" text="ID:123456" fontFamily="微软雅黑" bold="true" width="115" italic="false" size="20" x="278" visible="false"/>
+	<ns1:Head id="head" x="100" skinName="HeadSkin" scaleX="0.7" scaleY="0.7" y="9"/>
+	<e:Image id="img_vip" source="txt_s_vip10_png" x="211" y="65"/>
+</e:Skin>

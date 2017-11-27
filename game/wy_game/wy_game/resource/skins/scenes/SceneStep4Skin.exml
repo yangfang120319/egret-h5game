@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneStep4Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" horizontalCenter="0" bottom="0" source="back_step4_jpg"/>
+	<e:Button id="btn_open1" label="按钮" x="470" height="182" width="210" anchorOffsetX="0" anchorOffsetY="0" bottom="439" skinName="Btn_OpenSkin" locked="true"/>
+	<e:Button bottom="0" label="按钮" horizontalCenter="0" id="btn_next" x="10" y="10" skinName="Btn_NextSkin"/>
+	<e:Image id="img_mask_hei" source="img_mask_png" left="0" right="0" top="0" bottom="0" scale9Grid="3,3,24,24" x="10" y="10" alpha="0.8" locked="true"/>
+	<e:Button id="btn_open0" label="按钮" x="2" height="182" width="210" anchorOffsetX="0" anchorOffsetY="0" bottom="763" skinName="Btn_OpenSkin" locked="true"/>
+	<e:Image source="img_mask_png" left="0" right="0" top="0" bottom="0" scale9Grid="3,3,24,24" id="img_mask" x="10" y="10" visible="false" locked="true"/>
+</e:Skin>

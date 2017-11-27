@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameChatSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="400">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled"/>
+		</e:skinName>
+	</e:Rect>
+	<e:Scroller id="scroller" left="0" right="0" top="0" bottom="67" locked="true">
+		<e:Group id="g_detail" anchorOffsetX="0" width="638" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout gap="2" paddingTop="5" paddingBottom="5"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="g_chat" height="67" width="640" bottom="0" horizontalCenter="0">
+		<e:Image source="back_g_chat_png" anchorOffsetY="0" height="66" x="0" scaleX="1" scaleY="1" width="640" y="0"/>
+		<e:Image source="icon_g_jp_png" x="13.6" y="9"/>
+		<e:EditableText id="txt_chat" width="377" height="56.2" text="" x="96" y="5" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" size="25" fontFamily="Microsoft YaHei" textColor="0x636060" prompt="点击输入" promptColor="0xa3a3a3"/>
+		<e:Button id="btn_send" label="Button" x="507" y="8">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="120" height="50">
+				<e:Image horizontalCenter.disabled="0" horizontalCenter.up="0" verticalCenter.disabled="0" verticalCenter.up="0" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter="0" verticalCenter="0" source="btn_g_yellow0_png"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

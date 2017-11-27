@@ -1,0 +1,17 @@
+{
+  "global": {
+    "globalRulerEnable": true,
+    "globalAdsorbEnable": true,
+    "globalBindingDataTestObj": []
+  },
+  "15f49a63cab": {
+    "guideLinesEnabled": false,
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 46
+      }
+    ],
+    "bindingDataTestObj": []
+  }
+}

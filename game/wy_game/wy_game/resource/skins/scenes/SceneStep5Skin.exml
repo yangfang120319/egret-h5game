@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneStep5Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_back" horizontalCenter="0" source="back_step5_jpg" verticalCenter="0" locked="true"/>
+	<e:Button id="btn_open" label="按钮" height="563" width="589" anchorOffsetX="0" anchorOffsetY="0" skinName="Btn_OpenSkin" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label id="txt_tips" text="笔记本，这貌似是曾经居住在这里的人留下的。" width="609" size="40" fontFamily="微软雅黑" lineSpacing="15" horizontalCenter="0" bottom="30" textAlign="center" locked="true"/>
+	<e:Button y="20" horizontalCenter="0" id="btn_next" bottom="0" label="按钮" x="20" skinName="Btn_NextSkin" locked="true"/>
+	<e:Component id="com_person" skinName="Com_PerosnSkin" horizontalCenter="0" currentState="4" bottom="-200"/>
+	<e:Rect id="rect_mask" width="750" x="0" anchorOffsetX="0" anchorOffsetY="0" top="0" bottom="490" visible="false"/>
+	<e:Image source="img_mask_png" left="0" right="0" top="0" bottom="0" scale9Grid="3,3,24,24" id="img_mask" x="10" y="10" locked="true" visible="false"/>
+</e:Skin>

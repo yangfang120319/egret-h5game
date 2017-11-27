@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Start_CardsSkin" width="640" height="630" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_card" y="0" width="1420" height="630" x="-390"/>
+</e:Skin>

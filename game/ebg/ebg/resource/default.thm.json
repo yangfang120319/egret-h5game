@@ -1,0 +1,33 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/components/LoadingSkin.exml",
+    "resource/skins/components/ebg/EBG_OverSkin.exml",
+    "resource/skins/components/ebg/EBG_ResultSkin.exml",
+    "resource/skins/components/ebg/EBG_SendMahjongSkin.exml",
+    "resource/skins/components/game/Game_MahjongSkin.exml",
+    "resource/skins/components/ebg/EBG_TableSkin.exml",
+    "resource/skins/components/ebg/EBG_ZhuangSkin.exml",
+    "resource/skins/components/game/Game_ChipSkin.exml",
+    "resource/skins/components/game/Game_ChooseSkin.exml",
+    "resource/skins/components/game/Game_ClockSkin.exml",
+    "resource/skins/components/game/Game_CountDownSkin.exml",
+    "resource/skins/components/game/Game_HeadSkin.exml",
+    "resource/skins/components/game/Game_SpecialResultSkin.exml",
+    "resource/skins/components/scenes/SceneGame_EBGSkin.exml",
+    "resource/skins/components/scenes/SceneLoadingSkin.exml",
+    "resource/skins/panel/Panel_ChooseChipSkin.exml",
+    "resource/skins/panel/Panel_ChooseHeadSkin.exml",
+    "resource/skins/ui/btn/Btn_CloseSkin.exml",
+    "resource/skins/panel/Panel_EBG_LuZiSkin.exml",
+    "resource/skins/panel/Panel_EBG_PaiXingSkin.exml",
+    "resource/skins/panel/Panel_EnterRoomSkin.exml",
+    "resource/skins/panel/Panel_UpZhuangSkin.exml",
+    "resource/skins/scenes/SceneLoadingSkin.exml",
+    "resource/skins/scenes/SceneStartSkin.exml",
+    "resource/skins/ui/VScrollBar_ListSkin.exml",
+    "resource/skins/ui/item/Item_EBG_PaiXingSkin.exml",
+    "resource/skins/ui/item/Item_UpZhuangSkin.exml"
+  ]
+}

@@ -1,0 +1,12 @@
+{"file":"game_txt.png","frames":{
+"txt_g_countdown0_png":{"x":0,"y":0,"w":451,"h":113,"offX":0,"offY":0,"sourceW":451,"sourceH":113},
+"txt_g_countdown1_png":{"x":746,"y":0,"w":94,"h":208,"offX":26,"offY":3,"sourceW":145,"sourceH":213},
+"txt_g_countdown2_png":{"x":600,"y":0,"w":144,"h":208,"offX":1,"offY":3,"sourceW":145,"sourceH":213},
+"txt_g_countdown3_png":{"x":453,"y":0,"w":145,"h":213,"offX":0,"offY":0,"sourceW":145,"sourceH":213},
+"txt_g_dqtips_png":{"x":0,"y":215,"w":582,"h":42,"offX":0,"offY":0,"sourceW":582,"sourceH":42},
+"txt_g_fj_png":{"x":842,"y":0,"w":147,"h":64,"offX":0,"offY":0,"sourceW":147,"sourceH":64},
+"txt_g_over_png":{"x":0,"y":259,"w":242,"h":63,"offX":0,"offY":0,"sourceW":242,"sourceH":63},
+"txt_g_wj_png":{"x":842,"y":66,"w":93,"h":44,"offX":0,"offY":0,"sourceW":93,"sourceH":44},
+"txt_g_yksz_png":{"x":600,"y":210,"w":243,"h":63,"offX":0,"offY":0,"sourceW":243,"sourceH":63},
+"txt_g_yxjl_png":{"x":0,"y":115,"w":255,"h":65,"offX":0,"offY":0,"sourceW":255,"sourceH":65},
+"txt_g_yxjs_png":{"x":244,"y":259,"w":242,"h":63,"offX":0,"offY":0,"sourceW":242,"sourceH":63}}}

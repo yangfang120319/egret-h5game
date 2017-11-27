@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Action_WinSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7" locked="true"/>
+	<e:Component id="com_light" y="332" width="0" height="0" x="320" locked="true">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="back_win_light_png" x="-339" y="-339"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Group id="g_action" height="560" width="640" x="0" y="0" locked="true"/>
+	<e:Image id="img_back" source="back_png" x="64" y="375" locked="true"/>
+	<e:Group id="g_star" x="0" y="45" width="640" height="260" locked="true">
+		<e:Component id="com_star0" x="181" y="66" width="0" height="0" scaleX="0.9" scaleY="0.9">
+			<e:skinName>
+				<e:Skin>
+					<e:Image source="icon_star2_png" x="-23" y="-22"/>
+					<e:Image source="icon_star2_png" x="-24" y="-22" blendMode="add" alpha="0.4"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Component>
+		<e:Component id="com_star1" width="0" y="212" height="0" x="131">
+			<e:skinName>
+				<e:Skin>
+					<e:Image source="icon_star2_png" x="-23" y="-22"/>
+					<e:Image source="icon_star2_png" x="-24" y="-22" blendMode="add" alpha="0.4"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Component>
+		<e:Component id="com_star2" width="0" y="162" height="0" x="192" scaleX="0.5" scaleY="0.5">
+			<e:skinName>
+				<e:Skin>
+					<e:Image source="icon_star2_png" x="-23" y="-22"/>
+					<e:Image source="icon_star2_png" x="-24" y="-22" blendMode="add" alpha="0.4"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Component>
+		<e:Component id="com_star3" width="0" y="39" height="0" x="404" scaleX="0.6" scaleY="0.6">
+			<e:skinName>
+				<e:Skin>
+					<e:Image source="icon_star2_png" x="-23" y="-22"/>
+					<e:Image source="icon_star2_png" x="-24" y="-22" blendMode="add" alpha="0.4"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Component>
+		<e:Component id="com_star4" width="0" y="226" height="0" x="530" scaleX="0.7" scaleY="0.7">
+			<e:skinName>
+				<e:Skin>
+					<e:Image source="icon_star2_png" x="-23" y="-22"/>
+					<e:Image source="icon_star2_png" x="-24" y="-22" blendMode="add" alpha="0.4"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Component>
+		<e:Component id="com_star5" width="0" y="155" height="0" x="407" scaleX="0.8" scaleY="0.8">
+			<e:skinName>
+				<e:Skin>
+					<e:Image source="icon_star2_png" x="-23" y="-22"/>
+					<e:Image source="icon_star2_png" x="-24" y="-22" blendMode="add" alpha="0.4"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Component>
+	</e:Group>
+	<e:Image id="img_renwu" source="icon_win_tz_png" x="-230" y="163" locked="true"/>
+	<e:Image id="img_book" source="icon_box_png" x="679" y="215" locked="true"/>
+	<e:Image id="img_xunzhang" source="icon_tz_win_png" y="90" x="204"/>
+	<e:Component id="com_jian0" y="243" x="230" rotation="-30">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="icon_jian2_png" x="-28" y="-156"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Component id="com_jian1" x="415" y="257" rotation="30">
+		<e:skinName>
+			<e:Skin>
+				<e:Image source="icon_jian1_png" x="-166" y="-166"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Component>
+	<e:Image id="img_caidai" source="back_caidai1_png" y="127" x="48" locked="true"/>
+	<e:Group id="g_title" y="290" horizontalCenter="0" locked="true">
+		<e:Image source="back_win_tiao_png" x="0" y="0"/>
+		<e:Image id="img_title" source="txt_cgcg_png" x="100" y="6"/>
+	</e:Group>
+</e:Skin>

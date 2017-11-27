@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_SearchRoomSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="620" height="850">
+	<e:Group id="g_detail" horizontalCenter="0" verticalCenter="0"> 
+		<e:Group id="g_back" width="620" height="850" x="0" y="0">
+			<e:Image source="back_s_black_png" x="0" y="0" anchorOffsetY="0" height="850" scale9Grid="77,113,466,684" width="620"/>
+			<e:Image source="back_s_white0_png"  scale9Grid="73,110,442,662" anchorOffsetY="0" height="820" y="15" x="15" width="590"/>
+		</e:Group>
+		<e:Group id="g_middle" width="460" height="575" horizontalCenter="0" y="208.77">
+			<e:Button id="btn_num7" y="78" label="按钮" x="64" name="7" >
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="7" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num8" y="88" label="按钮" name="8" x="74">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="8" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num9" y="98" label="按钮" name="9" x="84">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="9" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num4" y="108" label="按钮" name="4" x="94">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="4" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num5" y="118" label="按钮" name="5" x="104">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="5" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num6" y="128" label="按钮" name="6" x="114">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="6" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num1" y="138" label="按钮" name="1" x="124">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_white0_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="1" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num2" y="148" label="按钮" name="2" x="134">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="2" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num3" y="158" label="按钮" name="3" x="144">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="3" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_repeat" y="178" label="按钮" name="8" x="164">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="126" height="125">
+						<e:Image source="btn_s_white0_png" scaleY.down="0.9" scaleX.down="0.9" horizontalCenter.down="0" verticalCenter.down="0" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="txt_s_cs_png" verticalCenter.disabled="0" verticalCenter.up="0" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter.disabled="0" horizontalCenter.up="0" horizontalCenter.down="0" verticalCenter.down="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_num0" y="188" label="按钮" name="0" x="174">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_white0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:BitmapLabel text="0" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9" font="font_s_number_fnt"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_enter" y="188" label="按钮" name="8" x="174">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="126" height="125">
+						<e:Image source="btn_s_yellow4_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+						<e:Image source="txt_s_jr_png" verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:TileLayout rowAlign="justifyUsingGap" columnAlign="justifyUsingGap" requestedRowCount="4"/>
+			</e:layout>
+			
+			
+		</e:Group>
+		<e:Group id="g_top" height="156" y="16" width="620" x="0">
+			<e:Image source="back_s_kuang_png" y="18" x="36"/>
+			<e:Image source="back_s_line_png" horizontalCenter="0" bottom="12"/>
+			<e:BitmapLabel id="bl_num" y="36" text="0222" x="56" font="font_s_number_fnt" anchorOffsetX="0" width="509" textAlign="center"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TextDetailSkin" width="610" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="txt_detail" text="**：让我们重新回到1楼的玄关开始看看！" y="0" size="40" fontFamily="微软雅黑" lineSpacing="15" textAlign="left" x="0" width="610"/>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MLXYYH_RunSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="555" height="633">
+	<e:Image source="back_mlxyyh_run_png" x="0" y="0" locked="true"/>
+	<ns1:MLXYYH_RunBox id="box0" x="2" y="2" skinName="MLXYYH_RunBoxSkin"/>
+	<ns1:MLXYYH_RunBox id="box1" y="2" skinName="MLXYYH_RunBoxSkin" x="81"/>
+	<ns1:MLXYYH_RunBox id="box2" y="2" skinName="MLXYYH_RunBoxSkin" x="160"/>
+	<ns1:MLXYYH_RunBox id="box3" y="2" skinName="MLXYYH_RunBoxSkin" x="240"/>
+	<ns1:MLXYYH_RunBox id="box4" y="2" skinName="MLXYYH_RunBoxSkin" x="319"/>
+	<ns1:MLXYYH_RunBox id="box5" y="2" skinName="MLXYYH_RunBoxSkin" x="398"/>
+	<ns1:MLXYYH_RunBox id="box6" y="2" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box7" y="81" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box8" y="160" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box9" y="239" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box10" y="319" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box11" y="398" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box12" y="477" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box13" y="556" skinName="MLXYYH_RunBoxSkin" x="477"/>
+	<ns1:MLXYYH_RunBox id="box14" y="556" skinName="MLXYYH_RunBoxSkin" x="398"/>
+	<ns1:MLXYYH_RunBox id="box15" y="556" skinName="MLXYYH_RunBoxSkin" x="319"/>
+	<ns1:MLXYYH_RunBox id="box16" y="556" skinName="MLXYYH_RunBoxSkin" x="240"/>
+	<ns1:MLXYYH_RunBox id="box17" y="556" skinName="MLXYYH_RunBoxSkin" x="160"/>
+	<ns1:MLXYYH_RunBox id="box18" y="556" skinName="MLXYYH_RunBoxSkin" x="81"/>
+	<ns1:MLXYYH_RunBox id="box19" y="556" skinName="MLXYYH_RunBoxSkin" x="2"/>
+	<ns1:MLXYYH_RunBox id="box20" y="477" skinName="MLXYYH_RunBoxSkin" x="2"/>
+	<ns1:MLXYYH_RunBox id="box21" y="398" skinName="MLXYYH_RunBoxSkin" x="2"/>
+	<ns1:MLXYYH_RunBox id="box22" y="319" skinName="MLXYYH_RunBoxSkin" x="2"/>
+	<ns1:MLXYYH_RunBox id="box23" y="239" skinName="MLXYYH_RunBoxSkin" x="2"/>
+	<ns1:MLXYYH_RunBox id="box24" y="160" skinName="MLXYYH_RunBoxSkin" x="2"/>
+	<ns1:MLXYYH_RunBox id="box25" y="81" skinName="MLXYYH_RunBoxSkin" x="2"/>
+</e:Skin>

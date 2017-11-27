@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YSC_UserGoldSkin" xmlns:e="http://ns.egret.com/eui" width="360" height="86" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="158421b7e26"/>
+	<e:Image y="0" x="0" source="txt_ysc_jb_ch_png"/>
+	<e:Image source="back_ysc_gold_png" y="11" x="138.6" anchorOffsetX="0"/>
+	<e:BitmapLabel x="151.4" y="21" text="1222345" font="num_gold2_fnt" letterSpacing="-2" width="183.4" id="txt_gold" anchorOffsetX="0"/>
+</e:Skin>

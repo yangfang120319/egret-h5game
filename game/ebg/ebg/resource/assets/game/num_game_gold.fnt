@@ -1,0 +1,14 @@
+{"file":"/num_game_gold.png","frames":{
+"&":{"x":106,"y":0,"w":11,"h":20,"offX":3,"offY":8,"sourceW":14,"sourceH":31},
+".":{"x":119,"y":0,"w":6,"h":6,"offX":2,"offY":23,"sourceW":10,"sourceH":32},
+"0":{"x":0,"y":0,"w":25,"h":32,"offX":0,"offY":0,"sourceW":25,"sourceH":32},
+"1":{"x":0,"y":68,"w":22,"h":32,"offX":1,"offY":0,"sourceW":25,"sourceH":32},
+"2":{"x":78,"y":34,"w":23,"h":32,"offX":1,"offY":0,"sourceW":25,"sourceH":32},
+"3":{"x":103,"y":34,"w":23,"h":32,"offX":1,"offY":0,"sourceW":25,"sourceH":32},
+"4":{"x":27,"y":0,"w":25,"h":32,"offX":0,"offY":0,"sourceW":25,"sourceH":32},
+"5":{"x":24,"y":68,"w":22,"h":32,"offX":1,"offY":0,"sourceW":25,"sourceH":32},
+"6":{"x":80,"y":0,"w":24,"h":32,"offX":0,"offY":0,"sourceW":25,"sourceH":32},
+"7":{"x":0,"y":34,"w":24,"h":32,"offX":0,"offY":0,"sourceW":25,"sourceH":32},
+"8":{"x":52,"y":34,"w":24,"h":32,"offX":0,"offY":0,"sourceW":25,"sourceH":32},
+"9":{"x":26,"y":34,"w":24,"h":32,"offX":0,"offY":0,"sourceW":25,"sourceH":32},
+"k":{"x":54,"y":0,"w":24,"h":32,"offX":0,"offY":0,"sourceW":24,"sourceH":32}}}

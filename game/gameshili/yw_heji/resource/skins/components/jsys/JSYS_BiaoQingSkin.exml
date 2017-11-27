@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JSYS_BiaoQingSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="356">
+	<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Group x="0" y="0" width="640" locked="true">
+		<e:Button id="btn_biaoqing1" name="1" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_1_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing2" name="2" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_2_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing3" name="3" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_3_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing4" name="4" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_4_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing5" name="5" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_5_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing6" name="6" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_6_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing7" name="7" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_7_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing8" name="8" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_8_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing9" name="9" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_9_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing10" name="10" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_10_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing11" name="11" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_11_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing12" name="12" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_12_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing13" name="13" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_13_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing14" name="14" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_14_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing15" name="15" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_15_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing16" name="16" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_16_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing17" name="17" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_17_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing18" name="18" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_18_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing19" name="19" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_19_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing20" name="20" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_20_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing21" name="21" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_21_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing22" name="22" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_22_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing23" name="23" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_23_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing24" name="24" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_24_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing25" name="25" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_25_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing26" name="26" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_26_png" x="0" y="0"/>
+		<e:Button id="btn_biaoqing27" name="27" label="按钮" width="64" height="64" skinName="BtnSkin" icon="icon_bq_27_png" x="0" y="0"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="25" paddingLeft="20" paddingRight="20" verticalGap="20" paddingTop="20" paddingBottom="20"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btn_delete" label="按钮" x="545" y="276" skinName="BtnSkin" width="79" height="53" icon="btn_shanchu_png"/>
+</e:Skin>

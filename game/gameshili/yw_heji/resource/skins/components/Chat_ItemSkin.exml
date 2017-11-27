@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Chat_ItemSkin" width="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_bq" y="5" x="50"/>
+	<e:Label id="txt_detail" text="萨迦寺到几点点击代价地降低等级等级低等级等级低惦记惦记等级等级低惦记惦" y="5" size="24" fontFamily="微软雅黑" lineSpacing="6" x="50" textColor="0xFFFFFF"/>
+	<e:BitmapLabel id="txt_vip" y="-2" font="font_vip_fnt" text="21v" letterSpacing="-25" scaleX="0.8" scaleY="0.8" x="-18"/>
+</e:Skin>

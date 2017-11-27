@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_ShopSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="580" height="100">
+	<e:Image id="img_back" source="back_s_shopitem_png" scale9Grid="231,42,137,26" left="0" right="0" top="0" bottom="0"/>
+	<e:Button id="btn_buy" label="￥10" x="370" y="21" skinName="Btn_ShopSkin"/>
+	<e:Image id="img_icon" x="20" y="12" source="icon_s_shop0_png"/>
+	<e:Label id="txt_gold" text="x100000" x="123" y="35" textColor="0x9E3133" fontFamily="微软雅黑"/>
+</e:Skin>

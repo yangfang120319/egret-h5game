@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_SendMahjongSkin" width="0" height="0" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_mahjong3" y="265" scaleX="0.5" scaleY="0.5" x="511" visible="false">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image id="img_mahjong3" source="icon_mahjong_back_png" y="0" x="0"/>
+	</e:Group>
+	<e:Group id="g_mahjong2" y="265" scaleX="0.5" scaleY="0.5" x="478" visible="false">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image id="img_mahjong2" source="icon_mahjong_back_png" y="0" x="0"/>
+	</e:Group>
+	<e:Group id="g_mahjong1" y="265" scaleX="0.5" scaleY="0.5" x="445" visible="false">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image id="img_mahjong1" source="icon_mahjong_back_png" y="0" x="0"/>
+	</e:Group>
+	<e:Group id="g_mahjong0" y="265" scaleX="0.5" scaleY="0.5" x="412" visible="false">
+		<e:Image source="icon_mahjong_back_png" y="20" x="0"/>
+		<e:Image id="img_mahjong0" source="icon_mahjong_back_png" y="0" x="0"/>
+	</e:Group>
+</e:Skin>

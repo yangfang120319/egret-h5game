@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>金马电玩城</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+    	//IOS调用函数
+    	function setupWebViewJavascriptBridge(callback) {
+    		if (window.WebViewJavascriptBridge) { 
+    				return callback(WebViewJavascriptBridge); 
+    		}
+    		if (window.WVJBCallbacks) { 
+    			return window.WVJBCallbacks.push(callback); 
+    		}
+    		window.WVJBCallbacks = [callback];
+    		var WVJBIframe = document.createElement('iframe');
+    		WVJBIframe.style.display = 'none';
+    		WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+    		document.documentElement.appendChild(WVJBIframe);
+    		setTimeout(function() { 
+    			document.documentElement.removeChild(WVJBIframe) 
+    		}, 0)
+    	}
+    	
+    	//------------JS调用安卓------------
+    	//隐藏图片
+    	function AndroidhidePicture(_data){
+    		YiZhuan.hidePicture(_data);
+    	}
+    	
+    	//退出程序
+    	function AndroidexitGame(_data){
+    		YiZhuan.exitGame(_data);
+    	}
+    	
+    	//------------安卓调用JS------------
+    	function AndroidshowExitTips(_data){
+    	
+    	}
+    	
+    	//------------JS调用IOS------------
+    	//隐藏图片
+    	function IOShidePicture(_data){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			bridge.callHandler("hidePicture",_data);
+    		})
+    	}
+    	
+    	//保存账号
+    	function IOSsaveAccount(_data){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			bridge.callHandler("saveAccount",_data);
+    		})
+    	}
+    	
+    	//保存密码
+    	function IOSsavePassword(_data){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			bridge.callHandler("savePassword",_data);
+    		})
+    	}
+    	
+    	//------------IOS调用JS------------
+    	function funRegister(callback){
+    		setupWebViewJavascriptBridge(function(bridge){
+    			//获取账号
+    			bridge.registerHandler("onGetAccount",function(data){
+    				callback("onGetAccount",data);
+    			})
+    	
+    			//获取密码
+    			bridge.registerHandler("onGetPassword",function(data){
+    				callback("onGetPassword",data);
+    			})
+    		})
+    	}
+    </script>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="lib" src="bin-debug/basiclib/popup/PanelBase.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/scene/SceneBase.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Chip.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/animation/IAnimation.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/animation/Wave.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/popup/DialogEffect.js"></script>
+	<script egret="lib" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/popup/PopUpManager.js"></script>
+	<script egret="lib" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/scene/SceneeEffect.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/scene/SceneManager.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/Dispatcher.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/LanguageManager.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/LocalStorage.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/Native.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/SoundManager.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/StageProxy.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/Timer.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/support/TimerEvent.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/tools/HashMap.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/tools/MathUtils.js"></script>
+	<script egret="lib" src="bin-debug/basiclib/tools/Utils.js"></script>
+	<script egret="lib" src="bin-debug/control/Comm_ebg.js"></script>
+	<script egret="lib" src="bin-debug/control/Comm_jsys.js"></script>
+	<script egret="lib" src="bin-debug/control/Comm.js"></script>
+	<script egret="lib" src="bin-debug/control/Socket.js"></script>
+	<script egret="lib" src="bin-debug/model/EventNames.js"></script>
+	<script egret="lib" src="bin-debug/model/GameConfig.js"></script>
+	<script egret="lib" src="bin-debug/model/GameData.js"></script>
+	<script egret="lib" src="bin-debug/model/LoaderData.js"></script>
+	<script egret="lib" src="bin-debug/model/SceneNames.js"></script>
+	<script egret="lib" src="bin-debug/model/UserData.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Action_Fly.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Chat_Item.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Head.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Start_Card.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Start_Cards.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Start_Chat.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Start_Up.js"></script>
+	<script egret="lib" src="bin-debug/views/components/Tips.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_BiaoQing.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Chat.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_ChatSystem.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneWaiting.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_ChipFly.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Clock.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Down.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_GoldFlay.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Mahjong.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Over.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Result.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_SpecialResult.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_StartTips.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Table.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Up.js"></script>
+	<script egret="lib" src="bin-debug/views/components/ebg/EBG_Zhuang.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_BaoZhuang.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_BiaoQing.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_Box.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_Btn.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_Chat.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_Choose.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_History.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_OverShow.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_Time.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_Up.js"></script>
+	<script egret="lib" src="bin-debug/views/components/jsys/JSYS_Zhuang.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/Panel_EBG_PaiXing.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/Panel_EBG_ZhuangList.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/Panel_EBG_ZouShi.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/PanelCreateRoom.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/PanelExit.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/PanelSet.js"></script>
+	<script egret="lib" src="bin-debug/views/panel/PanelUser.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneAbout.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneClause.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneCustom.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneGame_EBG.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneGame_JSYS.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneGuoFen.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneLoading.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneRanking.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneSaveBox.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneShop.js"></script>
+	<script egret="lib" src="bin-debug/views/scenes/SceneStart.js"></script>
+	<script egret="lib" src="bin-debug/Main.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="exactFit"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1136"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        egret.runEgret();
+    </script>
+</body>
+</html>

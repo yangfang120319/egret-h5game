@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PanelSetSkin" width="540" height="420" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" locked="true">
+		<e:Image source="back_s_deepred_png" scale9Grid="13,11,25,27" width="540" x="0" height="420" y="0"/>
+		<e:Image y="11" source="txt_s_sz_png" x="200"/>
+		<e:Image source="back_s_red_png" y="94" scale9Grid="20,19,12,13" width="510" height="310" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="g_music" x="195" y="132" locked="true">
+		<e:Image y="20" x="0" source="back_s_sound0_png" scale9Grid="48,6,241,5"/>
+		<e:Image x="-160" y="9" source="txt_s_yy_png"/>
+		<e:Image id="img_music" y="20" x="0" width="30" source="back_s_sound1_png" scale9Grid="8,7,372,1"/>
+		<e:Button id="btn_music" label="按钮" x="-1" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="btn_s_sound_png" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="g_sound" x="195" y="219" locked="true">
+		<e:Image y="20" x="0" source="back_s_sound0_png" scale9Grid="48,6,247,5"/>
+		<e:Image x="-161" y="7" source="txt_s_yx_png"/>
+		<e:Image id="img_sound" y="20" scale9Grid="8,7,372,1" width="30" x="0" source="back_s_sound1_png"/>
+		<e:Button id="btn_sound" x="259" y="0" label="按钮">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="btn_s_sound_png" x="0" y="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="btn_about" label="按钮" y="317" skinName="BtnSkin" icon="btn_s_about_png" width="138" height="68" x="70"/>
+	<e:Button id="btn_clause" label="按钮" y="319" skinName="BtnSkin" icon="btn_s_terms_png" width="233" height="68" x="237"/>
+	<e:Button x="460" y="13" label="按钮" id="btn_close" skinName="Btn_CloseSkin"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Item_SG_PaiXingSkin" width="347" height="81" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="14" y="71" source="back_g_fenge_png"/>
+	<e:BitmapLabel x="283" text="{data.beishu}" width="47" textAlign="center" y="38" font="num_game_beishu_fnt"/>
+	<e:Image y="38" x="19" source="{data.itemname}"/>
+	<e:Image x="88" y="17" scaleX="0.9" scaleY="0.9" source="{data.itemicon}"/>
+</e:Skin>

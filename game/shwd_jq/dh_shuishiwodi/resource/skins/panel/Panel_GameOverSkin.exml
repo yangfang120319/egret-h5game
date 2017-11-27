@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_GameOverSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="g_back" left="0" right="0" top="0" bottom="0" locked="true">
+		<e:Image source="back_g_p_m_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="icon_g_p_tag_png" y="20" scaleY="0.95" x="346" scaleX="0.95"/>
+		<e:Image source="icon_g_p_tag_png" x="132" y="20" scaleX="0.95" scaleY="0.95"/>
+		<e:Label text="游戏结束" y="18" textColor="0xB3612F" fontFamily="微软雅黑" size="40" horizontalCenter="-2"/>
+	</e:Group>
+	<e:Group id="g_detail" y="74" width="520" x="0" anchorOffsetY="0" height="500">
+		<e:Label y="85" textColor="0xF1CD79" text="胜率：" fontFamily="微软雅黑" size="24" x="288.38"/>
+		<e:Group x="358.67" y="85">
+			<e:Label id="txt_win_rate" y="85" textColor="0xF1CD79" text="100%" fontFamily="微软雅黑" size="24" x="3.04"/>
+			<e:Component id="com_type" x="65.7" y="87" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="0,1" width="24" height="24">
+					<e:Image source="icon_g_jt0_png" horizontalCenter="0" verticalCenter="0" includeIn="0"/>
+					<e:Image source="icon_g_jt1_png" horizontalCenter="0" verticalCenter="0" includeIn="1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Component>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="txt_level" text="终极卧底" y="85" textColor="0xF1CD79" fontFamily="微软雅黑" size="24" x="122"/>
+		<e:Label id="txt_win_tips" text="平民胜利" y="20" textColor="0xFF6E00" fontFamily="微软雅黑" size="48" anchorOffsetX="0" width="301.33" textAlign="center" x="109"/>
+		<e:Label id="txt_word_pm" y="125" textColor="0xF1CD79" text="平民词：美容" fontFamily="微软雅黑" size="24" horizontalCenter="-90"/>
+		<e:Label id="txt_word_wd" y="126" textColor="0xF1CD79" text="卧底词：按摩" fontFamily="微软雅黑" size="24" horizontalCenter="90"/>
+		<e:Label id="txt_user_type" text="卧底" textColor="0xD18A52" fontFamily="微软雅黑" horizontalCenter="0" y="187" size="32" x="228" scaleX="1" scaleY="1"/>
+		<e:Label id="txt_name" text="4号 名字好多哟" y="371" textColor="0xD18A52" horizontalCenter="0" fontFamily="微软雅黑" size="32" x="152" scaleX="1" scaleY="1"/>
+		<e:Label id="txt_level_change" y="449.32" textColor="0xD18A52" text="星星  +1" fontFamily="微软雅黑" size="30" scaleX="1" scaleY="1" anchorOffsetX="0" width="189.67" textAlign="center" horizontalCenter="0"/>
+		<ns1:Head id="head" y="231" skinName="HeadSkin" horizontalCenter="0" x="196" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="btn_again" label="按钮" x="269" y="591" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="222" height="74">
+			<e:Image source="btn_g_p_orange0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_exit" label="按钮" x="30" y="591" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="222" height="74">
+			<e:Image source="btn_g_p_blue0_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

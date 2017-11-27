@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_ChatSkin" width="550" xmlns:e="http://ns.egret.com/eui" height="50">
+	<e:Rect id="rect_back" height="1136" width="640" fillAlpha="0" x="-45" y="-304" locked="true" visible="false"/>
+	<e:Group id="g_show" top="0" horizontalCenter="0" scaleY="0">
+		<e:Image id="img_back" scale9Grid="21,20,4,5" source="back_ebg_chat0_png" width="550" x="0" height="320" y="0"/>
+		<e:Scroller id="scroller" skinName="ListSkin" x="0" width="550" height="270" y="50">
+			<e:Group id="g_detail" width="640">
+				<e:layout>
+					<e:VerticalLayout gap="5" paddingBottom="10" paddingTop="10" paddingLeft="10" paddingRight="10"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="g_send" x="0" y="0" height="50" locked="true">
+		<e:Image y="0" scale9Grid="71,24,5,2" source="back_ebg_chat1_png" width="550" x="0"/>
+		<e:Button id="btn_send" y="5" label="按钮" x="463">
+			<e:skinName>
+				<e:Skin states="up,down" width="80" height="40" xmlns:w="http://ns.egret.com/wing">
+					<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="btn_ebg_send_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_biaoqing" x="-1" y="2" label="按钮">
+			<e:skinName>
+				<e:Skin states="up,down" width="50" height="50" xmlns:w="http://ns.egret.com/wing">
+					<e:Rect height="50" width="50" x="0" y="0" fillAlpha="0"/>
+					<e:Image width="40" height="40" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="icon_bq_1_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label y="15" textColor="0x4B485C" text="点击输入文字聊天" fontFamily="微软雅黑" id="txt_tips" size="20" x="63"/>
+		<e:Group x="58" width="400" y="8" height="34" id="g_show_bq"/>
+		<e:EditableText id="txt_chat" textColor="0x2D2A2A" fontFamily="微软雅黑" size="20" x="58" lineSpacing="5" y="5" wordWrap="false" width="400" height="40" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

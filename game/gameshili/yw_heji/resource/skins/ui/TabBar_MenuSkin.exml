@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabBar_MenuSkin" width="160" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" >
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+	<e:Image y="86" horizontalCenter="0" source="{data.tbtxt}"/>
+	<e:Image y="14" horizontalCenter="0" source="{data.tbicon}"/>
+	<e:Image source="back_s_choose_png" includeIn="down" bottom="0" horizontalCenter="0" locked="true"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EBG_SpecialResultSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="win,lose" >
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7"/>
+	<e:Image id="img_lose" source="icon_ebg_tongpei_png" includeIn="lose" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="img_win" source="icon_ebg_tongsha_png" horizontalCenter="0" includeIn="win" verticalCenter="0"/>
+	<e:Image id="img_win_add" source="icon_ebg_tongsha_png" horizontalCenter="0" x="10" blendMode="add" alpha="0.5" includeIn="win" verticalCenter="0"/>
+</e:Skin>

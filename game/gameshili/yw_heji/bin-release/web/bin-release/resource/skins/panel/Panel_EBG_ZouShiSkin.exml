@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Panel_EBG_ZouShiSkin" width="504" height="390" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="g_back" x="0" y="0">
+		<e:Image x="0" y="0" scale9Grid="24,24,12,11" width="504" height="390" source="back_ebg_lansedi_png"/>
+		<e:Image y="70" scale9Grid="18,18,14,14" width="491" height="311" alpha="0.5" x="7" source="back_ebg_25huduheidi_png"/>
+		<e:Image y="12" x="202" source="txt_ebg_zs_png"/>
+		<e:Image x="77" y="76" scale9Grid="6,5,8,9" width="51" height="289" alpha="0.6" source="back_ebg_zhousinew_png"/>
+		<e:Image x="20" y="112.5" source="icon_ebg_wei1_png"/>
+		<e:Image x="20" y="180" source="icon_ebg_shu1_png"/>
+		<e:Image x="20" y="248" source="icon_ebg_wu1_png"/>
+		<e:Image x="20" y="315" source="icon_ebg_zhuang1_png"/>
+		<e:Image x="81" y="79" source="txt_syj_png"/>
+	</e:Group>
+	<e:Group id="g_table0" x="80" y="116">
+		<e:Component id="com_table0_0" x="0" y="0" skinName="Com_ShengFuSkin"/>
+		<e:Component id="com_table0_1" y="1" skinName="Com_ShengFuSkin" x="63"/>
+		<e:Component id="com_table0_2" y="20" skinName="Com_ShengFuSkin" x="20"/>
+		<e:Component id="com_table0_3" y="30" skinName="Com_ShengFuSkin" x="30"/>
+		<e:Component id="com_table0_4" y="40" skinName="Com_ShengFuSkin" x="40"/>
+		<e:Component id="com_table0_5" y="50" skinName="Com_ShengFuSkin" x="50"/>
+		<e:Component id="com_table0_6" y="60" skinName="Com_ShengFuSkin" x="60"/>
+		<e:Component id="com_table0_7" y="70" skinName="Com_ShengFuSkin" x="70"/>
+		<e:layout>
+			<e:HorizontalLayout gap="8"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="g_table1" y="182" x="80">
+		<e:layout>
+			<e:HorizontalLayout gap="8"/>
+		</e:layout>
+		<e:Component id="com_table1_0" skinName="Com_ShengFuSkin" y="0" x="0"/>
+		<e:Component id="com_table1_1" skinName="Com_ShengFuSkin" y="1" x="63"/>
+		<e:Component id="com_table1_2" skinName="Com_ShengFuSkin" y="20" x="20"/>
+		<e:Component id="com_table1_3" skinName="Com_ShengFuSkin" y="30" x="30"/>
+		<e:Component id="com_table1_4" skinName="Com_ShengFuSkin" y="40" x="40"/>
+		<e:Component id="com_table1_5" skinName="Com_ShengFuSkin" y="50" x="50"/>
+		<e:Component id="com_table1_6" skinName="Com_ShengFuSkin" y="60" x="60"/>
+		<e:Component id="com_table1_7" skinName="Com_ShengFuSkin" y="70" x="70"/>
+	</e:Group>
+	<e:Group id="g_table2" y="251" x="80">
+		<e:layout>
+			<e:HorizontalLayout gap="8"/>
+		</e:layout>
+		<e:Component id="com_table2_0" skinName="Com_ShengFuSkin" y="0" x="0"/>
+		<e:Component id="com_table2_1" skinName="Com_ShengFuSkin" y="1" x="63"/>
+		<e:Component id="com_table2_2" skinName="Com_ShengFuSkin" y="20" x="20"/>
+		<e:Component id="com_table2_3" skinName="Com_ShengFuSkin" y="30" x="30"/>
+		<e:Component id="com_table2_4" skinName="Com_ShengFuSkin" y="40" x="40"/>
+		<e:Component id="com_table2_5" skinName="Com_ShengFuSkin" y="50" x="50"/>
+		<e:Component id="com_table2_6" skinName="Com_ShengFuSkin" y="60" x="60"/>
+		<e:Component id="com_table2_7" skinName="Com_ShengFuSkin" y="70" x="70"/>
+	</e:Group>
+	<e:Group id="g_zhuang" y="315" x="80">
+		<e:layout>
+			<e:HorizontalLayout gap="8"/>
+		</e:layout>
+		<e:Component id="com_zhuang_0" skinName="Com_ShengFuSkin" y="0" x="0"/>
+		<e:Component id="com_zhuang_1" skinName="Com_ShengFuSkin" y="1" x="63"/>
+		<e:Component id="com_zhuang_2" skinName="Com_ShengFuSkin" y="20" x="20"/>
+		<e:Component id="com_zhuang_3" skinName="Com_ShengFuSkin" y="30" x="30"/>
+		<e:Component id="com_zhuang_4" skinName="Com_ShengFuSkin" y="40" x="40"/>
+		<e:Component id="com_zhuang_5" skinName="Com_ShengFuSkin" y="50" x="50"/>
+		<e:Component id="com_zhuang_6" skinName="Com_ShengFuSkin" y="60" x="60"/>
+		<e:Component id="com_zhuang_7" skinName="Com_ShengFuSkin" y="70" x="70"/>
+	</e:Group>
+</e:Skin>

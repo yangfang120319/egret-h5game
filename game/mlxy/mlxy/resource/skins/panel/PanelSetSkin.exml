@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PanelSetSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="674" height="452">
+	<e:Group x="0" y="0" scaleX="1.5" scaleY="1.5">
+		<e:Group x="0" y="0">
+			<e:Image source="back_box_png" x="0" y="0"/>
+			<e:Image id="icon_title" y="16" source="txt_set_ch_png" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group x="25" y="197" visible="false">
+			<e:Image source="back_red_png" scale9Grid="8,7,43,44" y="0" width="398" x="0"/>
+			<e:Image id="iocn_title_language" x="26" y="5" source="icon_language_ch_png"/>
+		</e:Group>
+		<e:Group x="25" y="107">
+			<e:Image source="back_red_png" y="0" scale9Grid="8,7,43,44" width="190" x="0"/>
+			<e:Image id="iocn_title_music" x="26" y="5" source="icon_music_ch_png"/>
+		</e:Group>
+		<e:Group x="233" y="107">
+			<e:Image source="back_red_png" scale9Grid="8,7,43,44" y="0" width="190" x="0"/>
+			<e:Image id="iocn_title_sound" x="26" y="5" source="icon_sound_ch_png"/>
+		</e:Group>
+		<e:ToggleSwitch id="btn_music" label="切换按钮" x="25" y="107" skinName="ToggleSwitch_SetSkin"/>
+		<e:ToggleSwitch id="btn_sound" y="107" label="切换按钮" skinName="ToggleSwitch_SetSkin" x="233"/>
+		<e:Button id="btn_exit" label="按钮" x="393" y="15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="39" height="39">
+					<e:Image source="btn_close_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:TabBar id="tabbar_language" height="70" x="176" y="191" itemRendererSkinName="TabBar_LanguageSkin" visible="false">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object tb_icon="back_language0_png"/>
+					<e:Object tb_icon="back_language1_png"/>
+					<e:Object tb_icon="back_language2_png"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="13"/>
+			</e:layout>
+		</e:TabBar>
+	</e:Group>
+</e:Skin>
